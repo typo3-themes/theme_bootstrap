@@ -4,8 +4,9 @@ page {
 	}
 	#bodyTag = <body data-spy="scroll" data-target=".subnav" data-offset="50">
 	includeCSS {
-		file1 = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap/less/bootstrap.less
-		file2 = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap/less/responsive.less
+		#file1 = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap/less/bootstrap.less
+		file1 = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap/css/bootstrap.css
+		#file2 = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap/less/responsive.less
 		file3 = EXT:theme_bootstrap/Resources/Public/Stylesheets/main.css
 	}
 	includeJS {
