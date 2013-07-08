@@ -1,0 +1,37 @@
+# Name of the theme (required)
+title            : Minimalistic theme for reference purposes
+description      :
+
+# Keywords (optional)
+keywords:
+  - html5boilerplate
+  - responsive design
+
+themePreviews:
+  - image        :
+    description  :
+
+# Name of the authors (optional)
+authors:
+  - name         : John Doe
+    email        : john@doe.com
+    company      :
+    companyLogo  :
+
+# Possible license if applicable (optional)
+# Pick on from http://creativecommons.org/choose/
+licenses:
+  - resource     : Images
+    license      : CC
+    licenseUri   :
+
+supportedExtensions:
+  - extensionkey : news
+    description  :
+
+
+
+# Whether a live demo is available (optional)
+demoLocation:
+  - url          : http://example
+    title        :
