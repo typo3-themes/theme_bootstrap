@@ -7,9 +7,9 @@ keywords:
   - html5boilerplate
   - responsive design
 
-themePreviews:
-  - image        :
-    description  :
+thumbnails:
+  - file         :
+    caption      :
 
 # Name of the authors (optional)
 authors:
@@ -21,15 +21,20 @@ authors:
 # Possible license if applicable (optional)
 # Pick on from http://creativecommons.org/choose/
 licenses:
-  - resource     : Images
-    license      : CC
+  - license      : CC
     licenseUri   :
+    # resources is an optional node here
+    resources    :
+      - Images
+      - HTML
+  - license      : whatever
+    licenseUri   :
+    resources    :
+      - Resources/Public/Images/logo.png
 
 supportedExtensions:
   - extensionkey : news
     description  :
-
-
 
 # Whether a live demo is available (optional)
 demoLocation:
