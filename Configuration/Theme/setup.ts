@@ -1,8 +1,7 @@
-
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluidpages/Configuration/TypoScript/setup.txt">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:themes_fces_fluidcontent_basic/Configuration/TypoScript/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/TypoScript/">
 
 page {
+	typeNum = 0
 	config {
 		doctype = html5
 	}
@@ -20,6 +19,4 @@ page {
 	}
 }
 
-includeLibs.t3jquery = EXT:t3jquery/class.tx_t3jquery.php
-page.75 = USER
-page.75.userFunc = tx_t3jquery->addJqJS
+
