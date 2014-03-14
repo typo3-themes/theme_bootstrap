@@ -9,7 +9,10 @@ page {
 	includeCSS {
 		#file1 = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap/less/bootstrap.less
 		#file1 = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap/css/bootstrap.css
-		file1 = {$plugin.tx_theme_bootstrap.bootstrapTheme}
+		#file1 = {$plugin.tx_theme_bootstrap.bootstrapTheme}
+
+        file1 = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap-3.1.1/less/bootstrap.less
+
 		#file2 = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap/less/responsive.less
 		file2 = EXT:theme_bootstrap/Resources/Public/Stylesheets/main.css
 	}
