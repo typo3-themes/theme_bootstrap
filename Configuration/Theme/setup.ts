@@ -11,8 +11,7 @@ page {
 		#file1 = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap/css/bootstrap.css
 		file1 = {$plugin.tx_theme_bootstrap.bootstrapTheme}
 		#file2 = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap/less/responsive.less
-		file2 = EXT:theme_bootstrap/Resources/Public/Contrib/Bootstrap/css/bootstrap-responsive.min.css
-		file3 = EXT:theme_bootstrap/Resources/Public/Stylesheets/main.css
+		file2 = EXT:theme_bootstrap/Resources/Public/Stylesheets/main.css
 	}
 	includeJS {
 		file1 = EXT:theme_bootstrap/Resources/Public/Contrib/Bootstrap/js/bootstrap.js
