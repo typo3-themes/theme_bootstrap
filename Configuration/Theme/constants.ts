@@ -8,11 +8,17 @@ plugin.tx_theme_bootstrap {
             link      = #FF0000
             primary   = #FF0000
             secondary = #FF0000
-            ok        = #FF0000
-            warning   = #FF0000
-            success   = #FF0000
-            notice    = #FF0000
-            error     = #FF0000
+
+            # cat=site colors; type=color; label= Success color
+            information = #eaf7ff
+            # cat=site colors; type=color; label= Success color
+            success   = #cdeaca
+            # cat=site colors; type=color; label= Notice and information color
+            notice    = #f6f7fa
+            # cat=site colors; type=color; label= Warning color
+            warning   = #fbf6de
+            # cat=site colors; type=color; label= Error color
+            error     = #f6d3cf
         }
     }
     # Page-IDs of DataStorages
