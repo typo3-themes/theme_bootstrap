@@ -8,12 +8,14 @@ keywords:
   - responsive design
 
 thumbnails:
-  - file         :
+  -
+    file         :
     caption      :
 
 # Name of the authors (optional)
 authors:
-  - name         : John Doe
+  -
+    name         : John Doe
     email        : john@doe.com
     company      :
     companyLogo  :
@@ -21,22 +23,26 @@ authors:
 # Possible license if applicable (optional)
 # Pick on from http://creativecommons.org/choose/
 licenses:
-  - license      : CC
+  -
+    license      : CC
     licenseUri   :
     # resources is an optional node here
     resources    :
       - Images
       - HTML
-  - license      : whatever
+  -
+    license      : whatever
     licenseUri   :
     resources    :
       - Resources/Public/Images/logo.png
 
 supportedExtensions:
-  - extensionkey : news
+  -
+    extensionkey : news
     description  :
 
 # Whether a live demo is available (optional)
 demoLocation:
-  - url          : http://example
+  -
+    url          : http://example
     title        :
