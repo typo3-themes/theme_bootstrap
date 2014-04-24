@@ -1,0 +1,14 @@
+<f:layout name="Default" />
+
+<f:section name="content">
+    <div id="templateContentSidebar">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                <f:render partial="MainContent" arguments="{layoutStyle:layoutStyle}" />
+            </div>
+            <aside class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <f:render partial="SidebarContent" arguments="{layoutStyle:layoutStyle}" />
+            </aside>
+        </div>
+    </div>
+</f:section>

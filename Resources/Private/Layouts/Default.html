@@ -1,0 +1,31 @@
+<div id="layoutDefault" class="container">
+
+  <div id="areaTop">
+  </div>
+
+  <header id="areaHeader">
+      <h1><f:cObject typoscriptObjectPath="lib.logo" /></h1>
+  </header>
+  
+  <section id="areaTeaser">
+      <f:cObject typoscriptObjectPath="lib.content.feature" />
+  </section>
+
+  <nav id="areaNav">
+      <f:cObject typoscriptObjectPath="lib.menu.main" />
+  </nav>
+
+  <main id="areaMain">
+      <f:render section="content" />
+  </main>
+  
+  <section id="areaExtended">
+      <f:cObject typoscriptObjectPath="lib.content.extended" />
+  </section>
+    
+  <footer id="areaFooter">
+      <f:cObject typoscriptObjectPath="lib.copyright" />
+      <f:cObject typoscriptObjectPath="lib.menu.footer" />
+  </footer>
+  
+</div>
