@@ -13,7 +13,12 @@ page {
 		file3 = EXT:theme_bootstrap/Resources/Private/Dyncss/import.less
 	}
 	includeJS {
-		file1 = EXT:theme_bootstrap/Resources/Public/Contrib/Bootstrap/js/bootstrap.js
+		file1 = http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
+        file1 {
+                 external = 1
+                 disableCompression = 1
+                 excludeFromConcatenation = 1
+        }
 	}
 }
 
