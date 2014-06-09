@@ -7,6 +7,9 @@ keywords:
   - html5boilerplate
   - responsive design
 
+constants:
+  availableCategories: [theme,colors,font,meta,metaDefaults,page,container,slider,lightbox]
+
 thumbnails:
   -
     file         :
@@ -37,8 +40,8 @@ licenses:
       - Resources/Public/Images/logo.png
 
 supportedExtensions:
-  -
-    extensionkey : news
+  news:
+    version : 1.0.0
     description  :
 
 # Whether a live demo is available (optional)

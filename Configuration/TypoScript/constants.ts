@@ -1,3 +1,9 @@
+#
+# Constants for theme
+#
+# More information about Constants:
+# http://wiki.typo3.org/TypoScript_Constants
+#############################################
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:themes_gridelements/Configuration/TypoScript/constants.ts">
 
 themes {
@@ -11,15 +17,15 @@ themes {
             #primary   = #FF0000
             #secondary = #FF0000
 
-            # cat=site colors; type=color; label= Success color
+            # cat=colors; type=color; label= Success color
             information = #eaf7ff
-            # cat=site colors; type=color; label= Success color
+            # cat=colors; type=color; label= Success color
             success   = #cdeaca
-            # cat=site colors; type=color; label= Notice and information color
+            # cat=colors; type=color; label= Notice and information color
             notice    = #f6f7fa
-            # cat=site colors; type=color; label= Warning color
+            # cat=colors; type=color; label= Warning color
             warning   = #fbf6de
-            # cat=site colors; type=color; label= Error color
+            # cat=colors; type=color; label= Error color
             error     = #f6d3cf
         }
     }

@@ -1,3 +1,4 @@
+{namespace theme=KayStrobach\Themes\ViewHelpers}
 <div id="layoutDefault" class="container">
 
   <div id="areaTop" class="row">
@@ -16,6 +17,14 @@
   </nav>
 
   <main id="areaMain">
+      Sprache: <theme:widget.languageMenu
+              availableLanguages="{themes_languages_available}"
+              currentLanguageUid="{themes_languages_current_uid}"
+              defaultLanguageIsoCodeShort="{themes_languages_default_isoCodeShort}"
+              defaultLanguageLabel="{themes_languages_default_label}"
+              /> -
+
+      <f:translate key='theme.breadcrumb_label' extensionName='ThemeBootstrap' />
       <f:render section="content" />
   </main>
   
