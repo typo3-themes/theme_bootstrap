@@ -25,15 +25,17 @@ page {
 	}
 }
 
+plugin.tx_themes {
 
-view {
-	templateRootPaths {
-		300 = EXT:theme_bootstrap/Resources/Private/Templates/
-	}
-	partialRootPaths {
-		300 = EXT:theme_bootstrap/Resources/Private/Partials/
-	}
-	layoutRootPaths {
-		300 = EXT:theme_bootstrap/Resources/Private/Layouts/
+	view {
+		templateRootPaths {
+			300 = EXT:theme_bootstrap/Resources/Private/Templates/
+		}
+		partialRootPaths {
+			300 = EXT:theme_bootstrap/Resources/Private/Partials/
+		}
+		layoutRootPaths {
+			300 = EXT:theme_bootstrap/Resources/Private/Layouts/
+		}
 	}
 }
