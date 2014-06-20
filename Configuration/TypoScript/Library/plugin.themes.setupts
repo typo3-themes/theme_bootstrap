@@ -33,13 +33,13 @@ config.tx_extbase {
     }
 }
 
-plugin.tx_theme_bootstrap._LOCAL_LANG.breadcrumb_label = neuer Text
-plugin.tx_theme_bootstrap._LOCAL_LANG.default.breadcrumb_label = neuer Text
-plugin.tx_theme_bootstrap._LOCAL_LANG.de.breadcrumb_label = neuer Text
-plugin.tx_theme_bootstrap._LOCAL_LANG.en.breadcrumb_label = new text
+#plugin.tx_theme_bootstrap._LOCAL_LANG.breadcrumb_label = neuer Text
+#plugin.tx_theme_bootstrap._LOCAL_LANG.default.breadcrumb_label = neuer Text
+#plugin.tx_theme_bootstrap._LOCAL_LANG.de.breadcrumb_label = neuer Text
+#plugin.tx_theme_bootstrap._LOCAL_LANG.en.breadcrumb_label = new text
 
 
-plugin.tx_themebootstrap._LOCAL_LANG.breadcrumb_label = neuer Text
-plugin.tx_themebootstrap._LOCAL_LANG.default.breadcrumb_label = neuer Text
-plugin.tx_themebootstrap._LOCAL_LANG.de.breadcrumb_label = neuer Text
-plugin.tx_themebootstrap._LOCAL_LANG.en.breadcrumb_label = new text
+#plugin.tx_themebootstrap._LOCAL_LANG.breadcrumb_label = neuer Text
+#plugin.tx_themebootstrap._LOCAL_LANG.default.breadcrumb_label = neuer Text
+#plugin.tx_themebootstrap._LOCAL_LANG.de.breadcrumb_label = neuer Text
+#plugin.tx_themebootstrap._LOCAL_LANG.en.breadcrumb_label = new text
