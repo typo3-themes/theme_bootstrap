@@ -1,24 +1,13 @@
-page.10.variables {
-  themes_languages_available = TEXT
-  themes_languages_available.value = {$themes.languages.available}
-  themes_languages_default_label = TEXT
-  themes_languages_default_label.value = {$themes.languages.default.label}
-  themes_languages_default_flag = TEXT
-  themes_languages_default_flag.value = {$themes.languages.default.flag}
-  themes_languages_default_isoCodeShort = TEXT
-  themes_languages_default_isoCodeShort.value = {$themes.languages.default.isoCodeShort}
-  themes_languages_current_uid = TEXT
-  themes_languages_current_uid.value = {$themes.languages.current.uid}
-}
+
 
 plugin.tx_themes {
   view {
-    layoutRootPath = {$themes.resourcesPrivatePath}Layouts/
-    partialRootPath = {$themes.resourcesPrivatePath}Partials/
-    templateRootPath = {$themes.resourcesPrivatePath}Templates/
+    #layoutRootPath = {$themes.resourcesPrivatePath}Layouts/
+    #partialRootPath = {$themes.resourcesPrivatePath}Partials/
+    #templateRootPath = {$themes.resourcesPrivatePath}Templates/
     widget {
         KayStrobach\Themes\ViewHelpers\Widget\LanguageMenuViewHelper {
-            templateRootPath = {$themes.resourcesPrivatePath}Templates/
+            templateRootPath = EXT:theme_bootstrap/Resources/Private/Templates/
         }
     }
   }
@@ -27,7 +16,7 @@ config.tx_extbase {
     view {
         widget {
             KayStrobach\Themes\ViewHelpers\Widget\LanguageMenuViewHelper {
-                templateRootPath = {$themes.resourcesPrivatePath}Templates/
+                templateRootPath = EXT:theme_bootstrap/Resources/Private/Templates/
             }
         }
     }
