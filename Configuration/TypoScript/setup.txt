@@ -26,7 +26,6 @@ page {
 }
 
 plugin.tx_themes {
-
 	view {
 		templateRootPaths {
 			300 = EXT:theme_bootstrap/Resources/Private/Templates/
