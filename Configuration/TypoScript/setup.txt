@@ -7,7 +7,7 @@ page {
 		doctype = html5
 	}
 	# Default controller for easier translation usage
-	10.extbase.controllerExtensionName = ThemeBootstrap
+	100.extbase.controllerExtensionName = ThemeBootstrap
 
 	#bodyTag = <body data-spy="scroll" data-target=".subnav" data-offset="50">
 	includeCSS {
@@ -18,9 +18,9 @@ page {
 	includeJS {
 		file1 = http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
         file1 {
-                 external = 1
-                 disableCompression = 1
-                 excludeFromConcatenation = 1
+             external = 1
+             disableCompression = 1
+             excludeFromConcatenation = 1
         }
 	}
 }

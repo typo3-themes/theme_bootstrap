@@ -5,7 +5,20 @@
   </div>
 
   <header id="areaHeader" class="row">
-      <h1><f:cObject typoscriptObjectPath="lib.logo" /></h1>
+
+      <div id="logoWrapper">
+        <h1><f:cObject typoscriptObjectPath="lib.logo" /></h1>
+      </div>
+
+      <div id="menuLanguageWrapper">
+          <f:translate key='languageMenu_label' extensionName='ThemeBootstrap' />
+          <theme:widget.languageMenu
+              availableLanguages="{theme:constant(constant: 'themes.languages.available')}"
+              currentLanguageUid="{theme:constant(constant: 'themes.languages.current.uid')}"
+              defaultLanguageIsoCodeShort="{theme:constant(constant: 'themes.languages.default.isoCodeShort')}"
+              defaultLanguageLabel="{theme:constant(constant: 'themes.languages.default.label')}"
+              />
+      </div>
   </header>
   
   <section id="areaTeaser" class="row">
@@ -17,14 +30,10 @@
   </nav>
 
   <main id="areaMain">
-      Sprache: <theme:widget.languageMenu
-              availableLanguages="{theme:constant(constant: 'themes.languages.available')}"
-              currentLanguageUid="{theme:constant(constant: 'themes.languages.current.uid')}"
-              defaultLanguageIsoCodeShort="{theme:constant(constant: 'themes.languages.default.isoCodeShort')}"
-              defaultLanguageLabel="{theme:constant(constant: 'themes.languages.default.label')}"
-              /> -
-      {theme:constant(constant: 'themes.languages.default.label')}
-      <f:translate key='breadcrumb_label' extensionName='ThemeBootstrap' />
+      <div id="menuBreadcrumbWrapper">
+          <span><f:translate key='breadcrumb_label' extensionName='ThemeBootstrap' /></span>
+          <f:cObject typoscriptObjectPath="lib.menu.breadcrumb" />
+      </div>
       <f:render section="content" />
   </main>
   
@@ -35,6 +44,7 @@
   <footer id="areaFooter" class="row">
       <f:cObject typoscriptObjectPath="lib.copyright" />
       <f:cObject typoscriptObjectPath="lib.menu.footer" />
+      [TempDebug:themes.languages.available: {theme:constant(constant: 'themes.languages.available')}]
   </footer>
   
 </div>

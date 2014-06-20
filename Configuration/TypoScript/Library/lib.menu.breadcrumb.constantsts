@@ -3,7 +3,7 @@ themes {
     menu {
       breadcrumb {
         # cat=menu; type=string; label= Breadcrumb menu prefix
-        prefix = &gt;&nbsp;
+        prefix = :&nbsp;
         # cat=menu; type=string; label= Breadcrumb menu divider
         divider = &gt;&nbsp;
         # cat=menu; type=string; label= Breadcrumb menu CSS classes
