@@ -1,25 +1,23 @@
-
-
 plugin.tx_themes {
-  view {
-    #layoutRootPath = {$themes.resourcesPrivatePath}Layouts/
-    #partialRootPath = {$themes.resourcesPrivatePath}Partials/
-    #templateRootPath = {$themes.resourcesPrivatePath}Templates/
-    widget {
-        KayStrobach\Themes\ViewHelpers\Widget\LanguageMenuViewHelper {
-            templateRootPath = EXT:theme_bootstrap/Resources/Private/Templates/
-        }
-    }
-  }
+	view {
+		#layoutRootPath = {$themes.resourcesPrivatePath}Layouts/
+		#partialRootPath = {$themes.resourcesPrivatePath}Partials/
+		#templateRootPath = {$themes.resourcesPrivatePath}Templates/
+		widget {
+			KayStrobach\Themes\ViewHelpers\Widget\LanguageMenuViewHelper {
+				templateRootPath = EXT:theme_bootstrap/Resources/Private/Templates/
+			}
+		}
+	}
 }
 config.tx_extbase {
-    view {
-        widget {
-            KayStrobach\Themes\ViewHelpers\Widget\LanguageMenuViewHelper {
-                templateRootPath = EXT:theme_bootstrap/Resources/Private/Templates/
-            }
-        }
-    }
+	view {
+		widget {
+			KayStrobach\Themes\ViewHelpers\Widget\LanguageMenuViewHelper {
+				templateRootPath = EXT:theme_bootstrap/Resources/Private/Templates/
+			}
+		}
+	}
 }
 
 #plugin.tx_theme_bootstrap._LOCAL_LANG.breadcrumb_label = neuer Text
