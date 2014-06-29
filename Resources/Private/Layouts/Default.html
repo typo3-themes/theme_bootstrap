@@ -1,50 +1,74 @@
 {namespace theme=KayStrobach\Themes\ViewHelpers}
-<div id="layoutDefault" class="container">
+<div id="layoutDefault">
 
-  <div id="areaTop" class="row">
+    <div id="areaNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <div id="logoWrapper" class="navbar-brand">
+                    <h1><f:cObject typoscriptObjectPath="lib.logo" /></h1>
+                </div>
+                <button data-target="#navbar-main" data-toggle="collapse" type="button" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar-main" class="navbar-collapse collapse">
+                <f:cObject typoscriptObjectPath="lib.menu.main" />
+                <div id="menuLanguageWrapper">
+                    <theme:widget.languageMenu
+                            availableLanguages="{theme:constant(constant: 'themes.languages.available')}"
+                            currentLanguageUid="{theme:constant(constant: 'themes.languages.current.uid')}"
+                            defaultLanguageIsoCodeShort="{theme:constant(constant: 'themes.languages.default.isoCodeShort')}"
+                            defaultLanguageLabel="{theme:constant(constant: 'themes.languages.default.label')}"
+                            />
+                    <f:if condition="{theme:constant(constant: 'themes.languages.available')}">
+                        <span>
+                            <f:translate key='languageMenu_label' extensionName="{theme:constant(constant: 'themes.languages.translation.extensionName')}" />
+                            <f:render partial="Translation" arguments="{key: 'languageMenu_label'}" />
+                        </span>
+                    </f:if>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+  <div class="container">
+
+      <section id="areaTeaser" class="page-header">
+          <f:cObject typoscriptObjectPath="lib.content.feature" />
+      </section>
+
+      <main id="areaMain" class="row">
+          <div id="menuBreadcrumbWrapper">
+              <span><f:translate key='breadcrumb_label' extensionName='theme_bootstrap' /></span>
+              <f:cObject typoscriptObjectPath="lib.menu.breadcrumb" />
+          </div>
+          <f:render section="content" />
+      </main>
+
+      <section id="areaExtended" class="row">
+          <f:cObject typoscriptObjectPath="lib.content.extended" />
+      </section>
+
+      <footer id="areaFooter" class="row">
+          <f:cObject typoscriptObjectPath="lib.menu.footer" />
+
+
+
+          <ul class="list-inline footer-line">
+              <f:cObject typoscriptObjectPath="lib.copyright" />
+              <li>
+                  <f:link.page pageUid="{theme:constant(constant:'themes.configuration.pages.imprint')}">
+                      <f:translate key='imprint_label' extensionName='ThemeBootstrap' />
+                  </f:link.page>
+              </li>
+          </ul>
+
+      </footer>
+
   </div>
-
-  <header id="areaHeader" class="row">
-
-      <div id="logoWrapper">
-        <h1><f:cObject typoscriptObjectPath="lib.logo" /></h1>
-      </div>
-
-      <div id="menuLanguageWrapper">
-          <f:translate key='languageMenu_label' extensionName='ThemeBootstrap' />
-          <theme:widget.languageMenu
-              availableLanguages="{theme:constant(constant: 'themes.languages.available')}"
-              currentLanguageUid="{theme:constant(constant: 'themes.languages.current.uid')}"
-              defaultLanguageIsoCodeShort="{theme:constant(constant: 'themes.languages.default.isoCodeShort')}"
-              defaultLanguageLabel="{theme:constant(constant: 'themes.languages.default.label')}"
-              />
-      </div>
-  </header>
-  
-  <section id="areaTeaser" class="row">
-      <f:cObject typoscriptObjectPath="lib.content.feature" />
-  </section>
-
-  <nav id="areaNav" class="row">
-      <f:cObject typoscriptObjectPath="lib.menu.main" />
-  </nav>
-
-  <main id="areaMain">
-      <div id="menuBreadcrumbWrapper">
-          <span><f:translate key='breadcrumb_label' extensionName='ThemeBootstrap' /></span>
-          <f:cObject typoscriptObjectPath="lib.menu.breadcrumb" />
-      </div>
-      <f:render section="content" />
-  </main>
-  
-  <section id="areaExtended" class="row">
-      <f:cObject typoscriptObjectPath="lib.content.extended" />
-  </section>
-    
-  <footer id="areaFooter" class="row">
-      <f:cObject typoscriptObjectPath="lib.copyright" />
-      <f:cObject typoscriptObjectPath="lib.menu.footer" />
-      [TempDebug:themes.languages.available: {theme:constant(constant: 'themes.languages.available')}]
-  </footer>
-  
 </div>

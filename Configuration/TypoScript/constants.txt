@@ -8,7 +8,12 @@
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap/Configuration/TypoScript/Library" extensions="constantsts">
 
 themes {
-	bootstrapTheme = {$themes.resourcesPublicPath}Contrib/Bootstrap/css/bootstrap.min.css
+    languages {
+        translation {
+            extensionName = theme_bootstrap
+        }
+    }
+	#bootstrapTheme = {$themes.resourcesPublicPath}Contrib/Bootstrap/css/bootstrap.min.css
 
     configuration {
         siteName = Bootstrap Theme

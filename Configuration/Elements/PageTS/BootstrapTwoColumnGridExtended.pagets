@@ -1,0 +1,23 @@
+tx_gridelements.setup.bootstrapTwoColumGridExtended {
+    title = Bootstrap Two-Column-Grid (extended)
+    description = Bootstrap Two-Column-Grid (extended)
+    flexformDS = FILE:EXT:theme_bootstrap/Configuration/Elements/FlexForms/BootstrapTwoColumnGridExtended.xml
+    config {
+        colCount = 2
+        rowCount = 1
+        rows {
+            1 {
+                columns {
+                    1 {
+                        name = Spalte 1
+                        colPos = 0
+                    }
+                    2 {
+                        name = Spalte 2
+                        colPos = 1
+                    }
+                }
+            }
+        }
+    }
+}

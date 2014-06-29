@@ -1,0 +1,12 @@
+#############################################
+# Colors: Color constants
+#############################################
+
+# cat=colors; type=color; label= Link color
+themes.configuration.colors.link = #BB0000
+
+# cat=colors; type=color; label= Primary color
+themes.configuration.colors.primary = #BB0000
+
+# cat=colors; type=color; label= Secondary color
+themes.configuration.colors.secondary = #EF0000

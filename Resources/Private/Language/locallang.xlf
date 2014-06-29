@@ -13,6 +13,9 @@
             <trans-unit id="languageMenu_label" xml:space="preserve">
                 <source>Language:</source>
             </trans-unit>
+            <trans-unit id="imprint_label" xml:space="preserve">
+                <source>Imprint</source>
+            </trans-unit>
             <!--
                 Hier können nun beliebig viele
                 weitere Sprachwerte äquivalent

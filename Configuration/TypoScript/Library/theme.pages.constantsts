@@ -1,0 +1,39 @@
+
+# cat=page; type=int+; label= Seite für die Home/Startseite
+themes.configuration.pages.startsite = 0
+
+# cat=page; type=int+; label= Seite für die AGB
+themes.configuration.pages.legal = 0
+
+# cat=page; type=int+; label= Datenschutz-Seite
+themes.configuration.pages.privacy = 0
+
+# cat=page; type=int+; label= Impressum-Seite
+themes.configuration.pages.imprint = 65
+
+# cat=page; type=int+; label= Kontakt-Seite
+themes.configuration.pages.contact = 0
+
+# cat=page; type=int+; label= Seite auf der die Sitemap zu finden ist
+themes.configuration.pages.sitemap = 15
+
+# cat=page; type=int+; label= Seite auf der sich die Suche befindet
+themes.configuration.pages.search = 0
+
+# cat=page; type=int+; label= Seite auf der man sich einloggt
+themes.configuration.pages.login = 0
+
+# cat=page; type=int+; label= Seite auf der man sich ausloggt
+themes.configuration.pages.logout = 0
+
+# cat=page; type=int+; label= Intro/Landing-Page einer Website
+themes.configuration.pages.intro = 0
+
+# cat=page; type=int+; label= Seite auf der man Cookies bestätigen muss
+themes.configuration.pages.cookie = 0
+
+# cat=page; type=int+; label= Seite auf der die Referenzen angezeigt werden
+themes.configuration.pages.references = 0
+
+# cat=page; type=int+; label= Seite auf der die Registrierung angezeigt werden
+themes.configuration.pages.registration = 0

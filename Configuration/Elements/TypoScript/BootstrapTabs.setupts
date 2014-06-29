@@ -1,0 +1,59 @@
+# First define the tab cObject, we want this in the container
+tt_content.gridelements_pi1.20.10.setup.bootstrapTabsTab {
+ 
+    # Add the ID and the Class to the tab container
+    preCObject = LOAD_REGISTER
+    preCObject {
+        containerId.cObject = COA
+        containerId.cObject {
+            wrap = id="|"
+            10 = TEXT
+            10.wrap = tab-content-|
+            10.field = uid
+        }
+
+        containerClasses.cObject = COA
+        containerClasses.cObject {
+            wrap = class="tab-pane |"
+
+            # fade or empty
+            10 = TEXT
+            10.field = parentgrid_flexform_switch_effect
+            10.noTrimWrap = | | |
+
+            # We want the active flag on the first child
+            20 = TEXT
+            20.value = active in
+            20.noTrimWrap = | | |
+            20.if {
+                value = 1
+                equals.data = cObj:parentRecordNumber
+                equals.prioriCalc = 1
+            }
+        }
+    }
+
+    outerWrap = <div {register: containerId} {register: containerClasses}>|</div>
+    outerWrap.insertData = 1
+
+    # Render the children the default way
+    columns.0 {
+        renderObj = < tt_content
+    }
+}
+ 
+# Define the Tab Container
+tt_content.gridelements_pi1.20.10.setup.bootstrapTabsContainer {
+    # Render navigation using fluid
+    cObject = FLUIDTEMPLATE
+    cObject {
+        # @todo: wieso geht das hier nicht?! Antwort an tdeuling ;)
+        #file = FILE:EXT:theme_bootstrap/Resources/Private/Templates/Elements/BootstrapTabs.html
+        file = typo3conf/ext/theme_bootstrap/Resources/Private/Templates/Elements/BootstrapTabs.html
+    }
+
+    # Add the renderObj of the tab directly, this prevents the "csc-default"-wrap
+    columns.0 {
+        renderObj = < tt_content.gridelements_pi1
+    }
+}

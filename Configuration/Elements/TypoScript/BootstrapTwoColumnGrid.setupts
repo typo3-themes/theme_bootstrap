@@ -1,0 +1,60 @@
+plugin.tx_gridelements_pi1.setup.bootstrapTwoColumGrid {
+    wrap = <div class="row">|</div>
+    columns.0 {
+
+        preCObject = LOAD_REGISTER
+        preCObject {
+            contentColumnClass.cObject = COA
+            contentColumnClass.cObject {
+                10 = TEXT
+                10 {
+                    field = flexform_width_column_xs_1
+                    noTrimWrap = || |
+                    required = 1
+                }
+
+                11 = TEXT
+                11 {
+                    field = flexform_width_column_sm_1
+                    noTrimWrap = || |
+                    required = 1
+                }
+
+                12 = TEXT
+                12 {
+                    field = flexform_width_column_md_1
+                    noTrimWrap = || |
+                    required = 1
+                }
+
+                13 = TEXT
+                13 {
+                    field = flexform_width_column_lg_1
+                    noTrimWrap = || |
+                    required = 1
+                }
+
+                stdWrap.noTrimWrap = | class="|"|
+            }
+        }
+
+        outerWrap = <div{register: contentColumnClass}> | </div>
+        outerWrap.insertData = 1
+        renderObj =< tt_content
+    }
+
+    columns.1 < .columns.0
+    columns.1 {
+        preCObject {
+            contentColumnClass.cObject {
+                10.field = flexform_width_column_xs_2
+                11.field = flexform_width_column_sm_2
+                12.field = flexform_width_column_md_2
+                13.field = flexform_width_column_lg_2
+            }
+        }
+    }
+}
+tt_content.gridelements_pi1.20.10.setup {
+    bootstrapTwoColumGrid < plugin.tx_gridelements_pi1.setup.bootstrapTwoColumGrid
+}

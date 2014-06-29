@@ -1,0 +1,4 @@
+lib.copyright = TEXT
+lib.copyright.data = date:U
+lib.copyright.strftime = %Y
+lib.copyright.noTrimWrap= |<li class="copyright"><span>{$themes.configuration.footer.copyrightLeftLabel} | {$themes.configuration.footer.copyrightRightLabel}</span></li>|
