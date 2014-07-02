@@ -6,7 +6,7 @@ lib.menu.main = HMENU
 lib.menu.main.entryLevel       = 0
 lib.menu.main.includeNotInMenu = 0
 lib.menu.main.wrap    = <ul class="nav navbar-nav"> | </ul>
-lib.menu.main
+lib.menu.main {
 	1 = TMENU
 	1 {
 		expAll = 1
