@@ -10,23 +10,23 @@
 #
 lib.menu.breadcrumb = COA
 lib.menu.breadcrumb {
-  10 = HMENU
-  10 {
-    special = rootline
-    special.range = 0|-1
-    includeNotInMenu = 0
-    1 = TMENU
-    1 {
-      noBlur = 1
-      NO {
-        stdWrap.htmlSpecialChars = 1
-        doNotLinkIt = |*| 0 |*| 1
-        linkWrap = <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">|</li> |*| <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="divider">{$themes.configuration.menu.breadcrumb.divider}</span>|</li> |*| <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="active"><span class="divider">{$themes.configuration.menu.breadcrumb.divider}</span>|</li>
-        ATagParams = itemprop="url" title="{field:subtitle//field:title}"
-        ATagParams.insertData = 1
-        stdWrap.wrap = <span itemprop="title">|</span>
-      }
-      wrap = <ul id="menuBreadcrumb" class="{$themes.configuration.menu.breadcrumb.cssClasses}"><li><span class="prefix">{$themes.configuration.menu.breadcrumb.prefix}</span></li>|</ul>
-    }
-  }
+	10 = HMENU
+	10 {
+		special = rootline
+		special.range = 0|-1
+		includeNotInMenu = 0
+		1 = TMENU
+		1 {
+			noBlur = 1
+			NO {
+				stdWrap.htmlSpecialChars = 1
+				doNotLinkIt = |*| 0 |*| 1
+				linkWrap = <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">|</li> |*| <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="divider">{$themes.configuration.menu.breadcrumb.divider}</span>|</li> |*| <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="active"><span class="divider">{$themes.configuration.menu.breadcrumb.divider}</span>|</li>
+				ATagParams = itemprop="url" title="{field:subtitle//field:title}"
+				ATagParams.insertData = 1
+				stdWrap.wrap = <span itemprop="title">|</span>
+			}
+			wrap = <ul id="menuBreadcrumb" class="{$themes.configuration.menu.breadcrumb.cssClasses}"><li><span class="prefix">{$themes.configuration.menu.breadcrumb.prefix}</span></li>|</ul>
+		}
+	}
 }
