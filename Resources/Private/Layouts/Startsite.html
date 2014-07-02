@@ -1,46 +1,72 @@
 <div id="layoutStartsite">
 
-  <div id="areaTop">
-      
-      <div class="container">
-          
-          <f:cObject typoscriptObjectPath="lib.logo"></f:cObject>
-          
-          <div id="alerts">
-              <!-- Bootstrap Alerts -->
-          </div>
-          
-      </div>
-      
-  </div>
-  
-  <nav id="areaNav">
-      <div class="container">
-          <f:cObject typoscriptObjectPath="lib.menu.main"></f:cObject>
-          <!--f:render partial="QuickSearch"></f:render-->
-      </div>
-  </nav>
+    <div id="areaNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <div id="logoWrapper" class="navbar-brand">
+                    <h1><f:cObject typoscriptObjectPath="lib.logo" /></h1>
+                </div>
+                <button data-target="#navbar-main" data-toggle="collapse" type="button" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar-main" class="navbar-collapse collapse">
+                <f:cObject typoscriptObjectPath="lib.menu.main" />
+                <div id="menuLanguageWrapper">
+                    <theme:widget.languageMenu
+                            availableLanguages="{theme:constant(constant: 'themes.languages.available')}"
+                            currentLanguageUid="{theme:constant(constant: 'themes.languages.current.uid')}"
+                            defaultLanguageIsoCodeShort="{theme:constant(constant: 'themes.languages.default.isoCodeShort')}"
+                            defaultLanguageLabel="{theme:constant(constant: 'themes.languages.default.label')}"
+                            />
+                    <f:if condition="{theme:constant(constant: 'themes.languages.available')}">
+                        <span>
+                            <f:translate key="languageMenu_label" extensionName="{theme:constant(constant: 'themes.name')}" />
+                        </span>
+                    </f:if>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <header id="areaHeader">
-  </header>
-  
-  <section id="areaTeaser">
-      <f:cObject typoscriptObjectPath="lib.content.feature"></f:cObject>
-  </section>
 
-  <main id="areaMain">
-      <f:render section="content"></f:render>
-  </main>
-  
-  <section id="areaExtended">
-      <f:cObject typoscriptObjectPath="lib.content.extended"></f:cObject>
-  </section>
-    
-  <footer id="areaFooter" class="footer">
-      <div class="container">
-          <f:cObject typoscriptObjectPath="lib.menu.footer"></f:cObject>
-          <f:cObject typoscriptObjectPath="lib.copyright"></f:cObject>
-      </div>
-  </footer>
-  
+
+
+    <div class="container">
+
+        <section id="areaTeaser" class="page-header">
+            <f:cObject typoscriptObjectPath="lib.content.feature" />
+        </section>
+
+        <main id="areaMain" class="row">
+            <div id="menuBreadcrumbWrapper">
+                <span><f:translate key="breadcrumb_label" extensionName="{theme:constant(constant: 'themes.name')}" /></span>
+                <f:cObject typoscriptObjectPath="lib.menu.breadcrumb" />
+            </div>
+            <f:render section="content" />
+        </main>
+
+        <section id="areaExtended" class="row">
+            <f:cObject typoscriptObjectPath="lib.content.extended" />
+        </section>
+
+        <footer id="areaFooter" class="row">
+            <f:cObject typoscriptObjectPath="lib.menu.footer" />
+
+
+
+            <ul class="list-inline footer-line">
+                <f:cObject typoscriptObjectPath="lib.copyright" />
+                <li>
+                    <f:link.page pageUid="{theme:constant(constant:'themes.configuration.pages.imprint')}">
+                        <f:translate key="imprint_label" extensionName="{theme:constant(constant: 'themes.name')}" />
+                    </f:link.page>
+                </li>
+            </ul>
+
+        </footer>
+
+    </div>
 </div>
