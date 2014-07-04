@@ -41,25 +41,25 @@ plugin.tx_themes {
 
 plugin.tx_themebootstrap {
   _LOCAL_LANG {
-    default {
-      languageMenu_label = TWebsite-Language
-      breadcrumb_label = TWebsite-Language
-    }
-    de {
-      languageMenu_label = TWebsite-Sprache
-      breadcrumb_label = TWebsite-Sprache
-    }
+	default {
+		languageMenu_label = TWebsite-Language # why not in english?
+		breadcrumb_label = TWebsite-Language
+	}
+	de {
+		languageMenu_label = TWebsite-Sprache
+		breadcrumb_label = TWebsite-Sprache
+	}
   }
 }
 plugin.tx_themes {
   _LOCAL_LANG {
-    default {
-      languageMenu_label = TWebsite-Language
-      breadcrumb_label = TWebsite-Language
-    }
-    de {
-      languageMenu_label = TWebsite-Sprache
-      breadcrumb_label = TWebsite-Sprache
-    }
+	default {
+		languageMenu_label = TWebsite-Language
+		breadcrumb_label = TWebsite-Language
+	}
+	de {
+		languageMenu_label = TWebsite-Sprache
+		breadcrumb_label = TWebsite-Sprache
+	}
   }
 }
