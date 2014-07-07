@@ -12,6 +12,7 @@
                 <el type="array">
                     <width_column_md_1 type="array">
                         <TCEforms type="array">
+							<!-- German? missing a lang label here -->
                             <label>Breite Spalte 1</label>
                             <config type="array">
                                 <type>select</type>

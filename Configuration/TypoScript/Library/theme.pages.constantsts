@@ -1,3 +1,4 @@
+# @todo german labels?
 
 # cat=page; type=int+; label= Seite für die Home/Startseite
 themes.configuration.pages.startsite = 0

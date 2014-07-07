@@ -1,29 +1,29 @@
 <xliff version="1.0">
-    <file source-language="en"
-          target-language="de"
-          datatype="plaintext"
-          original="messages"
-          date="2014-04-13T18:20:51Z"
-          product-name="theme_bootstrap">
-        <header/>
-        <body>
-            <trans-unit id="breadcrumb_label" xml:space="preserve">
-                <source>You are here</source>
-                <target>Sie sind hier</target>
-            </trans-unit>
-            <trans-unit id="languageMenu_label" xml:space="preserve">
-                <source>Language:</source>
-                <target>Sprache:</target>
-            </trans-unit>
-            <trans-unit id="imprint_label" xml:space="preserve">
-                <source>Imprint</source>
-                <target>Impressum</target>
-            </trans-unit>
-            <!--
-                Hier können nun beliebig viele
-                weitere Übersetzungen zu
-                Sprachwerten folgen.
-            -->
-        </body>
-    </file>
+	<file source-language="en"
+		target-language="de"
+		datatype="plaintext"
+		original="messages"
+		date="2014-04-13T18:20:51Z"
+		product-name="theme_bootstrap">
+		<header/>
+		<body>
+			<trans-unit id="breadcrumb_label" xml:space="preserve">
+				<source>You are here</source>
+				<target>Sie sind hier</target>
+			</trans-unit>
+			<trans-unit id="languageMenu_label" xml:space="preserve">
+				<source>Language:</source>
+				<target>Sprache:</target>
+			</trans-unit>
+			<trans-unit id="imprint_label" xml:space="preserve">
+				<source>Imprint</source>
+				<target>Impressum</target>
+			</trans-unit>
+			<!--
+				Hier können nun beliebig viele
+				weitere Übersetzungen zu
+				Sprachwerten folgen.
+			-->
+		</body>
+	</file>
 </xliff>

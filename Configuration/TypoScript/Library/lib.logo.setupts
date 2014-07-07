@@ -1,9 +1,11 @@
 lib.logo = IMAGE
-lib.logo.file = {$themes.configuration.header.logo.file}
-lib.logo.file.width = {$themes.configuration.header.logo.width}
-lib.logo.titleText.data = page:title
-lib.logo.altText.data = page:title
-lib.logo.stdWrap.typolink {
-  parameter = {$themes.configuration.pages.startsite}
-  parameter.insertData = 1
+lib.logo {
+	file = {$themes.configuration.header.logo.file}
+	file.width = {$themes.configuration.header.logo.width}
+	titleText.data = page:title
+	altText.data = page:title
+	stdWrap.typolink {
+		parameter = {$themes.configuration.pages.startsite}
+		parameter.insertData = 1
+	}
 }

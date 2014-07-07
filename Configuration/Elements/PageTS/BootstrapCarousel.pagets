@@ -5,18 +5,18 @@ tx_gridelements.setup.bootstrapCarousel {
 	description = Bootstrap Carousel/Slider
 	frame = 12352345
 	config {
-        colCount = 1
-        rowCount = 1
-        rows {
-            1 {
-                columns {
-                    1 {
-                        name = Images
-                        colPos = 0
-                        allowed = image
-                    }
-                }
-            }
-        }
+		colCount = 1
+		rowCount = 1
+		rows {
+			1 {
+				columns {
+					1 {
+						name = Images
+						colPos = 0
+						allowed = image
+					}
+				}
+			}
+		}
 	}
 }

@@ -5,18 +5,18 @@ tx_gridelements.setup.bootstrapCollapse {
 	description =
 	frame = 12352345
 	config {
-        colCount = 1
-        rowCount = 1
-        rows {
-            1 {
-                columns {
-                    1 {
-                        name = Content
-                        colPos = 0
-                        allowed = text,textpic,gridelements_pi1
-                    }
-                }
-            }
-        }
+		colCount = 1
+		rowCount = 1
+		rows {
+			1 {
+				columns {
+					1 {
+						name = Content
+						colPos = 0
+						allowed = text,textpic,gridelements_pi1
+					}
+				}
+			}
+		}
 	}
 }

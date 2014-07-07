@@ -5,25 +5,25 @@ tx_gridelements.setup.bootstrapThreeColumnGrid {
 	description =
 	frame = 12352345
 	config {
-        colCount = 3
-        rowCount = 1
-        rows {
-            1 {
-                columns {
-                    1 {
-                        name = Left
-                        colPos = 2
-                    }
-                    2 {
-                        name = Middle
-                        colPos = 0
-                    }
-                    3 {
-                        name = Right
-                        colPos = 1
-                    }
-                }
-            }
-        }
+		colCount = 3
+		rowCount = 1
+		rows {
+			1 {
+				columns {
+					1 {
+						name = Left
+						colPos = 2
+					}
+					2 {
+						name = Middle
+						colPos = 0
+					}
+					3 {
+						name = Right
+						colPos = 1
+					}
+				}
+			}
+		}
 	}
 }
