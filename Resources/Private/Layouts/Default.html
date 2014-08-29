@@ -23,7 +23,7 @@
 							/>
 					<f:if condition="{theme:constant(constant: 'themes.languages.available')}">
 						<span>
-							<f:render partial="Translation" arguments="{key: 'languageMenu_label'}" />
+							<f:translate key="languageMenu_label" />
 						</span>
 					</f:if>
 				</div>
@@ -38,7 +38,7 @@
 
 		<main id="areaMain" class="row">
 			<div id="menuBreadcrumbWrapper">
-				<span><f:translate key="breadcrumb_label" extensionName="{theme:constant(constant: 'themes.name')}" /></span>
+				<span><f:translate key="breadcrumb_label" /></span>
 				<f:cObject typoscriptObjectPath="lib.menu.breadcrumb" />
 			</div>
 			<f:render section="content" />
@@ -54,7 +54,7 @@
 				<f:cObject typoscriptObjectPath="lib.copyright" />
 				<li>
 					<f:link.page pageUid="{theme:constant(constant:'themes.configuration.pages.imprint')}">
-						<f:translate key="imprint_label" extensionName="{theme:constant(constant: 'themes.name')}" />
+						<f:translate key="imprint_label" />
 					</f:link.page>
 				</li>
 			</ul>

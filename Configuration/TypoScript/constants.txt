@@ -7,39 +7,12 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:themes_gridelements/Configuration/TypoScript/constants.txt">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap/Configuration/TypoScript/Library" extensions="constantsts">
 
+# Extensions
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/News/TypoScript/constants.txt">
+
 themes {
-	languages {
-		translation {
-			extensionName = theme_bootstrap
-		}
-	}
-	#bootstrapTheme = {$themes.resourcesPublicPath}Contrib/Bootstrap/css/bootstrap.min.css
-
 	configuration {
-		siteName = Bootstrap Theme
-		colors {
-			# cat=site colors; type=color; label= color: a color picker
-			#link = #FF0000
-			#primary = #FF0000
-			#secondary = #FF0000
-
-			# cat=colors; type=color; label= Success color
-			information = #eaf7ff
-			# cat=colors; type=color; label= Success color
-			success = #cdeaca
-			# cat=colors; type=color; label= Notice and information color
-			notice = #f6f7fa
-			# cat=colors; type=color; label= Warning color
-			warning = #fbf6de
-			# cat=colors; type=color; label= Error color
-			error = #f6d3cf
+		    siteName = Bootstrap Theme
 		}
 	}
-	# Page-IDs of DataStorages
-	#container {
-	#	frontendUser =
-	#	news =
-	#	address =
-	#	newsletter =
-	#}
 }

@@ -2,6 +2,9 @@
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap/Configuration/TypoScript/Library/" extensions="setupts">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap/Configuration/Elements/TypoScript/" extensions="setupts">
 
+# Extensions
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/News/TypoScript/setup.txt">
+
 page {
 	typeNum = 0
 	config {
@@ -37,29 +40,16 @@ plugin.tx_themes {
 			300 = EXT:theme_bootstrap/Resources/Private/Layouts/
 		}
 	}
-}
 
-plugin.tx_themebootstrap {
-  _LOCAL_LANG {
-	default {
-		languageMenu_label = TWebsite-Language # why not in english?
-		breadcrumb_label = TWebsite-Language
-	}
-	de {
-		languageMenu_label = TWebsite-Sprache
-		breadcrumb_label = TWebsite-Sprache
-	}
-  }
-}
-plugin.tx_themes {
-  _LOCAL_LANG {
-	default {
-		languageMenu_label = TWebsite-Language
-		breadcrumb_label = TWebsite-Language
-	}
-	de {
-		languageMenu_label = TWebsite-Sprache
-		breadcrumb_label = TWebsite-Sprache
-	}
-  }
+    # Translations
+    _LOCAL_LANG {
+        default {
+            languageMenu_label = TWebsite-Language
+            breadcrumb_label = TWebsite-Language
+        }
+        de {
+            languageMenu_label = TWebsite-Sprache
+            breadcrumb_label = TWebsite-Sprache
+        }
+    }
 }

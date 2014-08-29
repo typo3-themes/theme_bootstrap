@@ -1,4 +1,2 @@
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/PageTS">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/Elements/PageTS/" extensions="pagets">
-
-plimm = 1
