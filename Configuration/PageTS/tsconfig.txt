@@ -1,2 +1,3 @@
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/PageTS">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/Elements/PageTS/" extensions="pagets">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap/Configuration/PageTS/Library/" extensions="pagets">

@@ -1,0 +1,8 @@
+page {
+    includeCSS {
+        fontawesome = //maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css
+        fontawesome.external = 1
+        fontawesome.excludeFromConcatenation = 1
+        fontawesome.disableCompression = 1
+    }
+}

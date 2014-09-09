@@ -1,0 +1,18 @@
+# Remove unused backendlayouts from theme_bootstrap
+#
+# Just delete the backendlayouts which arn't required
+#
+#backendlayouts.Content >
+#backendlayouts.ContentEmpty >
+#backendlayouts.ContentMenu >
+#backendlayouts.ContentMenuSidebar >
+#backendlayouts.ContentSidebar >
+#backendlayouts.ContentSidebarMenu >
+#backendlayouts.ContentSpecial >
+#backendlayouts.ContentStartsite >
+#backendlayouts.MenuContent >
+#backendlayouts.MenuContentSidebar >
+#backendlayouts.MenuSidebarContent >
+#backendlayouts.SidebarContent >
+#backendlayouts.SidebarContentMenu >
+#backendlayouts.SidebarMenuContent >

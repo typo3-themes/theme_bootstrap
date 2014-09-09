@@ -1,0 +1,12 @@
+# Bootstrap-Alert Content-Layouts
+#############################################
+TCEFORM.tt_content {
+    layout {
+        addItems {
+            1000 = Bootstrap: alert-success
+            1001 = Bootstrap: alert-info
+            1002 = Bootstrap: alert-warning
+            1003 = Bootstrap: alert-danger
+        }
+    }
+}

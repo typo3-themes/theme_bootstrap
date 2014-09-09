@@ -48,15 +48,18 @@
 		</section>
 
 		<footer id="areaFooter" class="row">
-			<f:cObject typoscriptObjectPath="lib.menu.footer" />
-			<ul class="list-inline footer-line">
-				<f:cObject typoscriptObjectPath="lib.copyright" />
-				<li>
-					<f:link.page pageUid="{theme:constant(constant:'themes.configuration.pages.imprint')}">
-						<f:translate key="imprint_label" />
-					</f:link.page>
-				</li>
-			</ul>
+            <f:cObject typoscriptObjectPath="lib.menu.footer" />
+
+            <f:render partial="Socialmedia/SocialmediaLine" />
+
+            <ul class="list-inline footer-line">
+                <f:cObject typoscriptObjectPath="lib.copyright" />
+                <li class="imprint">
+                    <f:link.page pageUid="{theme:constant(constant:'themes.configuration.pages.imprint')}">
+                        <f:translate key="imprint_label" />
+                    </f:link.page>
+                </li>
+            </ul>
 		</footer>
 	</div>
 </div>

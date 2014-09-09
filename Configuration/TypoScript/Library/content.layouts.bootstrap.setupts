@@ -1,0 +1,14 @@
+# Bootstrap-Alert Content-Layouts
+#############################################
+tt_content.stdWrap.innerWrap.cObject.default.20.40 = CASE
+tt_content.stdWrap.innerWrap.cObject.default.20.40 {
+    key.field = layout
+    1000 = TEXT
+    1000.value = alert alert-success
+    1001 = TEXT
+    1001.value = alert alert-info
+    1002 = TEXT
+    1002.value = alert alert-warning
+    1003 = TEXT
+    1003.value = alert alert-danger
+}

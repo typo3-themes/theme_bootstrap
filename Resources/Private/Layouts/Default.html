@@ -50,14 +50,19 @@
 
 		<footer id="areaFooter" class="row">
 			<f:cObject typoscriptObjectPath="lib.menu.footer" />
-			<ul class="list-inline footer-line">
-				<f:cObject typoscriptObjectPath="lib.copyright" />
-				<li>
-					<f:link.page pageUid="{theme:constant(constant:'themes.configuration.pages.imprint')}">
-						<f:translate key="imprint_label" />
-					</f:link.page>
-				</li>
-			</ul>
+
+            <f:render partial="Socialmedia/SocialmediaLine" />
+
+            <div class="footer-line-wrapper">
+                <ul class="list-inline footer-line">
+                    <f:cObject typoscriptObjectPath="lib.copyright" />
+                    <li class="imprint">
+                        <f:link.page pageUid="{theme:constant(constant:'themes.configuration.pages.imprint')}">
+                            <f:translate key="imprint_label" />
+                        </f:link.page>
+                    </li>
+                </ul>
+            </div>
 		</footer>
 	</div>
 </div>

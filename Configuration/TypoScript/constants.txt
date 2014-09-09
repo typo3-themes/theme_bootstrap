@@ -12,7 +12,6 @@
 
 themes {
 	configuration {
-		    siteName = Bootstrap Theme
-		}
+        siteName = Bootstrap Theme
 	}
 }
