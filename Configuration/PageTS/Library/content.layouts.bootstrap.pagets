@@ -7,6 +7,16 @@ TCEFORM.tt_content {
             1001 = Bootstrap: alert-info
             1002 = Bootstrap: alert-warning
             1003 = Bootstrap: alert-danger
+
+            1010 = Bootstrap: hidden on Extra small devices (xs, Phones)
+            1011 = Bootstrap: hidden on Small devices (sm, Tablets)
+            1012 = Bootstrap: hidden on Medium devices (md, Desktops)
+            1013 = Bootstrap: hidden on Large devices (lg, Desktops)
+
+            1020 = Bootstrap: visible on Extra small devices (xs, Phones)
+            1021 = Bootstrap: visible on Small devices (sm, Tablets)
+            1022 = Bootstrap: visible on Medium devices (md, Desktops)
+            1023 = Bootstrap: visible on Large devices (lg, Desktops)
         }
     }
 }

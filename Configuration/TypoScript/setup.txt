@@ -44,12 +44,12 @@ plugin.tx_themes {
     # Translations
     _LOCAL_LANG {
         default {
-            languageMenu_label = TWebsite-Language
-            breadcrumb_label = TWebsite-Language
+            languageMenu_label =
+            # breadcrumb_label = TWebsite-Language
         }
         de {
-            languageMenu_label = TWebsite-Sprache
-            breadcrumb_label = TWebsite-Sprache
+            languageMenu_label =
+            # breadcrumb_label = TWebsite-Sprache
         }
     }
 }

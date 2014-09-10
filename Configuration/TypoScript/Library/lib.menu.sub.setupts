@@ -2,6 +2,7 @@ lib.menu.sub = HMENU
 lib.menu.sub {
 	entryLevel = 1
 	includeNotInMenu = 0
+    excludeUidList = {$themes.configuration.menu.sub.excludeUidList}
 	wrap = <ul class="nav nav-pills nav-stacked" id="nav-sub"> | </ul>
 
 	1 = TMENU

@@ -3,6 +3,8 @@
 tt_content.stdWrap.innerWrap.cObject.default.20.40 = CASE
 tt_content.stdWrap.innerWrap.cObject.default.20.40 {
     key.field = layout
+
+    # alerts
     1000 = TEXT
     1000.value = alert alert-success
     1001 = TEXT
@@ -11,4 +13,24 @@ tt_content.stdWrap.innerWrap.cObject.default.20.40 {
     1002.value = alert alert-warning
     1003 = TEXT
     1003.value = alert alert-danger
+
+    # hidden
+    1010 = TEXT
+    1010.value = hidden-xs
+    1011 = TEXT
+    1011.value = hidden-sm
+    1012 = TEXT
+    1012.value = hidden-md
+    1013 = TEXT
+    1013.value = hidden-lg
+
+    # visible
+    1020 = TEXT
+    1020.value = visible-xs
+    1021 = TEXT
+    1021.value = visible-sm
+    1022 = TEXT
+    1022.value = visible-md
+    1023 = TEXT
+    1023.value = visible-lg
 }
