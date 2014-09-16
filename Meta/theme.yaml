@@ -1,7 +1,8 @@
 # Name and description of the theme (required)
 title            : Minimalistic theme for reference purposes
 description      : |
-  This is the description of the theme. With the starting pipe it can contain multiple lines.
+  This is the description of the theme.
+  With the starting pipe it can contain multiple lines.
 
   The newlines in this description will be preserved.
 
@@ -26,7 +27,7 @@ keywords:
 constants:
   availableCategories: [theme,colors,font,meta,metaDefaults,page,container,slider,lightbox]
 
-# Screenshots for the preview gallery
+# Screenshots for the preview gallery (optional, multiple possible)
 screenshots:
   -
     file           :
@@ -69,7 +70,11 @@ licenses:
     resources      :
       - Resources/Public/Images/logo.png
 
+# Supported Extensions
 supportedExtensions:
   news:
     version        : 1.0.0
-    description    :
+    description    : News-Extension
+  #felogin:
+  #  version        : 6.2.0
+  #  description    : Frontend-User login

@@ -1,0 +1,15 @@
+#############################################
+# Menu: Menu constants
+#############################################
+
+# cat=menu; type=string; label= Exclude uid list for main menu (12,13,...)
+themes.configuration.menu.main.excludeUidList =
+
+# cat=menu; type=string; label= Exclude uid list for sub menu (12,13,...)
+themes.configuration.menu.sub.excludeUidList =
+
+# cat=menu; type=string; label= Exclude uid list for special menu (12,13,...)
+themes.configuration.menu.special.excludeUidList =
+
+# cat=menu; type=string; label= Exclude uid list for footer menu (12,13,...)
+themes.configuration.menu.footer.excludeUidList =

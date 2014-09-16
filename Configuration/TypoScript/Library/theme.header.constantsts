@@ -1,0 +1,30 @@
+#############################################
+# Header: Header constants
+#############################################
+
+# cat=header; type=string; label= Path and filename for header logo (fileadmin/.../logo.png)
+themes.configuration.header.logo.file = EXT:theme_bootstrap/Resources/Public/Images/logo.png
+
+# cat=header; type=int+; label= Width of header logo
+themes.configuration.header.logo.width = 40
+
+# cat=header; type=int+; label= Height of header logo
+themes.configuration.header.logo.height =
+
+# cat=header; type=string; label= Path and filename for special header logo (fileadmin/.../logo.png)
+themes.configuration.header.logoSpecial.file =
+
+# cat=header; type=int+; label= Width of special header logo
+themes.configuration.header.logoSpecial.width = 230
+
+# cat=header; type=int+; label= Height of special header logo
+themes.configuration.header.logoSpecial.height =
+
+# cat=header; type=int+; label= Link UID special header logo
+themes.configuration.header.logoSpecial.linkUid = 0
+
+# cat=header; type=int+; label= Link target special header logo
+themes.configuration.header.logoSpecial.linkTarget = _blank
+
+# cat=header; type=string; label= Title special header logo
+themes.configuration.header.logoSpecial.title = Special logo title text

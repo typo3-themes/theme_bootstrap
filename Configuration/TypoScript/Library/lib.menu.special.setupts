@@ -1,0 +1,59 @@
+####################
+# Menu
+#
+#
+# main
+lib.menu.special = HMENU
+lib.menu.special.entryLevel       = 0
+lib.menu.special.includeNotInMenu = 0
+lib.menu.special.excludeUidList   = {$themes.configuration.menu.special.excludeUidList}
+lib.menu.special.wrap    = <ul class="nav navbar-nav"> | </ul>
+lib.menu.special.1 = TMENU
+lib.menu.special.1 {
+
+#lib.menu.special = HMENU
+#lib.menu.special.entryLevel       = 0
+#lib.menu.special.includeNotInMenu = 0
+#lib.menu.special.special = directory
+#lib.menu.special.special.value = {$themes.configuration.container.menuSpecial}
+#lib.menu.special.wrap    = <ul class="nav navbar-nav"> | </ul>
+#lib.menu.special.1 = TMENU
+#lib.menu.special.1 {
+  expAll = 1
+  stdWrapHtmlSpecialChars = 0
+  wrapHtmlSpecialChars    = 0
+  NO.wrapItemAndSub.insertData = 1
+  NO.wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
+  NO.stdWrapHtmlSpecialChars = 0
+  NO.wrapHtmlSpecialChars    = 0
+  NO.stdWrap.field = title
+  NO.before = <span class="menu-heading">
+  NO.after = </span>
+  NO.doNotLinkIt = 0
+  ACT < .NO
+  ACT = 1
+  ACT.wrapItemAndSub.insertData = 1
+  ACT.wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
+  ACT.stdWrapHtmlSpecialChars = 0
+  ACT.wrapHtmlSpecialChars    = 0
+  IFSUB < .NO
+  ACTIFSUB < .NO
+}
+lib.menu.special.2 = TMENU
+lib.menu.special.2 {
+  expAll = 0
+  stdWrapHtmlSpecialChars = 0
+  wrapHtmlSpecialChars    = 0
+  wrap    = <ul class="sub"> | </ul>
+  NO.wrapItemAndSub.insertData = 1
+  NO.wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
+  NO.stdWrapHtmlSpecialChars = 0
+  NO.wrapHtmlSpecialChars    = 0
+  NO.stdWrap.field = title
+  ACT < .NO
+  ACT = 1
+  ACT.wrapItemAndSub.insertData = 1
+  ACT.wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
+  ACT.stdWrapHtmlSpecialChars = 0
+  ACT.wrapHtmlSpecialChars    = 0
+}

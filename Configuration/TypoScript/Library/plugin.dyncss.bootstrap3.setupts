@@ -3,6 +3,8 @@ plugin.tx_dyncss.overrides {
 	brand-primary.value = {$themes.configuration.colors.primary}
 	brand-secondary = TEXT
 	brand-secondary.value = {$themes.configuration.colors.secondary}
+	gray = TEXT
+	gray.value = {$themes.configuration.colors.gray}
 
 	icon-font-path = TEXT
 	icon-font-path.value = '{$themes.configuration.font.fontFilePath}'

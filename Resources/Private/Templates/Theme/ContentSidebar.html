@@ -1,14 +1,20 @@
-<f:layout name="Default" />
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+	<f:layout name="Default" />
+	<f:section name="Default">
+		<!-- theme_bootstrap: Templates/Theme/ContentSidebar.html [begin] -->
 
-<f:section name="content">
-	<div id="templateContentSidebar">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-				<f:render partial="MainContent" />
+		<div id="templateContentSidebar">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+					<f:render partial="MainContent" section="Default" />
+				</div>
+				<aside class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+					<f:render partial="SidebarContent" section="Default" />
+				</aside>
 			</div>
-			<aside class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-				<f:render partial="SidebarContent" />
-			</aside>
 		</div>
-	</div>
-</f:section>
+
+		<!-- theme_bootstrap: Templates/Theme/ContentSidebar.html [end] -->
+	</f:section>
+</div>

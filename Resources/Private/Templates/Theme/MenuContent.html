@@ -1,14 +1,27 @@
-<f:layout name="Default" />
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+	<f:layout name="Default" />
+	<f:section name="Default">
+		<!-- theme_bootstrap: Templates/Theme/MenuContent.html [begin] -->
 
-<f:section name="content">
-	<div id="templateMenuContent">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-				<f:render partial="MenuContent" />
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
-				<f:render partial="MainContent" />
+		<div id="templateMenuContent">
+			<div class="row">
+
+				<!--
+					Pay attention to the responsive behavior!
+					The menu column will slide to top
+					when it switch into mobile view.  -->
+
+				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+					<f:render partial="MenuContent" section="Default" />
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+					<f:render partial="MainContent" section="Default" />
+				</div>
+
 			</div>
 		</div>
-	</div>
-</f:section>
+
+		<!-- theme_bootstrap: Templates/Theme/MenuContent.html [end] -->
+	</f:section>
+</div>

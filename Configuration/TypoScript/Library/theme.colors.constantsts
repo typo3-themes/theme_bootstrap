@@ -3,10 +3,31 @@
 #############################################
 
 # cat=colors; type=color; label= Link color
-themes.configuration.colors.link = #BB0000
+themes.configuration.colors.link = #ff8700
 
 # cat=colors; type=color; label= Primary color
-themes.configuration.colors.primary = #BB0000
+themes.configuration.colors.primary = #ff8700
 
 # cat=colors; type=color; label= Secondary color
 themes.configuration.colors.secondary = #EF0000
+
+# cat=colors; type=color; label= Secondary color
+themes.configuration.colors.gray = lighten(#000, 33.5%)
+
+#themes.configuration.colors {
+    # cat=site colors; type=color; label= color: a color picker
+    #link = #FF0000
+    #primary = #FF0000
+    #secondary = #FF0000
+
+    # cat=colors; type=color; label= Success color
+#    information = #eaf7ff
+    # cat=colors; type=color; label= Success color
+#    success = #cdeaca
+    # cat=colors; type=color; label= Notice and information color
+#    notice = #f6f7fa
+    # cat=colors; type=color; label= Warning color
+#    warning = #fbf6de
+    # cat=colors; type=color; label= Error color
+#    error = #f6d3cf
+#}

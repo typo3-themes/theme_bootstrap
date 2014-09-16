@@ -1,5 +1,6 @@
-<div id="layoutStartsite">
-	<div id="areaNav" class="navbar navbar-default navbar-fixed-top">
+<!-- theme_bootstrap: Layouts/Startsite.html [begin] -->
+<div id="layoutStartsite" class="theme_bootstrap">
+	<div id="menuMain" class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 				<div id="logoWrapper" class="navbar-brand">
@@ -40,26 +41,37 @@
 				<span><f:translate key="breadcrumb_label" /></span>
 				<f:cObject typoscriptObjectPath="lib.menu.breadcrumb" />
 			</div>
-			<f:render section="content" />
+			<f:render section="Default" />
 		</main>
 
 		<section id="areaExtended" class="row">
 			<f:cObject typoscriptObjectPath="lib.content.extended" />
 		</section>
 
-		<footer id="areaFooter" class="row">
-            <f:cObject typoscriptObjectPath="lib.menu.footer" />
-
-            <f:render partial="Socialmedia/SocialmediaLine" />
-
-            <ul class="list-inline footer-line">
-                <f:cObject typoscriptObjectPath="lib.copyright" />
-                <li class="imprint">
-                    <f:link.page pageUid="{theme:constant(constant:'themes.configuration.pages.imprint')}">
-                        <f:translate key="imprint_label" />
-                    </f:link.page>
-                </li>
-            </ul>
-		</footer>
 	</div>
+
+	<footer id="areaFooter">
+		<div class="container">
+
+			<div class="menu-special-wrapper col-md-12">
+				<f:cObject typoscriptObjectPath="lib.menu.special" />
+			</div>
+
+			<div class="menu-footer-wrapper col-md-10">
+				<f:cObject typoscriptObjectPath="lib.menu.footer" />
+			</div>
+
+			<div class="socialmedia-list-wrapper col-md-2">
+				<f:render partial="Socialmedia/List" />
+			</div>
+
+			<div class="footer-line-wrapper col-md-12">
+				<ul class="list-inline footer-line">
+					<f:cObject typoscriptObjectPath="lib.copyright" />
+					<li class="address">{theme:constant(constant:'themes.configuration.footer.address')}</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 </div>
+<!-- theme_bootstrap: Layouts/Startsite.html [end] -->

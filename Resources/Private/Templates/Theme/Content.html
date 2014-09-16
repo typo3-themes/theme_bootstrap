@@ -1,7 +1,13 @@
-<f:layout name="Default" />
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+	<f:layout name="Default" />
+	<f:section name="Default">
+		<!-- theme_bootstrap: Templates/Theme/Content.html [begin] -->
 
-<f:section name="content">
-	<div id="templateContent">
-		<f:render partial="MainContent" />
-	</div>
-</f:section>
+		<div id="templateContent">
+			<f:render partial="MainContent" section="Default" />
+		</div>
+
+		<!-- theme_bootstrap: Templates/Theme/Content.html [end] -->
+	</f:section>
+</div>

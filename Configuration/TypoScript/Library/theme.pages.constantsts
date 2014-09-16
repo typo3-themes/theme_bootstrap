@@ -1,6 +1,6 @@
 
 # cat=page; type=int+; label= Page for Home / Home
-themes.configuration.pages.startsite = 0
+themes.configuration.pages.startsite = 31
 
 # cat=page; type=int+; label= Page for the terms and conditions
 themes.configuration.pages.legal = 0
@@ -12,10 +12,10 @@ themes.configuration.pages.privacy = 0
 themes.configuration.pages.imprint = 65
 
 # cat=page; type=int+; label= Contact page
-themes.configuration.pages.contact = 0
+themes.configuration.pages.contact = 92
 
 # cat=page; type=int+; label= Page with the sitemap
-themes.configuration.pages.sitemap = 15
+themes.configuration.pages.sitemap = 93
 
 # cat=page; type=int+; label= Search page
 themes.configuration.pages.search = 0
