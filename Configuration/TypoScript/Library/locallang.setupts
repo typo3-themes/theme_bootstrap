@@ -1,8 +1,8 @@
 plugin.tx_themes {
     _LOCAL_LANG {
         default {
-            languageMenu_label = TWebsite-Language
-            breadcrumb_label = TWebsite-Language
+            languageMenu_label = Website-Language
+            breadcrumb_label = Website-Language
             imprint_label = Imprint
         }
     }

@@ -1,8 +1,8 @@
 plugin.tx_themes {
     _LOCAL_LANG {
         de {
-            languageMenu_label = TWebsite-Sprache
-            breadcrumb_label = TWebsite-Sprache
+            languageMenu_label = Website-Sprache
+            breadcrumb_label = Website-Sprache
             imprint_label = Impressum
         }
     }
