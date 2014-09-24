@@ -30,8 +30,12 @@ constants:
 # Screenshots for the preview gallery (optional, multiple possible)
 screenshots:
   -
-    file           :
-    caption        :
+    file           : EXT:theme_bootstrap/Meta/Screens/screenshot.png
+    caption        : Super image 1
+  -
+    file           : EXT:theme_bootstrap/Meta/Screens/screenshot.png
+    caption        : Super image 2
+
 
 # Name of the authors (optional, multiple possible)
 authors:
