@@ -30,16 +30,16 @@ constants:
 # Screenshots for the preview gallery (optional, multiple possible)
 screenshots:
   -
-    file           : EXT:theme_bootstrap/Meta/Screens/screenshot.png
+    file           : EXT:theme_bootstrap/Meta/Screenshots/screenshot.png
     caption        : Super image 1
   -
-    file           : EXT:theme_bootstrap/Meta/Screens/2014-09-24_18-32-11.png
+    file           : EXT:theme_bootstrap/Meta/Screenshots/screenshot-01.png
     caption        : Super image 2
   -
-    file           : EXT:theme_bootstrap/Meta/Screens/2014-09-24_18-32-58.png
+    file           : EXT:theme_bootstrap/Meta/Screenshots/screenshot-02.png
     caption        : Super image 2
   -
-    file           : EXT:theme_bootstrap/Meta/Screens/2014-09-24_18-35-13.png
+    file           : EXT:theme_bootstrap/Meta/Screenshots/screenshot-03.png
     caption        : Super image 2
 
 
