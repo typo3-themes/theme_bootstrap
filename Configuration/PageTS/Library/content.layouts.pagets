@@ -1,0 +1,11 @@
+# Content-Layouts
+#############################################
+TCEFORM.tt_content {
+    layout {
+        addItems {
+            layout-01 = Dashed border
+            layout-02 = something else
+
+        }
+    }
+}

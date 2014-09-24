@@ -3,7 +3,7 @@ lib.menu.sub {
 	entryLevel = 1
 	includeNotInMenu = 0
     excludeUidList = {$themes.configuration.menu.sub.excludeUidList}
-	wrap = <ul class="nav nav-pills nav-stacked" id="nav-sub"> | </ul>
+	wrap = <ul class="nav nav-pills nav-stacked" id="menuSub"> | </ul>
 
 	1 = TMENU
 	1 {
@@ -32,9 +32,9 @@ lib.menu.sub {
 	2 = TMENU
 	2 {
 		wrap = <ul> | </ul>
-
+		NO.wrapItemAndSub.insertData = 1
 		NO.wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
-
+		CUR.wrapItemAndSub.insertData = 1
 		CUR.wrapItemAndSub = <li class="state-cur active uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-cur active uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-cur active uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
 	}
 }

@@ -2,14 +2,47 @@
 # Menu: Menu constants
 #############################################
 
+
+
+# Menu main
+#############################################
+
 # cat=menu; type=string; label= Exclude uid list for main menu (12,13,...)
 themes.configuration.menu.main.excludeUidList =
+
+
+
+# Menu sub
+#############################################
 
 # cat=menu; type=string; label= Exclude uid list for sub menu (12,13,...)
 themes.configuration.menu.sub.excludeUidList =
 
+
+
+# Menu special
+#############################################
+
 # cat=menu; type=string; label= Exclude uid list for special menu (12,13,...)
 themes.configuration.menu.special.excludeUidList =
 
+
+
+# Menu footer
+#############################################
+
 # cat=menu; type=string; label= Exclude uid list for footer menu (12,13,...)
 themes.configuration.menu.footer.excludeUidList =
+
+
+
+# Menu breadcrumb
+#############################################
+# cat=menu; type=string; label= Breadcrumb menu prefix
+themes.configuration.menu.breadcrumb.prefix = :&nbsp;
+
+# cat=menu; type=string; label= Breadcrumb menu divider
+themes.configuration.menu.breadcrumb.divider = &gt;&nbsp;
+
+# cat=menu; type=string; label= Breadcrumb menu CSS classes
+themes.configuration.menu.breadcrumb.cssClasses = list-inline

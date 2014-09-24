@@ -3,10 +3,10 @@
 TCEFORM.tt_content {
     layout {
         addItems {
-            1000 = Bootstrap: alert-success
-            1001 = Bootstrap: alert-info
-            1002 = Bootstrap: alert-warning
-            1003 = Bootstrap: alert-danger
+            alert-success = Bootstrap: alert-success
+            alert-info = Bootstrap: alert-info
+            alert-warning = Bootstrap: alert-warning
+            alert-danger = Bootstrap: alert-danger
 
             1010 = Bootstrap: hidden on Extra small devices (xs, Phones)
             1011 = Bootstrap: hidden on Small devices (sm, Tablets)

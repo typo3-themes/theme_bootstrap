@@ -5,14 +5,14 @@ tt_content.stdWrap.innerWrap.cObject.default.20.40 {
     key.field = layout
 
     # alerts
-    1000 = TEXT
-    1000.value = alert alert-success
-    1001 = TEXT
-    1001.value = alert alert-info
-    1002 = TEXT
-    1002.value = alert alert-warning
-    1003 = TEXT
-    1003.value = alert alert-danger
+	alert-success = TEXT
+	alert-success.value = alert alert-success
+	alert-info = TEXT
+	alert-info.value = alert alert-info
+	alert-warning = TEXT
+	alert-warning.value = alert alert-warning
+	alert-danger = TEXT
+	alert-danger.value = alert alert-danger
 
     # hidden
     1010 = TEXT

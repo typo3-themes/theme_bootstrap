@@ -9,13 +9,13 @@ description      : |
 # Whether a documentation page is available (optional)
 documentation:
   -
-    url            : http://www.typo3-themes.org
+    uri            : http://www.typo3-themes.org
     title          : TYPO3-Themes.org
 
 # Whether a live demo is available (optional)
 demoLocation:
   -
-    url            : http://demo.typo3-themes.org
+    uri            : http://demo.typo3-themes.org
     title          : TYPO3-Themes.org Demo
 
 # Keywords (optional)

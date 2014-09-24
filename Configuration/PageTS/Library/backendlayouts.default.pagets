@@ -10,9 +10,9 @@
 #backendlayouts.ContentSidebarMenu >
 #backendlayouts.ContentSpecial >
 #backendlayouts.ContentStartsite >
-#backendlayouts.MenuContent >
-#backendlayouts.MenuContentSidebar >
-#backendlayouts.MenuSidebarContent >
+backendlayouts.MenuContent >
+backendlayouts.MenuContentSidebar >
+backendlayouts.MenuSidebarContent >
 #backendlayouts.SidebarContent >
 #backendlayouts.SidebarContentMenu >
 #backendlayouts.SidebarMenuContent >
