@@ -25,13 +25,23 @@ keywords:
 
 # Constants categories which are used for constants in this theme
 constants:
-  availableCategories: [theme,colors,font,meta,metaDefaults,page,container,slider,lightbox]
+  availableCategories: [theme,colors,font,meta,page,container,slider,lightbox]
 
 # Screenshots for the preview gallery (optional, multiple possible)
 screenshots:
   -
-    file           :
-    caption        :
+    file           : EXT:theme_bootstrap/Meta/Screens/screenshot.png
+    caption        : Super image 1
+  -
+    file           : EXT:theme_bootstrap/Meta/Screens/2014-09-24_18-32-11.png
+    caption        : Super image 2
+  -
+    file           : EXT:theme_bootstrap/Meta/Screens/2014-09-24_18-32-58.png
+    caption        : Super image 2
+  -
+    file           : EXT:theme_bootstrap/Meta/Screens/2014-09-24_18-35-13.png
+    caption        : Super image 2
+
 
 # Name of the authors (optional, multiple possible)
 authors:
@@ -59,7 +69,7 @@ authors:
 licenses:
   -
     license        : CC
-    licenseUri     :
+    licenseUri     : http://creativecommons.org/licenses/by-nc/4.0/
     # resources is an optional node here
     resources      :
       - Images

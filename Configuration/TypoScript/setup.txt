@@ -45,11 +45,11 @@ plugin.tx_themes {
     _LOCAL_LANG {
         default {
             languageMenu_label =
-            # breadcrumb_label = TWebsite-Language
+            # breadcrumb_label = Website-Language
         }
         de {
             languageMenu_label =
-            # breadcrumb_label = TWebsite-Sprache
+            # breadcrumb_label = Website-Sprache
         }
     }
 }

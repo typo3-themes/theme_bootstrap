@@ -4,7 +4,7 @@ plugin.tx_themes {
             languageMenu_label = Website-Sprache
             breadcrumb_label = You are here
             imprint_label = Imprint
-			quickSearch_label = Search
+            quickSearch_label = Search
         }
     }
 }

@@ -4,7 +4,7 @@ plugin.tx_themes {
             languageMenu_label = Website-Sprache
             breadcrumb_label = Sie sind hier
             imprint_label = Impressum
-			quickSearch_label = Suche
+            quickSearch_label = Suche
         }
     }
 }
