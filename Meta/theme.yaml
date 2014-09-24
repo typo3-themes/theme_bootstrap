@@ -59,7 +59,7 @@ authors:
 licenses:
   -
     license        : CC
-    licenseUri     :
+    licenseUri     : http://creativecommons.org/licenses/by-nc/4.0/
     # resources is an optional node here
     resources      :
       - Images
