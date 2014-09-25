@@ -1,0 +1,6 @@
+#############################################
+# Basic constants
+#############################################
+
+# cat=theme; type=string; label=Site slogan
+themes.configuration.siteSlogan = Inspire people to share

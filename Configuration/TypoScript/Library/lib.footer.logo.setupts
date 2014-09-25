@@ -1,0 +1,13 @@
+lib.footer {
+  logo = IMAGE
+  logo.file = {$themes.configuration.footer.logo.file}
+  logo.file.width = {$themes.configuration.footer.logo.width}
+  logo.file.height = {$themes.configuration.footer.logo.height}
+  logo.titleText = {$themes.configuration.siteName}
+  logo.altText = {$themes.configuration.siteName}
+  logo.stdWrap.typolink {
+    parameter = {$themes.configuration.pages.startsite}
+    parameter.insertData = 1
+    title = {$themes.configuration.siteName}
+  }
+}

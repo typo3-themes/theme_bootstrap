@@ -58,18 +58,31 @@
 				<f:cObject typoscriptObjectPath="lib.menu.special" />
 			</div>
 
-			<div class="menu-footer-wrapper col-md-10">
-				<f:cObject typoscriptObjectPath="lib.menu.footer" />
+			<div class="col-md-6">
+				<div id="footerLogo">
+					<f:cObject typoscriptObjectPath="lib.footer.logo" />
+				</div>
 			</div>
 
-			<div class="socialmedia-list-wrapper col-md-2">
-				<f:render partial="Socialmedia/List" />
+			<div class="col-md-6">
+				<div class="menu-footer-wrapper">
+					<f:cObject typoscriptObjectPath="lib.menu.footer" />
+					</div>
+				<div class="socialmedia-list-wrapper">
+					<f:render partial="Socialmedia/List" section="Default" />
+				</div>
 			</div>
 
 			<div class="footer-line-wrapper col-md-12">
-				<ul class="list-inline footer-line">
+				<ul class="footer-line list-inline">
+					<li class="address">
+						<span><f:format.htmlentitiesDecode>{theme:constant(constant: 'themes.configuration.footer.address')}</f:format.htmlentitiesDecode></span>
+					</li>
+					<li>|</li>
+					<li class="email">
+						<f:link.email email="{theme:constant(constant: 'themes.configuration.footer.email')}">{theme:constant(constant: 'themes.configuration.footer.email')}</f:link.email></li>
+					<li>|</li>
 					<f:cObject typoscriptObjectPath="lib.copyright" />
-					<li class="address">{theme:constant(constant:'themes.configuration.footer.address')}</li>
 				</ul>
 			</div>
 		</div>

@@ -62,13 +62,19 @@
 			</div>
 
 			<div class="socialmedia-list-wrapper col-md-2">
-				<f:render partial="Socialmedia/List" />
+				<f:render partial="Socialmedia/List" section="Default" />
 			</div>
 
 			<div class="footer-line-wrapper col-md-12">
-				<ul class="list-inline footer-line">
+				<ul class="list-inline list-inline">
+					<li class="address">
+						<span><f:format.htmlentitiesDecode>{theme:constant(constant: 'themes.configuration.footer.address')}</f:format.htmlentitiesDecode></span>
+					</li>
+					<li>|</li>
+					<li class="email">
+						<f:link.email email="{theme:constant(constant: 'themes.configuration.footer.email')}">{theme:constant(constant: 'themes.configuration.footer.email')}</f:link.email></li>
+					<li>|</li>
 					<f:cObject typoscriptObjectPath="lib.copyright" />
-					<li class="address">{theme:constant(constant:'themes.configuration.footer.address')}</li>
 				</ul>
 			</div>
 		</div>

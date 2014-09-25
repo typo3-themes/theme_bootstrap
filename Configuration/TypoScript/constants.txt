@@ -10,8 +10,5 @@
 # Extensions
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/News/TypoScript/constants.txt">
 
-themes {
-	configuration {
-        siteName = Bootstrap Theme
-	}
-}
+# Base configuration
+themes.configuration.siteName = Bootstrap Theme

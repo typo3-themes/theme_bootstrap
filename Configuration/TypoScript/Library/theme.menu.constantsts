@@ -24,7 +24,7 @@ themes.configuration.menu.sub.excludeUidList =
 #############################################
 
 # cat=menu; type=string; label= Menu special: Exclude uid list (12,13,...)
-themes.configuration.menu.special.excludeUidList =
+themes.configuration.menu.special.excludeUidList = 69
 
 
 
