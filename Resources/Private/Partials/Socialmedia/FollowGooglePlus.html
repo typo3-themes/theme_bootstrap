@@ -1,8 +1,17 @@
 {namespace theme=KayStrobach\Themes\ViewHelpers}
-<f:if condition="{theme:constant(constant:'themes.configuration.socialmedia.useGooglePlus')}">
-    <li class="partial-socialmedia-followGooglePlus theme_bootstrap">
-        <a href="{theme:constant(constant:'themes.configuration.socialmedia.googlePlusLink')}"
-           target="_blank" title="Google+"
-           class="fa-google-plus"></a>
-    </li>
-</f:if>
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+	<f:section name="Default">
+		<!-- theme_bootstrap: Partials/Socialmedia/FollowGooglePlus.html [begin] -->
+		
+		<f:if condition="{theme:constant(constant:'themes.configuration.socialmedia.useGooglePlus')}">
+			<li class="partial-socialmedia-followGooglePlus theme_bootstrap">
+				<a href="{theme:constant(constant:'themes.configuration.socialmedia.googlePlusLink')}"
+				   target="_blank" title="Google+"
+				   class="fa-google-plus"></a>
+			</li>
+		</f:if>
+
+		<!-- theme_bootstrap: Partials/Socialmedia/FollowGooglePlus.html [end] -->
+	</f:section>
+</div>
