@@ -3,20 +3,20 @@
 TCEFORM.tt_content {
     layout {
         addItems {
-            alert-success = Bootstrap: alert-success
-            alert-info = Bootstrap: alert-info
-            alert-warning = Bootstrap: alert-warning
-            alert-danger = Bootstrap: alert-danger
+            #alert-success = Bootstrap: alert-success
+            #alert-info = Bootstrap: alert-info
+            #alert-warning = Bootstrap: alert-warning
+            #alert-danger = Bootstrap: alert-danger
 
-            1010 = Bootstrap: hidden on Extra small devices (xs, Phones)
-            1011 = Bootstrap: hidden on Small devices (sm, Tablets)
-            1012 = Bootstrap: hidden on Medium devices (md, Desktops)
-            1013 = Bootstrap: hidden on Large devices (lg, Desktops)
+            #1010 = Bootstrap: hidden on Extra small devices (xs, Phones)
+            #1011 = Bootstrap: hidden on Small devices (sm, Tablets)
+            #1012 = Bootstrap: hidden on Medium devices (md, Desktops)
+            #1013 = Bootstrap: hidden on Large devices (lg, Desktops)
 
-            1020 = Bootstrap: only visible on Extra small devices (xs, Phones)
-            1021 = Bootstrap: only visible on Small devices (sm, Tablets)
-            1022 = Bootstrap: only visible on Medium devices (md, Desktops)
-            1023 = Bootstrap: only visible on Large devices (lg, Desktops)
+            #1020 = Bootstrap: only visible on Extra small devices (xs, Phones)
+            #1021 = Bootstrap: only visible on Small devices (sm, Tablets)
+            #1022 = Bootstrap: only visible on Medium devices (md, Desktops)
+            #1023 = Bootstrap: only visible on Large devices (lg, Desktops)
         }
     }
 }
