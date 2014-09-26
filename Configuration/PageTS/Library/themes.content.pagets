@@ -1,12 +1,13 @@
 themes {
 	content {
+		
+		# Variants for content elements
 		variants {
 			default {
 				alert-success = Bootstrap: alert-success
 				alert-info = Bootstrap: alert-info
 				alert-warning = Bootstrap: alert-warning
 				alert-danger = Bootstrap: alert-danger
-				container = Container
 				page-header = Page-Header
 				showcase = Jumbotron
 				framed-box = Well
@@ -15,6 +16,7 @@ themes {
 			}
 		}
 		
+		# Responsive content element settings
 		responsive {
 			default {
 				medium {
@@ -51,5 +53,13 @@ themes {
 				}
 			}
 		}
+
+		# Behavior for content elements
+		behavior {
+			default {
+				container = Container
+			}
+		}
+		
 	}
 }

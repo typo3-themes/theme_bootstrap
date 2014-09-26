@@ -21,24 +21,24 @@ lib.menu.special.1 {
 #lib.menu.special.1 {
 	
 	
-	stdWrapHtmlSpecialChars = 0
-	wrapHtmlSpecialChars    = 0
-	NO.wrapItemAndSub.insertData = 1
-	NO.wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
-	NO.stdWrapHtmlSpecialChars = 0
-	NO.wrapHtmlSpecialChars    = 0
+	#stdWrapHtmlSpecialChars = 0
+	#wrapHtmlSpecialChars    = 0
+	#NO.wrapItemAndSub.insertData = 1
+	#NO.wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
+	#NO.stdWrapHtmlSpecialChars = 0
+	#NO.wrapHtmlSpecialChars    = 0
 	NO.stdWrap.field = title
 	NO.before = <span class="menu-heading">
 	NO.after = </span>
 	NO.doNotLinkIt = 0
-	ACT < .NO
-	ACT = 1
-	ACT {
-		wrapItemAndSub.insertData = 1
-		wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
-		stdWrapHtmlSpecialChars = 0
-		wrapHtmlSpecialChars = 0
-	}
+	#ACT < .NO
+	#ACT = 1
+	#ACT {
+	#	wrapItemAndSub.insertData = 1
+	#	wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
+	#	stdWrapHtmlSpecialChars = 0
+	#	wrapHtmlSpecialChars = 0
+	#}
 
 	expAll = 1
 	stdWrapHtmlSpecialChars = 0
