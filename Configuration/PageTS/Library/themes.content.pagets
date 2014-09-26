@@ -4,15 +4,17 @@ themes {
 		# Variants for content elements
 		variants {
 			default {
-				alert-success = Bootstrap: alert-success
-				alert-info = Bootstrap: alert-info
-				alert-warning = Bootstrap: alert-warning
-				alert-danger = Bootstrap: alert-danger
-				page-header = Page-Header
+				alert-success = Alert-Success
+				alert-info = Alert-Info
+				alert-warning = Alert-Warning
+				alert-danger = Alert-Danger
 				showcase = Jumbotron
 				framed-box = Well
 				framed-box-small = Well (small)
 				framed-box-large = Well (large)
+			}
+			header {
+				page-header = Page-Header
 			}
 		}
 		
@@ -52,12 +54,69 @@ themes {
 					}
 				}
 			}
+
+			# Special settings for GridElements
+			# Used by ctype gridelements_pi1
+			# Will be merged with default
+			gridelements_pi1 {
+				medium {
+					rowSettings {
+						equalHeight = equal height
+						realHeight = real height
+					}
+					columnSettings {
+						offset = Offset
+						pull = Pull
+						push = Push
+						width = Width
+					}
+				}
+				small {
+					rowSettings {
+						equalHeight = equal height
+						realHeight = real height
+					}
+					columnSettings {
+						offset = Offset
+						pull = Pull
+						push = Push
+						width = Width
+					}
+				}
+				extrasmall {
+					rowSettings {
+						equalHeight = equal height
+						realHeight = real height
+					}
+					columnSettings {
+						offset = Offset
+						pull = Pull
+						push = Push
+						width = Width
+					}
+				}
+				large {
+					label = Large devices GRID
+					rowSettings {
+						equalHeight = equal height
+						realHeight = real height
+					}
+					columnSettings {
+						offset = Offset
+						pull = Pull
+						push = Push
+						width = Width
+					}
+				}
+			}
+			
 		}
 
 		# Behavior for content elements
 		behavior {
 			default {
 				container = Container
+				parallax = Parallax
 			}
 		}
 		

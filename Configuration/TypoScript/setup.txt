@@ -1,11 +1,12 @@
 lib.cssClassMap {
 	visbility-medium-default = col-md-6
 
-	alert-success = alert alert-success
-	alert-info = alert alert-info
-	alert-warning = alert alert-warning
-	alert-danger = alert alert-danger
+	variants-alert-success = alert alert-success
+	variants-alert-info = alert alert-info
+	variants-alert-warning = alert alert-warning
+	variants-alert-danger = alert alert-danger
 
+	variants-page-header = page-header
 }
 
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:themes_gridelements/Configuration/TypoScript/setup.txt">
