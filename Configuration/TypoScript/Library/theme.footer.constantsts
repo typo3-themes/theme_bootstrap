@@ -14,11 +14,11 @@ themes.configuration.footer.address = TYPO3-Themes: Inspire people to share
 # cat=footer; type=string; label= Footer E-Mail address
 themes.configuration.footer.email = info@typo3-themes.org
 
-# cat=footer; type=string; label= Path and filename for footer logo (fileadmin/.../logo.png)
+# cat=footer; type=string; label= Footer logo: Path and filename (fileadmin/.../logo.png)
 themes.configuration.footer.logo.file = EXT:theme_bootstrap/Resources/Public/Images/logo.png
 
-# cat=footer; type=int+; label= Width of footer logo
+# cat=footer; type=int+; label= Footer logo: Width
 themes.configuration.footer.logo.width = 110
 
-# cat=footer; type=int+; label= Height of footer logo
+# cat=footer; type=int+; label= Footer logo: Height
 themes.configuration.footer.logo.height = 89

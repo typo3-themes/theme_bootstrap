@@ -12,13 +12,13 @@
 					The menu column will slide to top and the sidebar to bottom
 					when it switch into mobile view.  -->
 
-				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+				<div id="contentMenu" class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
 					<f:render partial="MenuContent" section="Default" />
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-7 col-md-push-3 col-lg-7 col-lg-push-3">
+				<div id="contentMain" class="col-xs-12 col-sm-12 col-md-7 col-md-push-3 col-lg-7 col-lg-push-3">
 					<f:render partial="MainContent" section="Default" />
 				</div>
-				<aside class="col-xs-12 col-sm-12 col-md-3 col-md-pull-7 col-lg-3 col-lg-pull-7">
+				<aside id="contentSidebar" class="col-xs-12 col-sm-12 col-md-3 col-md-pull-7 col-lg-3 col-lg-pull-7">
 					<f:render partial="SidebarContent" section="Default" />
 				</aside>
 
