@@ -34,7 +34,7 @@ lib.cssAllMap {
 	responsive-large-hidden = hidden-lg
 }
 
-lib.cssBehaviorMap {
+lib.cssBehaviourMap {
 	behaviour-container = container
 	behaviour-parallax = parallax
 }

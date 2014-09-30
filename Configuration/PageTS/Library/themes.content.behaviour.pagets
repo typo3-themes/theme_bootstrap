@@ -1,0 +1,12 @@
+themes {
+	content {
+		# Behaviour for content elements
+		behaviour {
+			default {
+				container = Container
+				parallax = Parallax
+			}
+		}
+		
+	}
+}

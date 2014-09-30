@@ -1,0 +1,23 @@
+themes {
+	content {
+		# Variants for content elements
+		variants {
+			default {
+				alert-success = Alert-Success
+				alert-info = Alert-Info
+				alert-warning = Alert-Warning
+				alert-danger = Alert-Danger
+				showcase = Jumbotron
+				framed-box = Well
+				framed-box-small = Well (small)
+				framed-box-large = Well (large)
+			}
+			# Special variant for Header
+			# Used by ctype header
+			# Will be merged with default
+			header {
+				page-header = Page-Header
+			}
+		}
+	}
+}
