@@ -1,12 +1,285 @@
-lib.cssClassMap {
-	visbility-medium-default = col-md-6
-
+lib.cssAllMap {
+	#Variants available for each element
 	variants-alert-success = alert alert-success
 	variants-alert-info = alert alert-info
 	variants-alert-warning = alert alert-warning
 	variants-alert-danger = alert alert-danger
+	variants-showcase = jumbotron
+	variants-framed-box = well
+	variants-framed-box-small = well well-sm
+	variants-framed-box-large = well well-lg
 
-	variants-page-header = page-header
+	#Medium Size Visibility for each element
+	responsive-medium-inline = visible-md-inline
+	responsive-medium-inlineblock = visible-md-inline-block
+	responsive-medium-block = visible-md-block
+	responsive-medium-hidden = hidden-md
+
+	#Small Size Visibility for each element
+	responsive-small-inline = visible-sm-inline
+	responsive-small-inlineblock = visible-sm-inline-block
+	responsive-small-block = visible-sm-block
+	responsive-small-hidden = hidden-sm
+
+	#Extra Small Size Visibility for each element
+	responsive-extrasmall-inline = visible-xs-inline
+	responsive-extrasmall-inlineblock = visible-xs-inline-block
+	responsive-extrasmall-block = visible-xs-block
+	responsive-extrasmall-hidden = hidden-xs
+
+	#Extra Large Size Visibility for each element
+	responsive-large-inline = visible-lg-inline
+	responsive-large-inlineblock = visible-lg-inline-block
+	responsive-large-block = visible-lg-block
+	responsive-large-hidden = hidden-lg
+}
+
+lib.cssBehaviorMap {
+	behaviour-container = container
+	behaviour-parallax = parallax
+}
+
+lib.cssRowMap {
+	responsive-medium-equalHeight = container container-md-height
+	responsive-medium-equalHeight.additional = row row-md-height
+	responsive-small-equalHeight = container container-sm-height
+	responsive-small-equalHeight.additional = row row-md-height
+	responsive-extrasmall-equalHeight = container container-xs-height
+	responsive-extrasmall-equalHeight.additional = row row-xs-height
+	responsive-large-equalHeight = container container-lg-height
+	responsive-large-equalHeight.additional = row row-lg-height
+}
+
+lib.cssColumnMap {
+	#Special settings for columns inside rows with equal height set
+	responsive-medium-equalColumnHeight = col-md-height
+	responsive-small-equalColumnHeight = col-sm-height
+	responsive-extrasmall-equalColumnHeight = col-xs-height
+	responsive-large-equalColumnHeight = col-lg-height
+
+	#Medium Size Width
+	responsive-medium-width-1 = col-md-1
+	responsive-medium-width-2 = col-md-2
+	responsive-medium-width-3 = col-md-3
+	responsive-medium-width-4 = col-md-4
+	responsive-medium-width-5 = col-md-5
+	responsive-medium-width-6 = col-md-6
+	responsive-medium-width-7 = col-md-7
+	responsive-medium-width-8 = col-md-8
+	responsive-medium-width-9 = col-md-9
+	responsive-medium-width-10 = col-md-10
+	responsive-medium-width-11 = col-md-11
+	responsive-medium-width-12 = col-md-12
+
+	#Medium Size Offset
+	responsive-medium-offset-1 = col-md-offset-1
+	responsive-medium-offset-2 = col-md-offset-2
+	responsive-medium-offset-3 = col-md-offset-3
+	responsive-medium-offset-4 = col-md-offset-4
+	responsive-medium-offset-5 = col-md-offset-5
+	responsive-medium-offset-6 = col-md-offset-6
+	responsive-medium-offset-7 = col-md-offset-7
+	responsive-medium-offset-8 = col-md-offset-8
+	responsive-medium-offset-9 = col-md-offset-9
+	responsive-medium-offset-10 = col-md-offset-10
+	responsive-medium-offset-11 = col-md-offset-11
+	responsive-medium-offset-12 = col-md-offset-12
+
+	#Medium Size Move Left
+	responsive-medium-pull-1 = col-md-pull-1
+	responsive-medium-pull-2 = col-md-pull-2
+	responsive-medium-pull-3 = col-md-pull-3
+	responsive-medium-pull-4 = col-md-pull-4
+	responsive-medium-pull-5 = col-md-pull-5
+	responsive-medium-pull-6 = col-md-pull-6
+	responsive-medium-pull-7 = col-md-pull-7
+	responsive-medium-pull-8 = col-md-pull-8
+	responsive-medium-pull-9 = col-md-pull-9
+	responsive-medium-pull-10 = col-md-pull-10
+	responsive-medium-pull-11 = col-md-pull-11
+	responsive-medium-pull-12 = col-md-pull-12
+
+	#Medium Size Move Right
+	responsive-medium-push-1 = col-md-push-1
+	responsive-medium-push-2 = col-md-push-2
+	responsive-medium-push-3 = col-md-push-3
+	responsive-medium-push-4 = col-md-push-4
+	responsive-medium-push-5 = col-md-push-5
+	responsive-medium-push-6 = col-md-push-6
+	responsive-medium-push-7 = col-md-push-7
+	responsive-medium-push-8 = col-md-push-8
+	responsive-medium-push-9 = col-md-push-9
+	responsive-medium-push-10 = col-md-push-10
+	responsive-medium-push-11 = col-md-push-11
+	responsive-medium-push-12 = col-md-push-12
+
+	#Small Size Width
+	responsive-small-width-1 = col-sm-1
+	responsive-small-width-2 = col-sm-2
+	responsive-small-width-3 = col-sm-3
+	responsive-small-width-4 = col-sm-4
+	responsive-small-width-5 = col-sm-5
+	responsive-small-width-6 = col-sm-6
+	responsive-small-width-7 = col-sm-7
+	responsive-small-width-8 = col-sm-8
+	responsive-small-width-9 = col-sm-9
+	responsive-small-width-10 = col-sm-10
+	responsive-small-width-11 = col-sm-11
+	responsive-small-width-12 = col-sm-12
+
+	#Small Size Offset
+	responsive-small-offset-1 = col-sm-offset-1
+	responsive-small-offset-2 = col-sm-offset-2
+	responsive-small-offset-3 = col-sm-offset-3
+	responsive-small-offset-4 = col-sm-offset-4
+	responsive-small-offset-5 = col-sm-offset-5
+	responsive-small-offset-6 = col-sm-offset-6
+	responsive-small-offset-7 = col-sm-offset-7
+	responsive-small-offset-8 = col-sm-offset-8
+	responsive-small-offset-9 = col-sm-offset-9
+	responsive-small-offset-10 = col-sm-offset-10
+	responsive-small-offset-11 = col-sm-offset-11
+	responsive-small-offset-12 = col-sm-offset-12
+
+	#Small Size Move Left
+	responsive-small-pull-1 = col-sm-pull-1
+	responsive-small-pull-2 = col-sm-pull-2
+	responsive-small-pull-3 = col-sm-pull-3
+	responsive-small-pull-4 = col-sm-pull-4
+	responsive-small-pull-5 = col-sm-pull-5
+	responsive-small-pull-6 = col-sm-pull-6
+	responsive-small-pull-7 = col-sm-pull-7
+	responsive-small-pull-8 = col-sm-pull-8
+	responsive-small-pull-9 = col-sm-pull-9
+	responsive-small-pull-10 = col-sm-pull-10
+	responsive-small-pull-11 = col-sm-pull-11
+	responsive-small-pull-12 = col-sm-pull-12
+
+	#Small Size Move Right
+	responsive-small-push-1 = col-sm-push-1
+	responsive-small-push-2 = col-sm-push-2
+	responsive-small-push-3 = col-sm-push-3
+	responsive-small-push-4 = col-sm-push-4
+	responsive-small-push-5 = col-sm-push-5
+	responsive-small-push-6 = col-sm-push-6
+	responsive-small-push-7 = col-sm-push-7
+	responsive-small-push-8 = col-sm-push-8
+	responsive-small-push-9 = col-sm-push-9
+	responsive-small-push-10 = col-sm-push-10
+	responsive-small-push-11 = col-sm-push-11
+	responsive-small-push-12 = col-sm-push-12
+
+	#Extra Small Size Width
+	responsive-extrasmall-width-1 = col-xs-1
+	responsive-extrasmall-width-2 = col-xs-2
+	responsive-extrasmall-width-3 = col-xs-3
+	responsive-extrasmall-width-4 = col-xs-4
+	responsive-extrasmall-width-5 = col-xs-5
+	responsive-extrasmall-width-6 = col-xs-6
+	responsive-extrasmall-width-7 = col-xs-7
+	responsive-extrasmall-width-8 = col-xs-8
+	responsive-extrasmall-width-9 = col-xs-9
+	responsive-extrasmall-width-10 = col-xs-10
+	responsive-extrasmall-width-11 = col-xs-11
+	responsive-extrasmall-width-12 = col-xs-12
+
+	#Extra Small Offset
+	responsive-extrasmall-offset-1 = col-xs-offset-1
+	responsive-extrasmall-offset-2 = col-xs-offset-2
+	responsive-extrasmall-offset-3 = col-xs-offset-3
+	responsive-extrasmall-offset-4 = col-xs-offset-4
+	responsive-extrasmall-offset-5 = col-xs-offset-5
+	responsive-extrasmall-offset-6 = col-xs-offset-6
+	responsive-extrasmall-offset-7 = col-xs-offset-7
+	responsive-extrasmall-offset-8 = col-xs-offset-8
+	responsive-extrasmall-offset-9 = col-xs-offset-9
+	responsive-extrasmall-offset-10 = col-xs-offset-10
+	responsive-extrasmall-offset-11 = col-xs-offset-11
+	responsive-extrasmall-offset-12 = col-xs-offset-12
+
+	#Extra Small Move Left
+	responsive-extrasmall-pull-1 = col-xs-pull-1
+	responsive-extrasmall-pull-2 = col-xs-pull-2
+	responsive-extrasmall-pull-3 = col-xs-pull-3
+	responsive-extrasmall-pull-4 = col-xs-pull-4
+	responsive-extrasmall-pull-5 = col-xs-pull-5
+	responsive-extrasmall-pull-6 = col-xs-pull-6
+	responsive-extrasmall-pull-7 = col-xs-pull-7
+	responsive-extrasmall-pull-8 = col-xs-pull-8
+	responsive-extrasmall-pull-9 = col-xs-pull-9
+	responsive-extrasmall-pull-10 = col-xs-pull-10
+	responsive-extrasmall-pull-11 = col-xs-pull-11
+	responsive-extrasmall-pull-12 = col-xs-pull-12
+
+	#Extra Small Move Right
+	responsive-extrasmall-push-1 = col-xs-push-1
+	responsive-extrasmall-push-2 = col-xs-push-2
+	responsive-extrasmall-push-3 = col-xs-push-3
+	responsive-extrasmall-push-4 = col-xs-push-4
+	responsive-extrasmall-push-5 = col-xs-push-5
+	responsive-extrasmall-push-6 = col-xs-push-6
+	responsive-extrasmall-push-7 = col-xs-push-7
+	responsive-extrasmall-push-8 = col-xs-push-8
+	responsive-extrasmall-push-9 = col-xs-push-9
+	responsive-extrasmall-push-10 = col-xs-push-10
+	responsive-extrasmall-push-11 = col-xs-push-11
+	responsive-extrasmall-push-12 = col-xs-push-12
+
+	#Large Size Width
+	responsive-large-width-1 = col-lg-1
+	responsive-large-width-2 = col-lg-2
+	responsive-large-width-3 = col-lg-3
+	responsive-large-width-4 = col-lg-4
+	responsive-large-width-5 = col-lg-5
+	responsive-large-width-6 = col-lg-6
+	responsive-large-width-7 = col-lg-7
+	responsive-large-width-8 = col-lg-8
+	responsive-large-width-9 = col-lg-9
+	responsive-large-width-10 = col-lg-10
+	responsive-large-width-11 = col-lg-11
+	responsive-large-width-12 = col-lg-12
+
+	#Large Size Offset
+	responsive-large-offset-1 = col-lg-offset-1
+	responsive-large-offset-2 = col-lg-offset-2
+	responsive-large-offset-3 = col-lg-offset-3
+	responsive-large-offset-4 = col-lg-offset-4
+	responsive-large-offset-5 = col-lg-offset-5
+	responsive-large-offset-6 = col-lg-offset-6
+	responsive-large-offset-7 = col-lg-offset-7
+	responsive-large-offset-8 = col-lg-offset-8
+	responsive-large-offset-9 = col-lg-offset-9
+	responsive-large-offset-10 = col-lg-offset-10
+	responsive-large-offset-11 = col-lg-offset-11
+	responsive-large-offset-12 = col-lg-offset-12
+
+	#Large Size Move Left
+	responsive-large-pull-1 = col-lg-pull-1
+	responsive-large-pull-2 = col-lg-pull-2
+	responsive-large-pull-3 = col-lg-pull-3
+	responsive-large-pull-4 = col-lg-pull-4
+	responsive-large-pull-5 = col-lg-pull-5
+	responsive-large-pull-6 = col-lg-pull-6
+	responsive-large-pull-7 = col-lg-pull-7
+	responsive-large-pull-8 = col-lg-pull-8
+	responsive-large-pull-9 = col-lg-pull-9
+	responsive-large-pull-10 = col-lg-pull-10
+	responsive-large-pull-11 = col-lg-pull-11
+	responsive-large-pull-12 = col-lg-pull-12
+
+	#Large Size Move Right
+	responsive-large-push-1 = col-lg-push-1
+	responsive-large-push-2 = col-lg-push-2
+	responsive-large-push-3 = col-lg-push-3
+	responsive-large-push-4 = col-lg-push-4
+	responsive-large-push-5 = col-lg-push-5
+	responsive-large-push-6 = col-lg-push-6
+	responsive-large-push-7 = col-lg-push-7
+	responsive-large-push-8 = col-lg-push-8
+	responsive-large-push-9 = col-lg-push-9
+	responsive-large-push-10 = col-lg-push-10
+	responsive-large-push-11 = col-lg-push-11
+	responsive-large-push-12 = col-lg-push-12
 }
 
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:themes_gridelements/Configuration/TypoScript/setup.txt">

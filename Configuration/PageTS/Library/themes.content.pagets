@@ -61,8 +61,8 @@ themes {
 			gridelements_pi1 {
 				medium {
 					rowSettings {
-						equalHeight = equal height
 						realHeight = real height
+						equalHeight = equal height
 					}
 					columnSettings {
 						offset = Offset
@@ -73,8 +73,8 @@ themes {
 				}
 				small {
 					rowSettings {
-						equalHeight = equal height
 						realHeight = real height
+						equalHeight = equal height
 					}
 					columnSettings {
 						offset = Offset
@@ -85,8 +85,8 @@ themes {
 				}
 				extrasmall {
 					rowSettings {
-						equalHeight = equal height
 						realHeight = real height
+						equalHeight = equal height
 					}
 					columnSettings {
 						offset = Offset
@@ -98,8 +98,8 @@ themes {
 				large {
 					label = Large devices GRID
 					rowSettings {
-						equalHeight = equal height
 						realHeight = real height
+						equalHeight = equal height
 					}
 					columnSettings {
 						offset = Offset
