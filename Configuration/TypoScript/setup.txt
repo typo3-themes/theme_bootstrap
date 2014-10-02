@@ -40,23 +40,28 @@ lib.cssBehaviourMap {
 }
 
 lib.cssRowMap {
+	repsonsice-default-row = row
 	responsive-medium-equalHeight = container container-md-height
-	responsive-medium-equalHeight.additional = row row-md-height
 	responsive-small-equalHeight = container container-sm-height
-	responsive-small-equalHeight.additional = row row-md-height
 	responsive-extrasmall-equalHeight = container container-xs-height
-	responsive-extrasmall-equalHeight.additional = row row-xs-height
 	responsive-large-equalHeight = container container-lg-height
-	responsive-large-equalHeight.additional = row row-lg-height
+}
+
+lib.cssRowEqualHeightMap {
+	responsive-medium-equalHeight = row row-md-height
+	responsive-small-equalHeight = row row-sm-height
+	responsive-extrasmall-equalHeight = row row-xs-height
+	responsive-large-equalHeight = row row-lg-height
+}
+
+lib.cssColumnEqualHeightMap {
+	responsive-medium-equalHeight = col-md-height
+	responsive-small-equalHeight = col-sm-height
+	responsive-extrasmall-equalHeight = col-xs-height
+	responsive-large-equalHeight = col-lg-height
 }
 
 lib.cssColumnMap {
-	#Special settings for columns inside rows with equal height set
-	responsive-medium-equalColumnHeight = col-md-height
-	responsive-small-equalColumnHeight = col-sm-height
-	responsive-extrasmall-equalColumnHeight = col-xs-height
-	responsive-large-equalColumnHeight = col-lg-height
-
 	#Medium Size Width
 	responsive-medium-width-1 = col-md-1
 	responsive-medium-width-2 = col-md-2
