@@ -6,7 +6,7 @@
 		<div class="container">
 			<div class="navbar-header">
 				<div id="logoWrapper" class="navbar-brand">
-					<h1><f:cObject typoscriptObjectPath="lib.logo" /></h1>
+					<f:cObject typoscriptObjectPath="lib.header.logo.main" />
 				</div>
 				<button data-target="#navbar-main" data-toggle="collapse" type="button" class="navbar-toggle">
 					<span class="icon-bar"></span>
@@ -34,7 +34,7 @@
 	</div>
 
 	<div class="container">
-		<section id="areaTeaser" class="page-header">
+		<section id="areaFeature" class="page-header">
 			<f:cObject typoscriptObjectPath="lib.content.feature" />
 		</section>
 
@@ -60,7 +60,7 @@
 
 			<div class="col-md-6">
 				<div id="footerLogo">
-					<f:cObject typoscriptObjectPath="lib.footer.logo" />
+					<f:cObject typoscriptObjectPath="lib.footer.logo.main" />
 				</div>
 			</div>
 
@@ -82,7 +82,7 @@
 					<li class="email">
 						<f:link.email email="{theme:constant(constant: 'themes.configuration.footer.email')}">{theme:constant(constant: 'themes.configuration.footer.email')}</f:link.email></li>
 					<li>|</li>
-					<f:cObject typoscriptObjectPath="lib.copyright" />
+					<f:cObject typoscriptObjectPath="lib.footer.copyright" />
 				</ul>
 			</div>
 		</div>

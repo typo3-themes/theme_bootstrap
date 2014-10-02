@@ -1,9 +1,0 @@
-#############################################
-# Basic: Spam protect email addresses constants
-#############################################
-
-# cat=theme; type=string; label= E-Mail spam protection: @ replacement
-themes.configuration.spamProtectEmailAddresses.atSubst = (at)
-
-# cat=theme; type=string; label= E-Mail spam protection: Last dot replacement
-themes.configuration.spamProtectEmailAddresses.lastDotSubst = (dot)

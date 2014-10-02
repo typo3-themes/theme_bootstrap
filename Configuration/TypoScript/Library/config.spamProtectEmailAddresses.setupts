@@ -1,3 +1,0 @@
-config.spamProtectEmailAddresses = 2
-config.spamProtectEmailAddresses_atSubst = {$themes.configuration.spamProtectEmailAddresses.atSubst}
-config.spamProtectEmailAddresses_lastDotSubst = {$themes.configuration.spamProtectEmailAddresses.lastDotSubst}

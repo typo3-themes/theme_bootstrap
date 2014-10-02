@@ -1,6 +1,0 @@
-lib.copyright = TEXT
-lib.copyright {
-	data = date:U
-	strftime = %Y
-	noTrimWrap= |<li class="copyright"><span>{$themes.configuration.footer.copyrightLeftLabel} | {$themes.configuration.footer.copyrightRightLabel}</span></li>|
-}
