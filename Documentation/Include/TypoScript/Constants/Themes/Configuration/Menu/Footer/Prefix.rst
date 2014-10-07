@@ -11,7 +11,7 @@
 		menu
 
 	Description
-		Menu footer: Prefix for the menu items (for example: <span class="glyphicon glyphicon glyphicon-chevron-right"></span>)
+		Menu footer: Prefix for the menu items (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
 
 	Default
 		none
@@ -20,5 +20,5 @@
 		theme_bootstrap
 
 	Definition
-		# cat=menu; type=string; label= Menu footer: Prefix for menu items (for example: <span class="glyphicon glyphicon glyphicon-chevron-right"></span>)
+		# cat=menu; type=string; label= Menu footer: Prefix for menu items (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
 		themes.configuration.menu.footer.prefix = :&nbsp;

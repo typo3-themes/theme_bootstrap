@@ -9,7 +9,7 @@
 # cat=menu; type=string; label= Menu top: Exclude uid list (12,13,...)
 themes.configuration.menu.top.excludeUidList =
 
-# cat=menu; type=string; label= Menu top: Prefix for each menu item (for example: <span class="glyphicon glyphicon glyphicon-chevron-right"></span>)
+# cat=menu; type=string; label= Menu top: Prefix for each menu item (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
 themes.configuration.menu.top.prefix = 
 
 # cat=menu; type=int+; label= Menu top: Container pid where the menu items are located
@@ -53,10 +53,10 @@ themes.configuration.menu.special.includeNotInMenu = 0
 # cat=menu; type=string; label= Menu special: CSS classes
 themes.configuration.menu.special.cssClasses = nav navbar-nav
 
-# cat=menu; type=string; label= Menu special: Prefix for each menu item in first entry level (for example: <span class="glyphicon glyphicon glyphicon-chevron-right"></span>)
+# cat=menu; type=string; label= Menu special: Prefix for each menu item in first entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
 themes.configuration.menu.footer.prefixFirstLevel = 
 
-# cat=menu; type=string; label= Menu special: Prefix for each menu item in second entry level (for example: <span class="glyphicon glyphicon glyphicon-chevron-right"></span>)
+# cat=menu; type=string; label= Menu special: Prefix for each menu item in second entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
 themes.configuration.menu.footer.prefixSecondLevel = 
 
 
@@ -67,7 +67,7 @@ themes.configuration.menu.footer.prefixSecondLevel =
 # cat=menu; type=string; label= Menu footer: Exclude uid list (12,13,...)
 themes.configuration.menu.footer.excludeUidList =
 
-# cat=menu; type=string; label= Menu footer: Prefix for each menu item (for example: <span class="glyphicon glyphicon glyphicon-chevron-right"></span>)
+# cat=menu; type=string; label= Menu footer: Prefix for each menu item (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
 themes.configuration.menu.footer.prefix = 
 
 # cat=menu; type=int+; label= Menu footer: Container pid where the menu items are located
