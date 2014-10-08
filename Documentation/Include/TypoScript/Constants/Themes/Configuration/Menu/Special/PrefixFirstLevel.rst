@@ -11,14 +11,14 @@
 		menu
 
 	Description
-		CSS-Classes for the ul-Tag of the top menu
+		Menu special: Prefix for each menu item in first entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
 
 	Default
-		nav navbar-nav
+		none
 
 	Provided by ext
 		theme_bootstrap
 
 	Definition
-		# cat=menu; type=string; label= Menu top: CSS classes
-		themes.configuration.menu.top.cssClasses = nav navbar-nav
+		# cat=menu; type=string; label= Menu special: Prefix for each menu item in first entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
+		themes.configuration.menu.special.prefixFirstLevel =

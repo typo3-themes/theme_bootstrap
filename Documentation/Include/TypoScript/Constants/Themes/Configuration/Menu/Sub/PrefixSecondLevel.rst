@@ -2,7 +2,7 @@
 .. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
 
 	Property
-		``special.prefixSecondLevel``
+		``sub.prefixSecondLevel``
 
 	Data type
 		string
@@ -20,5 +20,5 @@
 		theme_bootstrap
 
 	Definition
-		# cat=menu; type=string; label= Menu special: Prefix for each menu item in second entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
-		themes.configuration.menu.special.prefixSecondLevel = 
+		# cat=menu; type=string; label= Menu sub: Prefix for each menu item in second entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
+		themes.configuration.menu.sub.prefixSecondLevel = 

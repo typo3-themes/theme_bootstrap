@@ -2,7 +2,7 @@
 .. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
 
 	Property
-		``top.excludeUidList``
+		``special.excludeUidList``
 
 	Data type
 		string
@@ -11,7 +11,7 @@
 		menu
 
 	Description
-		Menu top: Exclude uid list (12,13,...)
+		Menu special: Exclude uid list (12,13,...)
 
 	Default
 		none
@@ -20,5 +20,5 @@
 		theme_bootstrap
 
 	Definition
-		# cat=menu; type=string; label= Menu top: Exclude uid list (12,13,...)
-		themes.configuration.menu.top.excludeUidList = 
+		# cat=menu; type=string; label= Menu special: Exclude uid list (12,13,...)
+		themes.configuration.menu.special.excludeUidList = 

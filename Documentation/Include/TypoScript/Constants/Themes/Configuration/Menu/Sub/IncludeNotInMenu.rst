@@ -2,7 +2,7 @@
 .. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
 
 	Property
-		``special.includeNotInMenu``
+		``sub.includeNotInMenu``
 
 	Data type
 		string
@@ -20,5 +20,5 @@
 		theme_bootstrap
 
 	Definition
-		# cat=menu; type=options[0,1]; label= Menu special: Include also items which are marked as 'include not in menu'
-		themes.configuration.menu.special.includeNotInMenu = :&nbsp;
+		# cat=menu; type=options[0,1]; label= Menu sub: Include also items which are marked as 'include not in menu'
+		themes.configuration.menu.sub.includeNotInMenu = :&nbsp;

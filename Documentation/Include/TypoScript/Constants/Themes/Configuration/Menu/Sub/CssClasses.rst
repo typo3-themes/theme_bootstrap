@@ -2,7 +2,7 @@
 .. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
 
 	Property
-		``special.cssClasses``
+		``sub.cssClasses``
 
 	Data type
 		string
@@ -11,14 +11,14 @@
 		menu
 
 	Description
-		CSS-Classes for the ul-Tag of the special menu
+		CSS-Classes for the ul-Tag of the sub menu
 
 	Default
-		nav navbar-nav
+		nav nav-pills nav-stacked
 
 	Provided by ext
 		theme_bootstrap
 
 	Definition
-		# cat=menu; type=string; label= Menu special: CSS classes
-		themes.configuration.menu.special.cssClasses = nav navbar-nav
+		# cat=menu; type=string; label= Menu sub: CSS classes
+		themes.configuration.menu.sub.cssClasses = nav nav-pills nav-stacked

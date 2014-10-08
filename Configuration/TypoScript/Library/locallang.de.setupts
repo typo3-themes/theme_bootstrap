@@ -5,6 +5,8 @@ plugin.tx_themes {
             breadcrumb_label = Sie sind hier
             imprint_label = Impressum
             quickSearch_label = Suche
+			topLink_label = nach oben
+			printLink_label = drucken
         }
     }
 }

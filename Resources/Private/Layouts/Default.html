@@ -32,7 +32,7 @@
 			</div>
 		</div>
 	</div>
-
+	<f:debug>{_all}</f:debug>
 	<div class="container">
 		<section id="areaFeature" class="page-header">
 			<f:cObject typoscriptObjectPath="lib.content.feature" />
@@ -51,41 +51,6 @@
 		</section>
 	</div>
 
-	<footer id="areaFooter">
-		<div class="container">
-
-			<div class="menu-special-wrapper col-md-12">
-				<f:cObject typoscriptObjectPath="lib.menu.special" />
-			</div>
-
-			<div class="col-md-6">
-				<div id="footerLogo">
-					<f:cObject typoscriptObjectPath="lib.footer.logo.main" />
-				</div>
-			</div>
-
-			<div class="col-md-6">
-				<div class="menu-footer-wrapper">
-					<f:cObject typoscriptObjectPath="lib.menu.footer" />
-					</div>
-				<div class="socialmedia-list-wrapper">
-					<f:render partial="Socialmedia/List" section="Default" />
-				</div>
-			</div>
-
-			<div class="footer-line-wrapper col-md-12">
-				<ul class="footer-line list-inline">
-					<li class="address">
-						<span><f:format.htmlentitiesDecode>{theme:constant(constant: 'themes.configuration.footer.address')}</f:format.htmlentitiesDecode></span>
-					</li>
-					<li>|</li>
-					<li class="email">
-						<f:link.email email="{theme:constant(constant: 'themes.configuration.footer.email')}">{theme:constant(constant: 'themes.configuration.footer.email')}</f:link.email></li>
-					<li>|</li>
-					<f:cObject typoscriptObjectPath="lib.footer.copyright" />
-				</ul>
-			</div>
-		</div>
-	</footer>
+	<f:render partial="Area/Footer" section="Default" arguments="{_all}" />
 </div>
 <!-- theme_bootstrap: Layouts/Default.html [end] -->

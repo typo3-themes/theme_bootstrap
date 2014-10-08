@@ -40,6 +40,18 @@ themes.configuration.menu.main.excludeUidList =
 # cat=menu; type=string; label= Menu sub: Exclude uid list (12,13,...)
 themes.configuration.menu.sub.excludeUidList =
 
+# cat=menu; type=options[0,1]; label= Menu sub: Include also items which are marked as 'include not in menu'
+themes.configuration.menu.sub.includeNotInMenu = 0
+
+# cat=menu; type=string; label= Menu sub: CSS classes
+themes.configuration.menu.sub.cssClasses = nav nav-pills nav-stacked
+
+# cat=menu; type=string; label= Menu sub: Prefix for each menu item in first entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
+themes.configuration.menu.sub.prefixFirstLevel = 
+
+# cat=menu; type=string; label= Menu sub: Prefix for each menu item in second entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
+themes.configuration.menu.sub.prefixSecondLevel = 
+
 
 
 # Menu special
@@ -54,10 +66,10 @@ themes.configuration.menu.special.includeNotInMenu = 0
 themes.configuration.menu.special.cssClasses = nav navbar-nav
 
 # cat=menu; type=string; label= Menu special: Prefix for each menu item in first entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
-themes.configuration.menu.footer.prefixFirstLevel = 
+themes.configuration.menu.special.prefixFirstLevel = 
 
 # cat=menu; type=string; label= Menu special: Prefix for each menu item in second entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
-themes.configuration.menu.footer.prefixSecondLevel = 
+themes.configuration.menu.special.prefixSecondLevel = 
 
 
 

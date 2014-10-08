@@ -1,4 +1,3 @@
-
 lib.menu.special = HMENU
 lib.menu.special.entryLevel = 0
 lib.menu.special.includeNotInMenu = {$themes.configuration.menu.special.includeNotInMenu}
