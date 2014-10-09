@@ -5,6 +5,8 @@ plugin.tx_themes {
             breadcrumb_label = You are here
             imprint_label = Imprint
             quickSearch_label = Search
+			topLink_label = Top
+			printLink_label = Print
         }
     }
 }

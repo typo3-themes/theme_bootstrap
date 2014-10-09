@@ -1,21 +1,22 @@
 lib.menu.top = HMENU
 lib.menu.top.special = directory
-lib.menu.top.special.value = {$themes.configuration.container.menuTop}
+lib.menu.top.special.value = {$themes.configuration.menu.top.containerPid}
+lib.menu.top.includeNotInMenu = {$themes.configuration.menu.top.includeNotInMenu}
 lib.menu.top.excludeUidList = {$themes.configuration.menu.top.excludeUidList}
-lib.menu.top.wrap    = <ul class="nav navbar-nav"> | </ul>
+lib.menu.top.wrap    = <ul class="{$themes.configuration.menu.top.cssClasses}"> | </ul>
 lib.menu.top.1 = TMENU
 lib.menu.top.1 {
-    expAll = 1
-    stdWrapHtmlSpecialChars = 0
-    wrapHtmlSpecialChars    = 0
-    NO.wrapItemAndSub.insertData = 1
-    NO.wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
-    NO.stdWrapHtmlSpecialChars = 0
-    NO.wrapHtmlSpecialChars    = 0
-    ACT < .NO
-    ACT = 1
-    ACT.wrapItemAndSub.insertData = 1
-    ACT.wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
-    ACT.stdWrapHtmlSpecialChars = 0
-    ACT.wrapHtmlSpecialChars    = 0
+	expAll = 1
+	stdWrapHtmlSpecialChars = 0
+	wrapHtmlSpecialChars    = 0
+	NO.wrapItemAndSub.insertData = 1
+	NO.wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.top.prefix}|</li>{$themes.configuration.menu.top.divider}|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.top.prefix}|</li>{$themes.configuration.menu.top.divider}|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.top.prefix}|</li>
+	NO.stdWrapHtmlSpecialChars = 0
+	NO.wrapHtmlSpecialChars    = 0
+	ACT < .NO
+	ACT = 1
+	ACT.wrapItemAndSub.insertData = 1
+	ACT.wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.top.prefix}|</li>{$themes.configuration.menu.top.divider}|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.top.prefix}|</li>{$themes.configuration.menu.top.divider}|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.top.prefix}|</li>
+	ACT.stdWrapHtmlSpecialChars = 0
+	ACT.wrapHtmlSpecialChars    = 0
 }

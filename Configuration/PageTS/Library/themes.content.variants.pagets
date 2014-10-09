@@ -7,10 +7,10 @@ themes {
 				alert-info = Alert-Info
 				alert-warning = Alert-Warning
 				alert-danger = Alert-Danger
-				showcase = Jumbotron
-				framed-box = Well
-				framed-box-small = Well (small)
-				framed-box-large = Well (large)
+				showcase = Showcase
+				framed-box = Framed box
+				framed-box-small = Framed box (small)
+				framed-box-large = Framed box (large)
 			}
 			# Special variant for Header
 			# Used by ctype header

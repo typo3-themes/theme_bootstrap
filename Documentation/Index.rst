@@ -1,44 +1,22 @@
-.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
+..  Editor configuration
+    ...................................................
+    * utf-8 with BOM as encoding
+    * tab indent with 4 characters for code snippet.
+    * optional: soft carriage return preferred.
 
+.. Includes roles, substitutions, ...
+.. include:: _IncludedDirectives.rst
 
-===========================
-Bootstrap Theme
-===========================
+==============================
+Themes-Bootstrap Documentation
+==============================
 
-:Rendered:
-      |today|
-
-:Classification:
-      theme_bootstrap
-
-:Keywords:
-      forEditors, forAdmins, forBeginners, forIntermediates
-
-:Author:
-      Kay Strobach
-
-:Email:
-      typo3@kay-strobach.de
-
-
-
-
-:Language:
-      en
-
-
+**Table of content**
 
 .. toctree::
-   :maxdepth: 5
-   :titlesonly:
-   :glob:
+    :maxdepth: 4
 
+    TypoScriptConstants
+    TypoScriptSetup
 
-   ../Resources/Private/Elements/Readme.rst
-   ../Resources/Private/TypoScript/Constants/Readme.rst
-   ../Resources/Private/TypoScript/Library/Readme.rst
-   ../Resources/Private/TypoScript/Nodes/Readme.rst
-   ../Resources/Private/TypoScript/Setup/Readme.rst
+.. include:: ../../themes/Documentation/Include/Global/Footer.rst

@@ -14,7 +14,7 @@ lib.menu.breadcrumb {
 	10 {
 		special = rootline
 		special.range = 0|-1
-		includeNotInMenu = 0
+		includeNotInMenu = {$themes.configuration.menu.breadcrumb.includeNotInMenu}
 		1 = TMENU
 		1 {
 			noBlur = 1

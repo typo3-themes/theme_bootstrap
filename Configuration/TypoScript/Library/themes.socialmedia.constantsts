@@ -1,0 +1,45 @@
+#############################################
+# Socialmedia constants
+#############################################
+
+
+
+# Twitter
+# cat=socialmedia; type=options[0,1]; label= Twitter: Activate?!
+themes.configuration.socialmedia.useTwitter = 0
+
+# cat=socialmedia; type=string; label= Twitter: Username, without @
+themes.configuration.socialmedia.twitterUsername = TYPO3THEMES
+
+
+
+# Facebook
+#############################################
+
+# cat=socialmedia; type=options[0,1]; label= Facebook: Activate?!
+themes.configuration.socialmedia.useFacebook = 0
+
+# cat=socialmedia; type=string; label= Facebook: Pagelink
+themes.configuration.socialmedia.facebookLink = https://www.facebook.com/typo3
+
+
+
+# RSS
+#############################################
+
+# cat=socialmedia; type=options[0,1]; label= RSS: Activate?!
+themes.configuration.socialmedia.useRss = 0
+
+# cat=socialmedia; type=string; label= RSS: Feedlink
+themes.configuration.socialmedia.rssLink = /xml-feeds/rss.xml
+
+
+
+# Google plus
+#############################################
+
+# cat=socialmedia; type=options[0,1]; label= Google+: Activate?!
+themes.configuration.socialmedia.useGooglePlus = 0
+
+# cat=socialmedia; type=string; label= Google+: Pagelink
+themes.configuration.socialmedia.googlePlusLink = https://plus.google.com/communities/100060687535829230492

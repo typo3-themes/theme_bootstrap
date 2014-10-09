@@ -1,13 +1,4 @@
 lib.cssAllMap {
-	#Variants available for each element
-	variants-alert-success = alert alert-success
-	variants-alert-info = alert alert-info
-	variants-alert-warning = alert alert-warning
-	variants-alert-danger = alert alert-danger
-	variants-showcase = jumbotron
-	variants-framed-box = well
-	variants-framed-box-small = well well-sm
-	variants-framed-box-large = well well-lg
 
 	#Medium Size Visibility for each element
 	responsive-medium-inline = visible-md-inline
@@ -34,10 +25,6 @@ lib.cssAllMap {
 	responsive-large-hidden = hidden-lg
 }
 
-lib.cssBehaviourMap {
-	behaviour-container = container
-	behaviour-parallax = parallax
-}
 
 lib.cssRowMap {
 	repsonsice-default-row = row
@@ -293,6 +280,7 @@ lib.cssColumnMap {
 
 # Extensions
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/News/TypoScript/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/Rtehtmlarea/TypoScript/setup.txt">
 
 page {
 	typeNum = 0

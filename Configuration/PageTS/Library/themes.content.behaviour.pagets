@@ -6,6 +6,9 @@ themes {
 				container = Container
 				parallax = Parallax
 			}
+			table {
+				table-responsive = Responsive Table
+			}
 		}
 		
 	}

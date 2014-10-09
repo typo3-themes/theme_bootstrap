@@ -1,0 +1,6 @@
+
+lib.cssBehaviourMap {
+	behaviour-container = container
+	behaviour-parallax = parallax
+	behaviour-table-responsive = table-responsive
+}

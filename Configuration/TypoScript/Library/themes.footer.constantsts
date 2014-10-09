@@ -1,0 +1,48 @@
+#############################################
+# Footer: Footer constants
+#############################################
+
+
+
+# General
+#############################################
+
+# cat=footer; type=string; label= Footer address
+themes.configuration.footer.address = TYPO3-Themes: Inspire people to share
+
+# cat=footer; type=string; label= Footer E-Mail address
+themes.configuration.footer.email = info@typo3-themes.org
+
+
+
+# Copyright
+#############################################
+
+# cat=footer; type=string; label= Copyright label in left of year
+themes.configuration.footer.copyright.leftLabel =
+
+# cat=footer; type=string; label= Copyright label in right of year
+themes.configuration.footer.copyright.rightLabel = &nbsp;&copy; TYPO3-Themes Team
+
+
+
+# Logo main
+#############################################
+
+# cat=footer; type=string; label= Footer logo: Path and filename (fileadmin/.../logo.png)
+themes.configuration.footer.logo.main.file = EXT:theme_bootstrap/Resources/Public/Images/logo.png
+
+# cat=footer; type=int+; label= Footer logo: Width
+themes.configuration.footer.logo.main.width = 110
+
+# cat=footer; type=int+; label= Footer logo: Height
+themes.configuration.footer.logo.main.height = 89
+
+# cat=footer; type=int+; label= Footer logo: Link UID footer logo
+themes.configuration.footer.logo.main.linkUid = {$themes.configuration.pages.startsite}
+
+# cat=footer; type=options[_blank,_self]; label= Footer logo: Link target footer logo
+themes.configuration.footer.logo.main.linkTarget = _self
+
+# cat=footer; type=string; label= Footer logo: Title footer logo
+themes.configuration.footer.logo.main.title = {$themes.configuration.siteName}
