@@ -27,7 +27,7 @@ lib.menu.main {
 		IFSUB < .NO
 		IFSUB {
 			wrapItemAndSub.insertData = 1
-			wrapItemAndSub = <li class="state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
+			wrapItemAndSub = <li class="dropdown state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="dropdown state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="dropdown state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
 			stdWrapHtmlSpecialChars = 0
 			wrapHtmlSpecialChars = 0
 			before = <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -37,7 +37,7 @@ lib.menu.main {
 		ACTIFSUB < .ACT
 		ACTIFSUB {
 			wrapItemAndSub.insertData = 1
-			wrapItemAndSub = <li class="state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
+			wrapItemAndSub = <li class="dropdown state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} first">|</li>|*|<li class="dropdown state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} middle">|</li>|*|<li class="dropdown state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} last">|</li>
 			stdWrapHtmlSpecialChars = 0
 			wrapHtmlSpecialChars = 0
 			before = <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -50,7 +50,7 @@ lib.menu.main {
 		expAll = 0
 		stdWrapHtmlSpecialChars = 0
 		wrapHtmlSpecialChars = 0
-		wrap = <ul role="menu" class="dropdown-menu"> | </ul>
+		wrap = <ul role="menu" class="dropdown-menu sub"> | </ul>
 		NO = 1
 		NO {
 			wrapItemAndSub.insertData = 1
