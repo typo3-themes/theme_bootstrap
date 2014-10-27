@@ -109,3 +109,6 @@ themes.configuration.menu.breadcrumb.cssClasses = list-inline
 
 # cat=menu; type=options[0,1]; label= Menu breadcrumb: Include also items which are marked as 'include not in menu'
 themes.configuration.menu.breadcrumb.includeNotInMenu = 0
+
+# cat=menu; type=string; label= Menu breadcrumb: Exclude uid list (12,13,...)
+themes.configuration.menu.breadcrumb.excludeUidList =

@@ -24,20 +24,20 @@ themes.configuration.colors.text = #000
 # Gray colors
 #############################################
 
-# cat=colors; type=color; label= Gray color
-themes.configuration.colors.gray = lighten(#000, 33.5%)
+# cat=colors; type=color; label= Gray color - lighten(#000, 33.5%)
+themes.configuration.colors.gray = #555555
 
-# cat=colors; type=color; label= Gray dark color
-themes.configuration.colors.grayDark = lighten(#000, 20%)
+# cat=colors; type=color; label= Gray dark color - lighten(#000, 20%)
+themes.configuration.colors.grayDark = #333333
 
-# cat=colors; type=color; label= Gray darker color
-themes.configuration.colors.grayDarker = lighten(#000, 13.5%)
+# cat=colors; type=color; label= Gray darker color - lighten(#000, 13.5%)
+themes.configuration.colors.grayDarker = #222222
 
-# cat=colors; type=color; label= Gray light color
-themes.configuration.colors.grayLight = lighten(#000, 46.7%)
+# cat=colors; type=color; label= Gray light color - lighten(#000, 46.7%)
+themes.configuration.colors.grayLight = #999999
 
-# cat=colors; type=color; label= Gray lighter color
-themes.configuration.colors.grayLighter = lighten(#000, 93.5%)
+# cat=colors; type=color; label= Gray lighter color - lighten(#000, 93.5%)
+themes.configuration.colors.grayLighter = #eeeeee
 
 
 

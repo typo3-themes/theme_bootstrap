@@ -25,7 +25,7 @@ keywords:
 
 # Constants categories which are used for constants in this theme
 constants:
-  availableCategories: [theme,colors,font,meta,page,container,slider,lightbox]
+  availableCategories: [theme,colors,font,meta,pages,container,slider,lightbox]
 
 # Screenshots for the preview gallery (optional, multiple possible)
 screenshots:
