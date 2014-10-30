@@ -73,7 +73,6 @@ themes.configuration.menu.special.prefixSecondLevel =
 
 
 
-
 # Menu footer
 #############################################
 # cat=menu; type=string; label= Menu footer: Exclude uid list (12,13,...)

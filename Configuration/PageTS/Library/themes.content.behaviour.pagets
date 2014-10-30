@@ -4,7 +4,7 @@ themes {
 		behaviour {
 			default {
 				container = Container
-				parallax = Parallax
+				#parallax-01 = Parallax
 			}
 			table {
 				table-responsive = Responsive Table
