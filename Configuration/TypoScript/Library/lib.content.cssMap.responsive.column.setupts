@@ -1,11 +1,12 @@
-lib.cssColumnEqualHeightMap {
-	responsive-medium-equalHeight = col-md-height
-	responsive-small-equalHeight = col-sm-height
-	responsive-extrasmall-equalHeight = col-xs-height
-	responsive-large-equalHeight = col-lg-height
-}
-
-lib.cssColumnMap {
+lib.content.cssMap.responsive.column {
+	
+	equalHeight {
+		responsive-medium-equalHeight = col-md-height
+		responsive-small-equalHeight = col-sm-height
+		responsive-extrasmall-equalHeight = col-xs-height
+		responsive-large-equalHeight = col-lg-height
+	}
+	
 	#Medium Size Width
 	responsive-medium-width-1 = col-md-1
 	responsive-medium-width-2 = col-md-2
