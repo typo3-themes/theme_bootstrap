@@ -1,0 +1,26 @@
+.menu-sub-wrapper {
+  border: 1px solid @gray-lighter;
+  ul.nav {
+    list-style: none;
+    li {
+      margin: 0;
+      a {
+        padding: 8px 12px;
+      }
+      ul {
+        list-style: none;
+        padding-left: 14px;
+        border-bottom: 1px solid @gray-lighter;
+        li {
+          line-height: 28px;
+          a {
+            padding: 5px 6px;
+          }
+        }
+      }
+    }
+    li.active {
+      background-color: @gray-lighter;
+    }
+  }
+}
