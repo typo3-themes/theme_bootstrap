@@ -8,3 +8,8 @@
 .. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Themes/Configuration/Socialmedia/GooglePlusLink.rst
 .. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Themes/Configuration/Socialmedia/UseRss.rst
 .. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Themes/Configuration/Socialmedia/RssLink.rst
+
+.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Themes/Configuration/Socialmedia/UseXing.rst
+.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Themes/Configuration/Socialmedia/XingLink.rst
+.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Themes/Configuration/Socialmedia/UseYoutube.rst
+.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Themes/Configuration/Socialmedia/YoutubeLink.rst
