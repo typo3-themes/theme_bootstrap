@@ -43,3 +43,25 @@ themes.configuration.socialmedia.useGooglePlus = 0
 
 # cat=socialmedia; type=string; label= Google+: Pagelink
 themes.configuration.socialmedia.googlePlusLink = https://plus.google.com/communities/100060687535829230492
+
+
+
+# Xing
+#############################################
+
+# cat=socialmedia; type=options[0,1]; label= XING: Activate?!
+themes.configuration.socialmedia.useXing = 0
+
+# cat=socialmedia; type=string; label= XING: Pagelink
+themes.configuration.socialmedia.xingLink = https://www.xing.com/companies/typo3association
+
+
+
+# Youtube
+#############################################
+
+# cat=socialmedia; type=options[0,1]; label= Youtube: Activate?!
+themes.configuration.socialmedia.useYoutube = 0
+
+# cat=socialmedia; type=string; label= Youtube: Pagelink
+themes.configuration.socialmedia.youtubeLink = https://www.youtube.com/user/typo3/
