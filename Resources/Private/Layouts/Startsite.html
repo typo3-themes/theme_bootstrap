@@ -15,12 +15,13 @@
 			</div>
 			<div id="navbar-main" class="navbar-collapse collapse">
 				<f:cObject typoscriptObjectPath="lib.menu.main" />
-				<div id="menuLanguageWrapper">
+				<div class="menu-language-wrapper pull-right">
 					<theme:widget.languageMenu
 							availableLanguages="{theme:constant(constant: 'themes.languages.available')}"
 							currentLanguageUid="{theme:constant(constant: 'themes.languages.current.uid')}"
 							defaultLanguageIsoCodeShort="{theme:constant(constant: 'themes.languages.default.isoCodeShort')}"
 							defaultLanguageLabel="{theme:constant(constant: 'themes.languages.default.label')}"
+							defaultLanguageFlag="{theme:constant(constant: 'themes.languages.default.flag')}"
 							/>
 					<f:if condition="{theme:constant(constant: 'themes.languages.available')}">
 						<span>
