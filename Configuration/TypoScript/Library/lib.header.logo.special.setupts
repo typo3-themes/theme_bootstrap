@@ -3,7 +3,7 @@ lib.header.logo {
 	special = IMAGE
 	special.file = {$themes.configuration.header.logo.special.file}
 	special.file.width = {$themes.configuration.header.logo.special.width}
-	special.file.height = {$themes.configuration.header.logo.special.height}
+	#special.file.height = {$themes.configuration.header.logo.special.height}
 	special.titleText = {$themes.configuration.header.logo.special.title}
 	special.altText = {$themes.configuration.header.logo.special.title}
 	special.stdWrap.typolink {
