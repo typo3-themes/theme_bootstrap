@@ -1,6 +1,6 @@
 lib.content.cssMap.responsive.row {
 	
-	equalHeightMap {
+	equalHeight {
 		responsive-medium-equalHeight = row row-md-height
 		responsive-small-equalHeight = row row-sm-height
 		responsive-extrasmall-equalHeight = row row-xs-height
