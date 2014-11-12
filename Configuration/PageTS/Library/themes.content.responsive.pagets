@@ -7,7 +7,8 @@ themes {
 					label = Desktops
 					visibility {
 						default = Default
-						something = Something
+						inline = Inline
+						inlineblock = Inline Block
 						hidden = Hidden
 					}
 				}
@@ -15,7 +16,8 @@ themes {
 					label = Tablets
 					visibility {
 						default = Default
-						something = Something
+						inline = Inline
+						inlineblock = Inline Block
 						hidden = Hidden
 					}
 				}
@@ -23,7 +25,8 @@ themes {
 					label = Mobile devices
 					visibility {
 						default = Default
-						something = Something
+						inline = Inline
+						inlineblock = Inline Block
 						hidden = Hidden
 					}
 				}
@@ -31,7 +34,8 @@ themes {
 					label = Large devices
 					visibility {
 						default = Default
-						something = Something
+						inline = Inline
+						inlineblock = Inline Block
 						hidden = Hidden
 					}
 				}

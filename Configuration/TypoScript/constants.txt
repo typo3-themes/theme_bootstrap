@@ -14,10 +14,12 @@
 themes.configuration.siteName = Bootstrap Theme
 
 lib.cssRowMap {
-	repsonsive-default-row = row
+	responsive-default-row = row
 }
 
 lib.cssColumnMap {
+	responsive-default-column = responsive-medium-width-3
+
 	#Medium Size Width
 	responsive-medium-width-1 = col-md-1
 	responsive-medium-width-2 = col-md-2
