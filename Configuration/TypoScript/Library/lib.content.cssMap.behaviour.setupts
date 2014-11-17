@@ -2,4 +2,7 @@ lib.content.cssMap.behaviour {
 	behaviour-container = container
 	#behaviour-parallax-01 = parallax
 	behaviour-table-responsive = table-responsive
+	behaviour-fade-in = fade in
+	behaviour-nav-pills = nav nav-pills
+	behaviour-nav-tabs = nav nav-tabs
 }
