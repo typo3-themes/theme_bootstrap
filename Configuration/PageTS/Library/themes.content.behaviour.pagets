@@ -11,8 +11,8 @@ themes {
 				table-responsive = Responsive table
 			}
 			gridelements_pi1 {
-				nav-pills = Pills navigation
-				nav-tabs = Tabs navigation
+				navigation-pills = Pills navigation
+				navigation-tabs = Tabs navigation
 			}
 		}
 	}
