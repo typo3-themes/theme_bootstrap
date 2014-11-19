@@ -8,7 +8,7 @@ themes.configuration.pages.legal = 0
 # cat=pages; type=int+; label= Privacy policy page
 themes.configuration.pages.privacy = 0
 
-# cat=pages; type=int+; label= Contacts page
+# cat=pages; type=int+; label= Imprint page
 themes.configuration.pages.imprint = 65
 
 # cat=pages; type=int+; label= Contact page

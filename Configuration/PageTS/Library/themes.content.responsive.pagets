@@ -6,32 +6,45 @@ themes {
 				medium {
 					label = Desktops
 					visibility {
-						default = Default
-						something = Something
+						#default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:test.content_responsive_visibility_default
+						#inline = LLL:EXT:cms/layout/locallang_db_new_content_el.xlf:common_headerOnly_title
+						#inlineblock = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content_responsive_visibility_inlineblock
+						#block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content_responsive_visibility_block
+						#hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content_responsive_visibility_hidden
+						default =Default
+						inline = Inline
+						inlineblock = Inline-Block
+						block = Block
 						hidden = Hidden
 					}
 				}
 				small {
 					label = Tablets
 					visibility {
-						default = Default
-						something = Something
+						default =Default
+						inline = Inline
+						inlineblock = Inline-Block
+						block = Block
 						hidden = Hidden
 					}
 				}
 				extrasmall {
 					label = Mobile devices
 					visibility {
-						default = Default
-						something = Something
+						default =Default
+						inline = Inline
+						inlineblock = Inline-Block
+						block = Block
 						hidden = Hidden
 					}
 				}
 				large {
 					label = Large devices
 					visibility {
-						default = Default
-						something = Something
+						default =Default
+						inline = Inline
+						inlineblock = Inline-Block
+						block = Block
 						hidden = Hidden
 					}
 				}

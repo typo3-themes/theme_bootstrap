@@ -23,6 +23,27 @@
 
 				English?
 			-->
+			
+			
+			<!-- Responsive visibility labels -->
+			<trans-unit id="test.content_responsive_visibility_default" xml:space="preserve">
+				<source>Default</source>
+			</trans-unit>
+			<trans-unit id="test.content_responsive_visibility_inline" xml:space="preserve">
+				<source>Inline</source>
+			</trans-unit>
+			<trans-unit id="content_responsive_visibility_inlineblock" xml:space="preserve">
+				<source>Inline-Block</source>
+			</trans-unit>
+			<trans-unit id="content_responsive_visibility_block" xml:space="preserve">
+				<source>aBlock</source>
+			</trans-unit>
+			<trans-unit id="content_responsive_visibility_hidden" xml:space="preserve">
+				<source>aHidden</source>
+			</trans-unit>
+			
+			
+			
 		</body>
 	</file>
 </xliff>
