@@ -14,7 +14,6 @@ themes {
 						default =Default
 						inline = Inline
 						inlineblock = Inline-Block
-						block = Block
 						hidden = Hidden
 					}
 				}
@@ -24,27 +23,24 @@ themes {
 						default =Default
 						inline = Inline
 						inlineblock = Inline-Block
-						block = Block
 						hidden = Hidden
 					}
 				}
 				extrasmall {
 					label = Mobile devices
 					visibility {
-						default =Default
+						default = Default
 						inline = Inline
-						inlineblock = Inline-Block
-						block = Block
+						inlineblock = Inline Block
 						hidden = Hidden
 					}
 				}
 				large {
 					label = Large devices
 					visibility {
-						default =Default
+						default = Default
 						inline = Inline
-						inlineblock = Inline-Block
-						block = Block
+						inlineblock = Inline Block
 						hidden = Hidden
 					}
 				}

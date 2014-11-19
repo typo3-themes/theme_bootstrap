@@ -4,12 +4,16 @@ themes {
 		behaviour {
 			default {
 				container = Container
+				fade-in = Fade in
 				#parallax-01 = Parallax
 			}
 			table {
-				table-responsive = Responsive Table
+				table-responsive = Responsive table
+			}
+			gridelements_pi1 {
+				navigation-pills = Pills navigation
+				navigation-tabs = Tabs navigation
 			}
 		}
-		
 	}
 }
