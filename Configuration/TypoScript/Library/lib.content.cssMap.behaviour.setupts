@@ -2,6 +2,9 @@ lib.content.cssMap.behaviour {
 	behaviour-container = container
 	#behaviour-parallax-01 = parallax
 	behaviour-table-responsive = table-responsive
+	accordion {
+		behaviour-accordion-first-open = accordion-first-open
+	}
 	tabs {
 		navigation {
 			behaviour-navigation = nav

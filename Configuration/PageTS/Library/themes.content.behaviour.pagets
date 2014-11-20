@@ -11,6 +11,7 @@ themes {
 				table-responsive = Responsive table
 			}
 			gridelements_pi1 {
+				accordion-first-open = Open first accordion panel
 				navigation-pills = Pills navigation
 				navigation-tabs = Tabs navigation
 			}
