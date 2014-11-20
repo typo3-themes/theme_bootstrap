@@ -18,7 +18,7 @@ lib.cssRowMap {
 }
 
 lib.cssColumnMap {
-	responsive-default-column = responsive-medium-width-3
+	responsive-default-column = responsive-medium-width-12
 
 	#Medium Size Width
 	responsive-medium-width-1 = col-md-1
