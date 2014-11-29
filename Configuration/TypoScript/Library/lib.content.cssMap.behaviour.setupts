@@ -1,20 +1,37 @@
 lib.content.cssMap.behaviour {
-	behaviour-container = container
-	#behaviour-parallax-01 = parallax
-	behaviour-table-responsive = table-responsive
+	#behaviour-container = container
+	#behaviour-table-responsive = table-responsive
+	#accordion {
+	#	behaviour-accordion-first-open = accordion-first-open
+	#}
+	#tabs {
+	#	navigation {
+	#		behaviour-navigation = nav
+	#		behaviour-navigation-pills = nav-pills
+	#		behaviour-navigation-tabs = nav-tabs
+	#	}
+	#	panes {
+	#		behaviour-tab-pane = tab-pane
+	#		behaviour-fade-in = fade in
+	#		behaviour-active = active
+	#	}
+	#}
+
+	container = container
+	table-responsive = table-responsive
 	accordion {
-		behaviour-accordion-first-open = accordion-first-open
+		accordion-first-open = accordion-first-open
 	}
 	tabs {
 		navigation {
-			behaviour-navigation = nav
-			behaviour-navigation-pills = nav-pills
-			behaviour-navigation-tabs = nav-tabs
+			navigation = nav
+			navigation-pills = nav-pills
+			navigation-tabs = nav-tabs
 		}
 		panes {
-			behaviour-tab-pane = tab-pane
-			behaviour-fade-in = fade in
-			behaviour-active = active
+			tab-pane = tab-pane
+			fade-in = fade in
+			active = active
 		}
 	}
 }
