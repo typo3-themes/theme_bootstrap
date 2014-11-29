@@ -20,7 +20,7 @@ plugin.tx_dyncss.overrides {
 	gray-lighter = TEXT
 	gray-lighter.value = {$themes.configuration.colors.grayLighter}
 
-	#icon-font-path = TEXT
-	#icon-font-path.value = '{$themes.configuration.font.fontFilePath}'
+	icon-font-path = TEXT
+	icon-font-path.value = '{$themes.configuration.font.icon.fontFilePath}'
 
 }

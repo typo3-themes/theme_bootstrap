@@ -24,23 +24,85 @@
 				weitere Übersetzungen zu
 				Sprachwerten folgen.
 			-->
-			
+
+			<!-- Responsive devices labels -->
+			<trans-unit id="content.responsive.devices.desktop" xml:space="preserve">
+				<source>Desktop</source>
+				<target>Desktop</target>
+			</trans-unit>
+			<trans-unit id="content.responsive.devices.mobile" xml:space="preserve">
+				<source>Mobile</source>
+				<target>Mobile</target>
+			</trans-unit>
+			<trans-unit id="content.responsive.devices.tablet" xml:space="preserve">
+				<source>Tablet</source>
+				<target>Tablet</target>
+			</trans-unit>
+			<trans-unit id="content.responsive.devices.large" xml:space="preserve">
+				<source>Large</source>
+				<target>Large</target>
+			</trans-unit>
+
 			<!-- Responsive visibility labels -->
-			<trans-unit id="test.content_responsive_visibility_default" xml:space="preserve">
+			<trans-unit id="content.responsive.visibility.default" xml:space="preserve">
 				<source>Default</source>
+				<target>Default</target>
 			</trans-unit>
-			<trans-unit id="test.content_responsive_visibility_inline" xml:space="preserve">
+			<trans-unit id="content.responsive.visibility.inline" xml:space="preserve">
 				<source>Inline</source>
+				<target>Inline</target>
 			</trans-unit>
-			<trans-unit id="content_responsive_visibility_inlineblock" xml:space="preserve">
+			<trans-unit id="content.responsive.visibility.inlineblock" xml:space="preserve">
 				<source>Inline-Block</source>
+				<target>Inline-Block</target>
 			</trans-unit>
-			<trans-unit id="content_responsive_visibility_block" xml:space="preserve">
-				<source>aBlock</source>
+			<trans-unit id="content.responsive.visibility.block" xml:space="preserve">
+				<source>Block</source>
+				<target>Block</target>
 			</trans-unit>
-			<trans-unit id="content_responsive_visibility_hidden" xml:space="preserve">
-				<source>aHidden</source>
+			<trans-unit id="content.responsive.visibility.hidden" xml:space="preserve">
+				<source>Hidden</source>
+				<target>Hidden</target>
 			</trans-unit>
+
+			<!-- Variants labels -->
+			<trans-unit id="content.variants.page_header" xml:space="preserve">
+				<source>Page-Header</source>
+				<target>Seitenkopf</target>
+			</trans-unit>
+			<trans-unit id="content.variants.showcase" xml:space="preserve">
+				<source>Showcase</source>
+				<target>Schaukasten</target>
+			</trans-unit>
+			<trans-unit id="content.variants.framed_box" xml:space="preserve">
+				<source>Framed-Box</source>
+				<target>Kasten</target>
+			</trans-unit>
+			<trans-unit id="content.variants.framed_box_small" xml:space="preserve">
+				<source>Framed-Box (small)</source>
+				<target>Kasten (klein)</target>
+			</trans-unit>
+			<trans-unit id="content.variants.framed_box_large" xml:space="preserve">
+				<source>Framed-Box (large)</source>
+				<target>Kasten (groß)</target>
+			</trans-unit>
+			<trans-unit id="content.variants.alert_success" xml:space="preserve">
+				<source>Alert-Success</source>
+				<target>Erfolgsmeldung</target>
+			</trans-unit>
+			<trans-unit id="content.variants.alert_info" xml:space="preserve">
+				<source>Alert-Info</source>
+				<target>Infomeldung</target>
+			</trans-unit>
+			<trans-unit id="content.variants.alert_warning" xml:space="preserve">
+				<source>Alert-Warning</source>
+				<target>Warnmeldung</target>
+			</trans-unit>
+			<trans-unit id="content.variants.alert_danger" xml:space="preserve">
+				<source>Alert-Error</source>
+				<target>Felermeldung</target>
+			</trans-unit>
+			
 		</body>
 	</file>
 </xliff>

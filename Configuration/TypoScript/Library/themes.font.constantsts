@@ -1,0 +1,8 @@
+
+
+
+themes.configuration.font.fontFilePath = 
+
+
+# cat=font; type=string; label=Font: Icon-Font path
+themes.configuration.font.icon.fontFilePath = http://192.168.31.16/typo3conf/ext/theme_bootstrap/Resources/Public/Contrib/Bootstrap/fonts/

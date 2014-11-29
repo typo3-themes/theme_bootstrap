@@ -6,6 +6,7 @@ lib.content.cssMap.variants {
 	variants-alert-warning = alert alert-warning
 	variants-alert-danger = alert alert-danger
 	variants-showcase = jumbotron
+	
 	variants-framed-box = well
 	variants-framed-box-small = well well-sm
 	variants-framed-box-large = well well-lg

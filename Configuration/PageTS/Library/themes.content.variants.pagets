@@ -3,20 +3,34 @@ themes {
 		# Variants for content elements
 		variants {
 			default {
-				alert-success = Alert-Success
-				alert-info = Alert-Info
-				alert-warning = Alert-Warning
-				alert-danger = Alert-Danger
-				showcase = Showcase
-				framed-box = Framed box
-				framed-box-small = Framed box (small)
-				framed-box-large = Framed box (large)
+				showcase = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.showcase
+				framed-box = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.framed_box
+				framed-box-small = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.framed_box_small
+				framed-box-large = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.framed_box_large
 			}
 			# Special variant for Header
 			# Used by ctype header
 			# Will be merged with default
 			header {
-				page-header = Page-Header
+				page-header = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.page_header
+				alert-success = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_success
+				alert-info = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_info
+				alert-warning = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_warning
+				alert-danger = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_danger
+			}
+			# ctype: text
+			text {
+				alert-success = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_success
+				alert-info = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_info
+				alert-warning = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_warning
+				alert-danger = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_danger
+			}
+			# ctype: gridelements_pi1
+			gridelements_pi1 {
+				alert-success = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_success
+				alert-info = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_info
+				alert-warning = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_warning
+				alert-danger = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_danger
 			}
 		}
 	}
