@@ -52,7 +52,7 @@
 				<source>Inline</source>
 				<target>Inline</target>
 			</trans-unit>
-			<trans-unit id="content.responsive.visibility.inlineblock" xml:space="preserve">
+			<trans-unit id="content.responsive.visibility.inline_block" xml:space="preserve">
 				<source>Inline-Block</source>
 				<target>Inline-Block</target>
 			</trans-unit>
@@ -102,7 +102,45 @@
 				<source>Error-Message</source>
 				<target>Fehlermeldung</target>
 			</trans-unit>
-			
+
+			<!-- Behaviours labels -->
+			<trans-unit id="content.behaviour.container" xml:space="preserve">
+				<source>Container</source>
+				<target>Container</target>
+			</trans-unit>
+			<trans-unit id="content.behaviour.fade_in" xml:space="preserve">
+				<source>Fade in</source>
+				<target>Einblenden</target>
+			</trans-unit>
+			<trans-unit id="content.behaviour.screenreader_only" xml:space="preserve">
+				<source>Screenreader only</source>
+				<target>Nur Bildschirmleaser</target>
+			</trans-unit>
+			<trans-unit id="content.behaviour.screenreader_only_focusable" xml:space="preserve">
+				<source>Screenreader only (focusable)</source>
+				<target>Nur Bildschirmleaser (fokusierbar)</target>
+			</trans-unit>
+			<trans-unit id="content.behaviour.print_hidden" xml:space="preserve">
+				<source>Hidden for printing</source>
+				<target>Unsichtbar beim drucken</target>
+			</trans-unit>
+			<trans-unit id="content.behaviour.print_visible_block" xml:space="preserve">
+				<source>Visible for printing (block)</source>
+				<target>Sichtbar beim drucken (block)</target>
+			</trans-unit>
+			<trans-unit id="content.behaviour.print_visible_inline" xml:space="preserve">
+				<source>Visible for printing (inline)</source>
+				<target>Sichtbar beim drucken (inline)</target>
+			</trans-unit>
+			<trans-unit id="content.behaviour.print_visible_inline_block" xml:space="preserve">
+				<source>Visible for printing (inline-block)</source>
+				<target>Sichtbar beim drucken (inline-block)</target>
+			</trans-unit>
+			<trans-unit id="content.behaviour.table_responsive" xml:space="preserve">
+				<source>Responsive table</source>
+				<target>Responsive Tabelle</target>
+			</trans-unit>
+
 		</body>
 	</file>
 </xliff>

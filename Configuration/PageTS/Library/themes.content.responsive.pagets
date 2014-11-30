@@ -8,7 +8,7 @@ themes {
 					visibility {
 						default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
 						inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
-						inlineblock = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inlineblock
+						inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
 						block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
 						hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
 					}
@@ -18,7 +18,7 @@ themes {
 					visibility {
 						default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
 						inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
-						inlineblock = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inlineblock
+						inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
 						block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
 						hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
 					}
@@ -28,7 +28,7 @@ themes {
 					visibility {
 						default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
 						inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
-						inlineblock = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inlineblock
+						inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
 						block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
 						hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
 					}
@@ -38,7 +38,7 @@ themes {
 					visibility {
 						default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
 						inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
-						inlineblock = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inlineblock
+						inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
 						block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
 						hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
 					}
