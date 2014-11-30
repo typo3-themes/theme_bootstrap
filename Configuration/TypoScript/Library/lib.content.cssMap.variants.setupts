@@ -5,11 +5,11 @@ lib.content.cssMap.variants {
 	alert-info = alert alert-info
 	alert-warning = alert alert-warning
 	alert-danger = alert alert-danger
-	showcase = jumbotron
+	wide-screen = jumbotron
 
-	framed-box = well
-	framed-box-small = well well-sm
-	framed-box-large = well well-lg
+	framed = well
+	framed-small = well well-sm
+	framed-large = well well-lg
 
 	# Variants only for header content elements
 	page-header = page-header
