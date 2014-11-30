@@ -18,7 +18,16 @@ lib.content.cssMap.behaviour {
 	#}
 
 	container = container
+	#fade-in = Fade in
+	screenreader-only = sr-only
+	screenreader-only-focusable = sr-only-focusable
+	print-hidden = hidden-print
+	print-visible-block = visible-print-block
+	print-visible-inline = visible-print-inline
+	print-visible-inline-block = visible-print-inline-block
 	table-responsive = table-responsive
+	
+	
 	accordion {
 		accordion-first-open = accordion-first-open
 	}

@@ -3,12 +3,17 @@ themes {
 		# Behaviour for content elements
 		behaviour {
 			default {
-				container = Container
-				fade-in = Fade in
-				#parallax-01 = Parallax
+				container = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.container
+				fade-in = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.fade_in
+				screenreader-only = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.screenreader_only
+				screenreader-only-focusable = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.screenreader_only_focusable
+				print-hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.print_hidden
+				print-visible-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.print_visible_block
+				print-visible-inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.print_visible_inline
+				print-visible-inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.print_visible_inline_block
 			}
 			table {
-				table-responsive = Responsive table
+				table-responsive = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.table_responsive
 			}
 			gridelements_pi1 {
 				#accordion-first-open = Open first accordion panel
