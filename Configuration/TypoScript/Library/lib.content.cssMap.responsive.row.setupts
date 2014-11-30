@@ -1,15 +1,15 @@
 lib.content.cssMap.responsive.row {
 	
 	equalHeight {
-		responsive-medium-equalHeight = row row-md-height
-		responsive-small-equalHeight = row row-sm-height
-		responsive-extrasmall-equalHeight = row row-xs-height
-		responsive-large-equalHeight = row row-lg-height
+		medium-equalHeight = row row-md-height
+		small-equalHeight = row row-sm-height
+		extrasmall-equalHeight = row row-xs-height
+		large-equalHeight = row row-lg-height
 	}
 	
-	repsonsice-default-row = row
-	responsive-medium-equalHeight = container container-md-height
-	responsive-small-equalHeight = container container-sm-height
-	responsive-extrasmall-equalHeight = container container-xs-height
-	responsive-large-equalHeight = container container-lg-height
+	default-row = row
+	medium-equalHeight = container container-md-height
+	small-equalHeight = container container-sm-height
+	extrasmall-equalHeight = container container-xs-height
+	large-equalHeight = container container-lg-height
 }
