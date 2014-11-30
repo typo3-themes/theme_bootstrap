@@ -4,6 +4,7 @@ themes {
 		behaviour {
 			default {
 				container = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.container
+				container-fluid = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.container_fluid
 				fade-in = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.fade_in
 				screenreader-only = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.screenreader_only
 				screenreader-only-focusable = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.screenreader_only_focusable

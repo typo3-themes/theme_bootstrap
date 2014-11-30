@@ -92,6 +92,9 @@
 			<trans-unit id="content.behaviour.container" xml:space="preserve">
 				<source>Container</source>
 			</trans-unit>
+			<trans-unit id="content.behaviour.container_fluid" xml:space="preserve">
+				<source>Container (fluid)</source>
+			</trans-unit>
 			<trans-unit id="content.behaviour.fade_in" xml:space="preserve">
 				<source>Fade in</source>
 			</trans-unit>

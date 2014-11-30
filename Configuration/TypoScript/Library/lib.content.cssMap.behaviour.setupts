@@ -18,7 +18,7 @@ lib.content.cssMap.behaviour {
 	#}
 
 	container = container
-	#fade-in = Fade in
+	fade-in = fade in
 	screenreader-only = sr-only
 	screenreader-only-focusable = sr-only-focusable
 	print-hidden = hidden-print
