@@ -7,16 +7,17 @@
 .. Includes roles, substitutions, ...
 .. include:: _IncludedDirectives.rst
 
-==============================
-Themes-Bootstrap Documentation
-==============================
+.. _start:
+
+=============================
+Theme-Bootstrap Documentation
+=============================
 
 **Table of content**
 
 .. toctree::
-    :maxdepth: 4
+	:maxdepth: 2
+	:titlesonly:
 
-    TypoScriptConstants
-    TypoScriptSetup
-
-.. include:: ../../themes/Documentation/Include/Global/Footer.rst
+	TypoScript/Index
+	Fluid/Index

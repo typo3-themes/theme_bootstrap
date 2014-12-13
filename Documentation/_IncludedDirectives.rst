@@ -2,7 +2,7 @@
     ...................................................
     Hint: following expression |my_substition_value| will be replaced when rendering doc.
 
-.. |author| replace:: Thomas Deuling <typo3@coding.ms>
+.. |author| replace:: Jo Hasenau <info@cybercraft.de>, Kay Strobach <typo3themes@kay-strobach.de>, Thomas Deuling <typo3@coding.ms>
 .. |extension_key| replace:: theme_bootstrap
 .. |extension_name| replace:: Theme-Bootstrap
 .. |version| replace:: 1.0.0

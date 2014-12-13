@@ -1,0 +1,135 @@
+.. This file is a summary of all constants
+
+Themes constants
+================
+
+This constants are provided by the THEMES-Extension and are not editable!
+
+.. warning::
+    **Attention:**
+
+    All these TypoScript-Constants are located in ``themes.*``
+
+.. include:: ../../../../themes/Documentation/Include/Global/Header/Constants.rst
+.. include:: ../../themes/Documentation/Include/TypoScript/Constants/Themes.rst
+
+
+
+Basic constants
+===============
+
+In order to make these constants configurable by the THEMES-Extension, you have to set the ``theme`` category within the THEMES-Extension Extension-Manager configuration.
+
+.. warning::
+    **Attention:**
+
+    All these TypoScript-Constants are located in ``themes.configuration.*``
+
+
+.. include:: ../../themes_gridelements/Documentation/Include/TypoScript/Constants/Theme.rst
+.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Theme.rst
+
+
+
+Language constants
+==================
+
+In order to make these constants configurable by the THEMES-Extension, you have to set the ``languages`` category within the THEMES-Extension Extension-Manager configuration.
+
+.. warning::
+**Attention:**
+
+    All these TypoScript-Constants are located in ``themes.languages*``
+
+
+.. include:: ../../themes/Documentation/Include/TypoScript/Constants/Languages.rst
+
+
+
+Pages constants
+===============
+
+In order to make these constants configurable by the THEMES-Extension, you have to set the ``pages`` category within the THEMES-Extension Extension-Manager configuration.
+
+.. warning::
+    **Attention:**
+
+    All these TypoScript-Constants are located in ``themes.configuration.pages.*``
+
+
+.. include:: ../../themes/Documentation/Include/TypoScript/Constants/Pages.rst
+
+
+
+Menu constants
+==============
+
+In order to make these constants configurable by the THEMES-Extension, you have to set the ``menu`` category within the THEMES-Extension Extension-Manager configuration.
+
+.. warning::
+    **Attention:**
+
+    All these TypoScript-Constants are located in ``themes.configuration.menu.*``
+
+
+.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Menu.rst
+
+
+
+Color constants
+===============
+
+In order to make these constants configurable by the THEMES-Extension, you have to set the ``colors`` category within the THEMES-Extension Extension-Manager configuration.
+
+.. warning::
+    **Attention:**
+
+    All these TypoScript-Constants are located in ``themes.configuration.colors.*``
+
+
+.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Colors.rst
+
+
+
+Header constants
+================
+
+In order to make these constants configurable by the THEMES-Extension, you have to set the ``header`` category within the THEMES-Extension Extension-Manager configuration.
+
+.. warning::
+    **Attention:**
+
+    All these TypoScript-Constants are located in ``themes.configuration.header.*``
+
+
+.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Header.rst
+
+
+
+Footer constants
+================
+
+In order to make these constants configurable by the THEMES-Extension, you have to set the ``footer`` category within the THEMES-Extension Extension-Manager configuration.
+
+.. warning::
+    **Attention:**
+
+    All these TypoScript-Constants are located in ``themes.configuration.footer.*``
+
+
+.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Footer.rst
+
+
+
+Socialmedia constants
+=====================
+
+In order to make these constants configurable by the THEMES-Extension, you have to set the ``socialmedia`` category within the THEMES-Extension Extension-Manager configuration.
+
+.. warning::
+    **Attention:**
+
+    All these TypoScript-Constants are located in ``themes.configuration.socialmedia.*``
+
+
+.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Socialmedia.rst
