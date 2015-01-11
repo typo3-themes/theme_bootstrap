@@ -1,0 +1,16 @@
+page.jsInline.187 = TEXT
+page.jsInline.187.value (
+	var themes = {
+		name: '{$themes.name}',
+		relativePath: '{$themes.relativePath}',
+		resourcePublicPath: '{$themes.resourcesPublicPath}',
+		templatePageId: {$themes.templatePageId},
+		configuration: {
+			baseurl: '{$themes.configuration.baseurl}',
+			baseurlIcon: '{$themes.configuration.baseurlIcon}',
+			baseurlImage: '{$themes.configuration.baseurlImage}',
+			siteName: '{$themes.configuration.siteName}',
+			siteSlogan: '{$themes.configuration.siteSlogan}'
+		}
+	}
+)

@@ -22,5 +22,5 @@ lib.footer.copyright
 Used constants
 ~~~~~~~~~~~~~~
 
-* `themes.configuration.footer.copyright.leftLabel  <http://docs.typo3-themes.org/theme_bootstrap/chapter/TypoScript|Constants|Configuration|Footer|Copyright|LeftLabel>`_
-* `themes.configuration.footer.copyright.rightLabel <http://docs.typo3-themes.org/theme_bootstrap/chapter/TypoScript|Constants|Configuration|Footer|Copyright|RightLabel>`_
+* `themes.configuration.footer.copyright.leftLabel  <http://docs.typo3-themes.org/theme-bootstrap/chapter/TypoScript|Constants|Configuration|Footer|Copyright|LeftLabel>`_
+* `themes.configuration.footer.copyright.rightLabel <http://docs.typo3-themes.org/theme-bootstrap/chapter/TypoScript|Constants|Configuration|Footer|Copyright|RightLabel>`_

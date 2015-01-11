@@ -22,6 +22,6 @@ lib.menu.top
 Used constants
 ~~~~~~~~~~~~~~
 
-* `themes.configuration.menu.top.prefix   <http://docs.typo3-themes.org/theme_bootstrap/chapter/TypoScript|Constants|Configuration|Menu|Top|Prefix>`_
-* `themes.configuration.menu.top.divider  <http://docs.typo3-themes.org/theme_bootstrap/chapter/TypoScript|Constants|Configuration|Menu|Top|ContainerPid>`_
-* `themes.configuration.menu.top.cssClass <http://docs.typo3-themes.org/theme_bootstrap/chapter/TypoScript|Constants|Configuration|Menu|Top|ExcludeUidList>`_
+* `themes.configuration.menu.top.prefix   <http://docs.typo3-themes.org/theme-bootstrap/chapter/TypoScript|Constants|Configuration|Menu|Top|Prefix>`_
+* `themes.configuration.menu.top.divider  <http://docs.typo3-themes.org/theme-bootstrap/chapter/TypoScript|Constants|Configuration|Menu|Top|ContainerPid>`_
+* `themes.configuration.menu.top.cssClass <http://docs.typo3-themes.org/theme-bootstrap/chapter/TypoScript|Constants|Configuration|Menu|Top|ExcludeUidList>`_
