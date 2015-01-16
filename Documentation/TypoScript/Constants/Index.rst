@@ -21,6 +21,11 @@ TypoScript-Constants categories
 * **socialmedia** Socialmedia settings
 * **extension** Extension settings (Label must start with ``EXT:extension_key - Labeltext...``, so we're able to sort them)
 
+.. code-block:: typoscript
+    :linenos:
+    
+    theme,colors,font,menu,header,footer,pages,container,meta,languages,socialmedia,extension,forms
+
 
 
 Constants
