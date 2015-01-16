@@ -1,0 +1,16 @@
+page {
+	includeJS {
+		bootstrap = http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
+			bootstrap {
+			external = 1
+			disableCompression = 1
+			excludeFromConcatenation = 1
+		}
+		theme = EXT:theme_bootstrap/Resources/Public/JavaScript/default.js
+		theme {
+			external = 0
+			disableCompression = 1
+			excludeFromConcatenation = 1
+		}
+	}
+}

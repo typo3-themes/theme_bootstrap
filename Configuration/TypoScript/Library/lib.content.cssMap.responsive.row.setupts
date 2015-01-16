@@ -1,10 +1,10 @@
 lib.content.cssMap.responsive.row {
 	
 	equalHeight {
-		medium-equalHeight = row row-md-height
-		small-equalHeight = row row-sm-height
-		extrasmall-equalHeight = row row-xs-height
-		large-equalHeight = row row-lg-height
+		medium-equalHeight = row row-md-height row-lg-equal-height
+		small-equalHeight = row row-sm-height row-sm-equal-height
+		extrasmall-equalHeight = row row-xs-height row-xs-equal-height
+		large-equalHeight = row row-lg-height row-lg-equal-height
 	}
 	
 	default-row = row

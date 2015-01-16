@@ -1,8 +1,12 @@
 page {
-    includeCSS {
-        fontawesome = //maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css
-        fontawesome.external = 1
-        fontawesome.excludeFromConcatenation = 1
-        fontawesome.disableCompression = 1
-    }
+	includeCSS {
+		bootstrap = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap-3.1.1/less/bootstrap.less
+		theme = EXT:theme_bootstrap/Resources/Private/Dyncss/import.less
+		fontawesome = //maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css
+		fontawesome {
+			external = 1
+			excludeFromConcatenation = 1
+			disableCompression = 1
+		}
+	}
 }
