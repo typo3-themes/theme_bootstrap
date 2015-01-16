@@ -1,6 +1,6 @@
 
 # cat=pages; type=int+; label= Startsite page uid
-themes.configuration.pages.startsite = 31
+themes.configuration.pages.startsite = 1
 
 # cat=pages; type=int+; label= Page for the terms and conditions
 themes.configuration.pages.legal = 0
@@ -9,13 +9,13 @@ themes.configuration.pages.legal = 0
 themes.configuration.pages.privacy = 0
 
 # cat=pages; type=int+; label= Imprint page
-themes.configuration.pages.imprint = 65
+themes.configuration.pages.imprint = 0
 
 # cat=pages; type=int+; label= Contact page
-themes.configuration.pages.contact = 92
+themes.configuration.pages.contact = 0
 
 # cat=pages; type=int+; label= Page with the sitemap
-themes.configuration.pages.sitemap = 93
+themes.configuration.pages.sitemap = 0
 
 # cat=pages; type=int+; label= Search page
 themes.configuration.pages.search = 0
