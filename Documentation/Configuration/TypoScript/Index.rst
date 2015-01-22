@@ -1,13 +1,15 @@
 .. include:: ../../_IncludedDirectives.rst
 
-================
-TypoScript-Setup
-================
+==========
+TypoScript
+==========
 
 **Table of content**
 
 .. toctree::
-	:maxdepth: 5
+	:maxdepth: 4
 	:glob:
 
-	Lib/Index
+	*
+	Constants/Index
+	Setup/Index

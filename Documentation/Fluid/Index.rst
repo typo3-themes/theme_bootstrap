@@ -9,7 +9,9 @@ Fluid in Theme-Bootstrap
 
 .. toctree::
 	:maxdepth: 4
+	:glob:
 
+	*
 	Layouts/Index
 	Partials/Index
 	Templates/Index

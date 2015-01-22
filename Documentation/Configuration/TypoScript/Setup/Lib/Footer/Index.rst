@@ -1,7 +1,7 @@
-.. include:: ../../../../_IncludedDirectives.rst
+.. include:: ../../../../../_IncludedDirectives.rst
 
 ==========
-lib.header
+lib.footer
 ==========
 
 **Table of content**
@@ -10,4 +10,5 @@ lib.header
 	:maxdepth: 5
 	:glob:
 
+	*
 	Logo/Index

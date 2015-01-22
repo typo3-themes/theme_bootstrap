@@ -1,4 +1,4 @@
-.. include:: ../../../../_IncludedDirectives.rst
+.. include:: ../../../../../_IncludedDirectives.rst
 
 ========
 lib.menu

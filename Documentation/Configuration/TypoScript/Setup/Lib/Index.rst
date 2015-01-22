@@ -1,4 +1,4 @@
-.. include:: ../../../_IncludedDirectives.rst
+.. include:: ../../../../_IncludedDirectives.rst
 
 ==========================
 TypoScript-Setup Libraries
@@ -10,6 +10,9 @@ TypoScript-Setup Libraries
 	:maxdepth: 5
 	:glob:
 
+	*
+	Content/Index
 	Footer/Index
 	Header/Index
 	Menu/Index
+	Page/Index

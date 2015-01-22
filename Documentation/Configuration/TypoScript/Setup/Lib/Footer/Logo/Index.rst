@@ -1,7 +1,7 @@
-.. include:: ../../../../../_IncludedDirectives.rst
+.. include:: ../../../../../../_IncludedDirectives.rst
 
 ===============
-lib.header.logo
+lib.footer.logo
 ===============
 
 **Table of content**
