@@ -2,7 +2,7 @@
 # Menu: Menu constants
 #############################################
 
-# customcategory=menu=Menu
+# #customcategory=menu=Theme: Menu settings
 # customsubcategory=menu_top=Menu-Top
 # customsubcategory=menu_main=Menu-Main
 # customsubcategory=menu_sub=Menu-Sub
@@ -44,6 +44,9 @@ themes.configuration.menu.main.prefixFirstLevel =
 
 # cat=menu/menu_main/; type=string; label= Menu main: Prefix for each menu item in second entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
 themes.configuration.menu.main.prefixSecondLevel =
+
+# cat=menu/menu_main/; type=options[0,1]; label= Menu top: Do not link first level pages, which have sub-pages
+themes.configuration.menu.main.doNotLinkFirstLevelPagesWithSubPages = 1
 
 
 

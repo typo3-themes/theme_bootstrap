@@ -2,9 +2,8 @@ lib.menu.main = HMENU
 lib.menu.main {
 	entryLevel = 0
 	includeNotInMenu = 0
-    excludeUidList = {$themes.configuration.menu.main.excludeUidList}
+	excludeUidList = {$themes.configuration.menu.main.excludeUidList}
 	wrap = <ul class="nav navbar-nav"> | </ul>
-
 	1 = TMENU
 	1 {
 		expAll = 1
@@ -32,7 +31,7 @@ lib.menu.main {
 			wrapHtmlSpecialChars = 0
 			before = <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 			after = <b class="caret"></b></a>
-			doNotLinkIt = 1
+			doNotLinkIt = {$themes.configuration.menu.main.doNotLinkFirstLevelPagesWithSubPages}
 		}
 		ACTIFSUB < .ACT
 		ACTIFSUB {
@@ -42,7 +41,7 @@ lib.menu.main {
 			wrapHtmlSpecialChars = 0
 			before = <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 			after = <b class="caret"></b></a>
-			doNotLinkIt = 1
+			doNotLinkIt = {$themes.configuration.menu.main.doNotLinkFirstLevelPagesWithSubPages}
 		}
 	}
 	2 = TMENU

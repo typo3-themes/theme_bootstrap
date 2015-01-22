@@ -49,6 +49,7 @@ lib.menu.special.2 {
 	stdWrapHtmlSpecialChars = 0
 	wrapHtmlSpecialChars    = 0
 	wrap = <ul class="sub"> | </ul>
+	NO = 1
 	NO {
 		wrapItemAndSub.insertData = 1
 		wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.special.prefixSecondLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.special.prefixSecondLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.special.prefixSecondLevel}|</li>
@@ -57,7 +58,6 @@ lib.menu.special.2 {
 		stdWrap.field = title
 	}
 	ACT < .NO
-	ACT = 1
 	ACT {
 		wrapItemAndSub.insertData = 1
 		wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.special.prefixSecondLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.special.prefixSecondLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.special.prefixSecondLevel}|</li>

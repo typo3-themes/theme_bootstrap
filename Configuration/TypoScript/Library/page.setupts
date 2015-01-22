@@ -1,0 +1,8 @@
+page {
+	
+	# Overwrite thmes_gridelements body-tag
+	# in order to add bootstraps scroll spy
+	bodyTagCObject = TEXT
+	bodyTagCObject.field = uid
+	bodyTagCObject.wrap = <body id="pid-|" class="language-{$themes.languages.current.isoCodeShort}" data-spy="scroll" data-target="{$themes.configuration.bootstrap.javascript.scrollspy.target}" data-offset="{$themes.configuration.bootstrap.javascript.scrollspy.offset}">
+}

@@ -6,14 +6,6 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/News/TypoScript/setup.txt">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/Rtehtmlarea/TypoScript/setup.txt">
 
-page {
-	typeNum = 0
-	config {
-		doctype = html5
-	}
-	#bodyTag = <body data-spy="scroll" data-target=".subnav" data-offset="50">
-}
-
 
 # Needs to be define here!
 plugin.tx_themes {

@@ -1,4 +1,6 @@
 
+# #customcategory=pages=Theme: Page settings
+
 # cat=pages; type=int+; label= Startsite page uid
 themes.configuration.pages.startsite = 1
 
