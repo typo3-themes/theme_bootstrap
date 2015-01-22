@@ -1,4 +1,13 @@
 page {
+	includeJSlibs {
+		modernizr = https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
+		modernizr {
+			external = 1
+			forceOnTop = 1
+			disableCompression = 1
+			excludeFromConcatenation = 1
+		}
+	}
 	includeJS {
 		bootstrap = http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
 			bootstrap {
