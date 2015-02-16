@@ -1,16 +1,25 @@
 
-//@import "Library/Variables/bootstrap_3.1.1_variables.less";
-@import "Library/bootstrap.less";
 
-//
+// Define all Variables, so that EXT:dyncss
+// is able to overwrite them.
+// In case of overwriting the definition value doesnt matter
 @brand-primary: #ff8700;
+@brand-secondary: #FFFFFF;
 @navbar-default-bg: @gray-dark;
 @navbar-default-link-color: @gray-lighter;
 @navbar-default-link-hover-color: @brand-primary;
 @navbar-default-link-active-color: @brand-primary;
-
 @border-radius-base: 0;
 
+// Base URL for images
+@baseurlImage: '/typo3conf/ext/theme_bootstrap/Resources/Public/Images/';
+
+// Base font size for body tag
+@baseFontSize: 11;
+
+
+// Less-Imports
+@import "Library/bootstrap.less";
 @import "Library/bootstrap.equalHeight.less";
 @import "Library/layout.less";
 @import "Library/area.feature.less";
@@ -23,11 +32,19 @@
 @import "Library/lib.menu.breadcrumb.less";
 @import "Library/partial.socialmedia.less";
 
-// Content layout styles
-@import "Library/ContentLayout/alert.less";
-@import "Library/ContentLayout/layout-01.less";
+// Styles for Elements
+// @import "Library/Elements/Carousel/carouselLarge.less";
+// @import "Library/Elements/Carousel/carouselSmall.less";
+// @import "Library/Elements/Accordion/accordion.less";
+// @import "Library/Elements/Sitemap/sitemap.less";
 
-// Extensions
+// Styles for Variants
+// @import "Library/Variants/framed.less";
+// @import "Library/Variants/GridElements/Container/container-startsite.less";
+// @import "Library/Variants/Header/page-header.less";
+// @import "Library/Variants/Sitemap/sitemap.less";
+
+// Styles for Extensions
 @import "../Extensions/News/Dyncss/import.less";
 @import "../Extensions/Rtehtmlarea/Dyncss/frontend.less";
 
