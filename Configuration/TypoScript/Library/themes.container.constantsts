@@ -15,3 +15,6 @@ themes.configuration.container.address = 0
 
 # cat=container; type=int+; label= Container for newsletter
 themes.configuration.container.newsletter = 0
+
+# cat=container; type=int+; label= Container pid for the global content elements
+themes.configuration.container.globalContentElements = 385
