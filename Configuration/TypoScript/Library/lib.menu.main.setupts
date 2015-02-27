@@ -7,28 +7,20 @@ lib.menu.main {
 	1 = TMENU
 	1 {
 		expAll = 1
-		stdWrapHtmlSpecialChars = 0
-		wrapHtmlSpecialChars = 0
 		NO = 1
 		NO {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
-			stdWrapHtmlSpecialChars = 0
-			wrapHtmlSpecialChars = 0
 		}
 		ACT < .NO
 		ACT {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
-			stdWrapHtmlSpecialChars = 0
-			wrapHtmlSpecialChars = 0
 		}
 		IFSUB < .NO
 		IFSUB {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="dropdown state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="dropdown state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="dropdown state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
-			stdWrapHtmlSpecialChars = 0
-			wrapHtmlSpecialChars = 0
 			before = <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 			after = <b class="caret"></b></a>
 			doNotLinkIt = {$themes.configuration.menu.main.doNotLinkFirstLevelPagesWithSubPages}
@@ -37,8 +29,6 @@ lib.menu.main {
 		ACTIFSUB {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="dropdown state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="dropdown state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="dropdown state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
-			stdWrapHtmlSpecialChars = 0
-			wrapHtmlSpecialChars = 0
 			before = <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 			after = <b class="caret"></b></a>
 			doNotLinkIt = {$themes.configuration.menu.main.doNotLinkFirstLevelPagesWithSubPages}
@@ -47,22 +37,16 @@ lib.menu.main {
 	2 = TMENU
 	2 {
 		expAll = 0
-		stdWrapHtmlSpecialChars = 0
-		wrapHtmlSpecialChars = 0
 		wrap = <ul role="menu" class="dropdown-menu sub"> | </ul>
 		NO = 1
 		NO {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixSecondLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixSecondLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixSecondLevel}|</li>
-			stdWrapHtmlSpecialChars = 0
-			wrapHtmlSpecialChars = 0
 		}
 		ACT < .NO
 		ACT {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixSecondLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixSecondLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixSecondLevel}|</li>
-			stdWrapHtmlSpecialChars = 0
-			wrapHtmlSpecialChars = 0
 		}
 	}
 }

@@ -6,14 +6,10 @@ lib.menu.sub.wrap = <div class="menu-sub-wrapper"><ul class="{$themes.configurat
 lib.menu.sub.1 = TMENU
 lib.menu.sub.1 {
 	expAll = 0
-	stdWrapHtmlSpecialChars = 0
-	wrapHtmlSpecialChars = 0
 	NO = 1
 	NO {
 		wrapItemAndSub.insertData = 1
 		wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.sub.prefixFirstLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.sub.prefixFirstLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.sub.prefixFirstLevel}|</li>
-		stdWrapHtmlSpecialChars = 0
-		wrapHtmlSpecialChars = 0
 	}
 	CUR < .NO
 	CUR {
@@ -32,8 +28,6 @@ lib.menu.sub.2 {
 	NO {
 		wrapItemAndSub.insertData = 1
 		wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.sub.prefixSecondLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.sub.prefixSecondLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.sub.prefixSecondLevel}|</li>
-		stdWrapHtmlSpecialChars = 0
-		wrapHtmlSpecialChars = 0
 	}
 
 	CUR < .NO
