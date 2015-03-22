@@ -8,8 +8,8 @@ description      : |
   The newlines in this description will be preserved.
 
 parentTheme:
-    name: themes_gridelements
-    version: 0.1.1-1.99.99
+  name: themes_gridelements
+  version: 0.1.1-1.99.99
 
 # Whether a documentation page is available (optional)
 documentation:
