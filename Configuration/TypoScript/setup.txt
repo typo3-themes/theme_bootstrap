@@ -5,3 +5,4 @@
 # Extensions
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/News/TypoScript/setup.txt">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/Rtehtmlarea/TypoScript/setup.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/IndexedSearch/TypoScript/setup.txt">

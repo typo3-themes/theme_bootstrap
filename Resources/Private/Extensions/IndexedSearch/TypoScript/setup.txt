@@ -1,0 +1,20 @@
+
+# activate indexed search
+page.config.index_enable = 1
+
+config.index_enable = 1
+config.index_externals = 1
+config.index_metatags = 1
+
+# Plugin configuration
+plugin.tx_indexedsearch {
+
+	# Normal/Marker based
+	#############################
+	templateFile =  EXT:theme_bootstrap/Resources/Private/Extensions/IndexedSearch/Templates/Template.html
+	result_link_target = {$themes.configuration.pages.search}
+	show {
+		rules = 0
+		advancedSearchLink = 0
+	}
+}

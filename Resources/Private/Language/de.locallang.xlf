@@ -118,11 +118,11 @@
 			</trans-unit>
 			<trans-unit id="content.behaviour.screenreader_only" xml:space="preserve">
 				<source>Screenreader only</source>
-				<target>Nur Bildschirmleaser</target>
+				<target>Nur Screenreader</target>
 			</trans-unit>
 			<trans-unit id="content.behaviour.screenreader_only_focusable" xml:space="preserve">
 				<source>Screenreader only (focusable)</source>
-				<target>Nur Bildschirmleaser (fokusierbar)</target>
+				<target>Nur Screenreader (fokusierbar)</target>
 			</trans-unit>
 			<trans-unit id="content.behaviour.print_hidden" xml:space="preserve">
 				<source>Hidden for printing</source>
