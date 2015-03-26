@@ -5,19 +5,3 @@
 # Extensions
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/News/TypoScript/setup.txt">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/Rtehtmlarea/TypoScript/setup.txt">
-
-
-# Needs to be define here!
-plugin.tx_themes {
-	view {
-		templateRootPaths {
-			300 = EXT:theme_bootstrap/Resources/Private/Templates/
-		}
-		partialRootPaths {
-			300 = EXT:theme_bootstrap/Resources/Private/Partials/
-		}
-		layoutRootPaths {
-			300 = EXT:theme_bootstrap/Resources/Private/Layouts/
-		}
-	}
-}

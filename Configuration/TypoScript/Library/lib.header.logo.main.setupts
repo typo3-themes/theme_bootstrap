@@ -9,5 +9,6 @@ lib.header.logo {
 		parameter = {$themes.configuration.pages.startsite}
 		parameter.insertData = 1
 		title = {$themes.configuration.siteName}
+		ATagParams = class="logo-main"
 	}
 }

@@ -20,6 +20,15 @@ plugin.tx_dyncss.overrides {
 	gray-lighter = TEXT
 	gray-lighter.value = {$themes.configuration.colors.grayLighter}
 
+	brand-danger = TEXT
+	brand-danger.value = {$themes.configuration.colors.error}
+	brand-info = TEXT
+	brand-info.value = {$themes.configuration.colors.information}
+	brand-success = TEXT
+	brand-success.value = {$themes.configuration.colors.success}
+	brand-warning = TEXT
+	brand-warning.value = {$themes.configuration.colors.warning}
+
 	icon-font-path = TEXT
 	icon-font-path.value = '{$themes.configuration.font.icon.fontFilePath}'
 

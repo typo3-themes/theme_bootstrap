@@ -4,5 +4,7 @@ options {
   # Adds a clear-cache button for the system-cache
   clearCache.system = 1
 }
-# Caching der externen TS-Files deaktivieren
-admPanel.override.tsdebug.forceTemplateParsing = 1
+admPanel {
+  # Caching der externen TS-Files deaktivieren
+  override.tsdebug.forceTemplateParsing = 1
+}

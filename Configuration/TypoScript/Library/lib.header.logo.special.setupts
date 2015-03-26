@@ -11,5 +11,6 @@ lib.header.logo {
 		parameter.insertData = 1
 		title = {$themes.configuration.header.logo.special.title}
 		target = {$themes.configuration.header.logo.special.linkTarget}
+		ATagParams = class="logo-special"
 	}
 }
