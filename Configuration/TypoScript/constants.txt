@@ -19,6 +19,9 @@ lib.content.cssMap.responsive.row {
 
 lib.content.cssMap.responsive.column {
 	default-column = medium-width-12
+	default-2-column = medium-width-6
+	default-3-column = medium-width-4
+	default-4-column = medium-width-3
 
 	#Medium Size Width
 	medium-width-1 = col-md-1
