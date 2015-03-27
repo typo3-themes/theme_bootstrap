@@ -10,10 +10,10 @@
 # General
 #############################################
 
-# cat=footer,basic//; type=string; label= Footer address
+# cat=footer,basic//; type=string; label= Footer: address
 themes.configuration.footer.address = TYPO3-Themes: Inspiring people to share
 
-# cat=footer,basic//; type=string; label= Footer E-Mail address
+# cat=footer,basic//; type=string; label= Footer: E-Mail address
 themes.configuration.footer.email = info@typo3-themes.org
 
 
