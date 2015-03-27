@@ -1,17 +1,17 @@
+# Settings for the development system
+
 page {
 	includeJSlibs {
-		modernizr = https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
+		modernizr = EXT:theme_bootstrap/Resources/Public/Contrib/BsCompressed/Bootstrap.min.js
 		modernizr {
-			external = 1
 			forceOnTop = 1
 			disableCompression = 1
 			excludeFromConcatenation = 1
 		}
 	}
 	includeJS {
-		bootstrap = http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
-			bootstrap {
-			external = 1
+		bootstrap = EXT:theme_bootstrap/Resources/Public/Contrib/BsCompressed/modernizr.min.js
+		bootstrap {
 			disableCompression = 1
 			excludeFromConcatenation = 1
 		}
@@ -23,3 +23,22 @@ page {
 		}
 	}
 }
+
+
+# Settings for the production system
+[globalVar = LIT:0 = {$themes.developmentMode}]
+page {
+	includeJSlibs {
+		modernizr = https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
+		modernizr {
+			external = 1
+		}
+	}
+	includeJS {
+		bootstrap = http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
+		bootstrap {
+			external = 1
+		}
+	}
+}
+[end]
