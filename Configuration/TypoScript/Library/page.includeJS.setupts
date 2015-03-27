@@ -2,7 +2,7 @@
 
 page {
 	includeJSlibs {
-		modernizr = EXT:theme_bootstrap/Resources/Public/Contrib/BsCompressed/Bootstrap.min.js
+		modernizr = EXT:theme_bootstrap/Resources/Public/Contrib/BsCompressed/bootstrap.min.js
 		modernizr {
 			forceOnTop = 1
 			disableCompression = 1
