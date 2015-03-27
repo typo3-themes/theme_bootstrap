@@ -3,7 +3,8 @@ lib.menu.footer.special = directory
 lib.menu.footer.special.value = {$themes.configuration.menu.footer.containerPid}
 lib.menu.footer.includeNotInMenu = {$themes.configuration.menu.footer.includeNotInMenu}
 lib.menu.footer.excludeUidList = {$themes.configuration.menu.footer.excludeUidList}
-lib.menu.footer.wrap    = <ul class="{$themes.configuration.menu.footer.cssClasses}"> | </ul>
+lib.menu.footer.stdWrap.wrap    = <ul class="{$themes.configuration.menu.footer.cssClasses}"> | </ul>
+lib.menu.footer.stdWrap.required = 1
 lib.menu.footer.1 = TMENU
 lib.menu.footer.1 {
     expAll = 1
