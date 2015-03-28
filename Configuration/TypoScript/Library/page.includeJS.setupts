@@ -26,7 +26,7 @@ page {
 
 
 # Settings for the production system
-[globalVar = LIT:0 = {$themes.developmentMode}]
+[globalVar = LIT:1 = {$themes.mode.isProduction}]
 page {
 	includeJSlibs {
 		modernizr = https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
