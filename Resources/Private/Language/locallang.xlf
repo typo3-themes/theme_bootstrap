@@ -119,7 +119,20 @@
 			<trans-unit id="content.behaviour.table_responsive" xml:space="preserve">
 				<source>Responsive table</source>
 			</trans-unit>
-			
+			<trans-unit id="content.behaviour.pricing_table" xml:space="preserve">
+				<source>Pricing table</source>
+			</trans-unit>
+
+			<trans-unit id="content.bullets" xml:space="preserve">
+				<source>Panel with List Group</source>
+			</trans-unit>
+			<trans-unit id="content.pricing_table_linktext" xml:space="preserve">
+				<source>Link text</source>
+			</trans-unit>
+			<trans-unit id="content.pricing_table_listheader" xml:space="preserve">
+				<source>List header</source>
+			</trans-unit>
+
 		</body>
 	</file>
 </xliff>

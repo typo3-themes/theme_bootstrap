@@ -144,6 +144,23 @@
 				<source>Responsive table</source>
 				<target>Responsive Tabelle</target>
 			</trans-unit>
+			<trans-unit id="content.behaviour.pricing_table" xml:space="preserve">
+				<source>Pricing table</source>
+				<target>Preisliste</target>
+			</trans-unit>
+
+			<trans-unit id="content.bullets" xml:space="preserve">
+				<source>Panel with List Group</source>
+				<target>Paneel mit Listengruppe</target>
+			</trans-unit>
+			<trans-unit id="content.pricing_table_linktext" xml:space="preserve">
+				<source>Link text</source>
+				<target>Linktext</target>
+			</trans-unit>
+			<trans-unit id="content.pricing_table_listheader" xml:space="preserve">
+				<source>List header</source>
+				<target>Listen-Überschrift</target>
+			</trans-unit>
 
 		</body>
 	</file>

@@ -26,8 +26,16 @@ lib.content.cssMap.behaviour {
 	print-visible-inline = visible-print-inline
 	print-visible-inline-block = visible-print-inline-block
 	table-responsive = table-responsive
-	
-	
+
+	2ColumnGrid {
+		pricing-table = pricing
+	}
+	3ColumnGrid {
+		pricing-table = pricing
+	}
+	4ColumnGrid {
+		pricing-table = pricing
+	}
 	accordion {
 		accordion-first-open = accordion-first-open
 	}
