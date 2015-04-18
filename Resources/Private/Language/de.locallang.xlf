@@ -149,6 +149,19 @@
 				<target>Preisliste</target>
 			</trans-unit>
 
+			<trans-unit id="content.behaviour.navigation_pills" xml:space="preserve">
+				<source>Pills navigation</source>
+				<target>Schaltflächen-Navigation</target>
+			</trans-unit>
+			<trans-unit id="content.behaviour.navigation_tabs" xml:space="preserve">
+				<source>Tabs navigation</source>
+				<target>Reiter-Navigation</target>
+			</trans-unit>
+			<trans-unit id="content.behaviour.accordion_first_open" xml:space="preserve">
+				<source>Open first accordion item</source>
+				<target>Erstes Akkordeon-Element öffnen</target>
+			</trans-unit>
+
 			<trans-unit id="content.bullets" xml:space="preserve">
 				<source>Panel with List Group</source>
 				<target>Paneel mit Listengruppe</target>

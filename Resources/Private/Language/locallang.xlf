@@ -123,6 +123,16 @@
 				<source>Pricing table</source>
 			</trans-unit>
 
+			<trans-unit id="content.behaviour.navigation_pills" xml:space="preserve">
+				<source>Pills navigation</source>
+			</trans-unit>
+			<trans-unit id="content.behaviour.navigation_tabs" xml:space="preserve">
+				<source>Tabs navigation</source>
+			</trans-unit>
+			<trans-unit id="content.behaviour.accordion_first_open" xml:space="preserve">
+				<source>Open first accordion item</source>
+			</trans-unit>
+
 			<trans-unit id="content.bullets" xml:space="preserve">
 				<source>Panel with List Group</source>
 			</trans-unit>
