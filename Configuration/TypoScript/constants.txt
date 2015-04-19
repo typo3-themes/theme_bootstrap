@@ -80,3 +80,14 @@ lib.content.cssMap.responsive.column {
 	large-width-12 = col-lg-12
 
 }
+
+lib.content.cssMap.content.panel {
+
+	default-panel = panel-default
+
+	panel-heading = panel-heading
+	panel-title = panel-title
+	panel-body = panel-body
+	panel-footer = panel-footer
+
+}
