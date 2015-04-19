@@ -21,7 +21,7 @@ themes {
 				#navigation-pills = Pills navigation
 				#navigation-tabs = Tabs navigation
 				
-				default {
+				tabs {
 					navigation-pills = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.navigation_pills
 					navigation-tabs = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.behaviour.navigation_tabs
 				}
