@@ -13,4 +13,11 @@ lib.content.cssMap.variants {
 
 	# Variants only for header content elements
 	page-header = page-header
+
+	navigation-pills-color1 = nav-pills-color1
+	navigation-pills-color2 = nav-pills-color2
+	navigation-pills-color3 = nav-pills-color3
+	navigation-pills-color4 = nav-pills-color4
+	navigation-pills-color5 = nav-pills-color5
+	navigation-pills-color6 = nav-pills-color6
 }

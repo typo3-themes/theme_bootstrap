@@ -1,6 +1,6 @@
 <xliff version="1.0">
 	<file source-language="en"
-		target-language="de"
+		target-language="fr"
 		datatype="plaintext"
 		original="messages"
 		date="2014-04-13T18:20:51Z"
@@ -9,11 +9,11 @@
 		<body>
 			<trans-unit id="breadcrumb_label" xml:space="preserve">
 				<source>You are here</source>
-				<target>Sie sind hier</target>
+				<target>Vous êtes ici</target>
 			</trans-unit>
 			<trans-unit id="languageMenu_label" xml:space="preserve">
 				<source>Language:</source>
-				<target>Sprache:</target>
+				<target>Language:</target>
 			</trans-unit>
 			<trans-unit id="imprint_label" xml:space="preserve">
 				<source>Imprint</source>
@@ -36,7 +36,7 @@
 			</trans-unit>
 			<trans-unit id="content.responsive.devices.tablet" xml:space="preserve">
 				<source>Tablet</source>
-				<target>Tablet</target>
+				<target>Tablette</target>
 			</trans-unit>
 			<trans-unit id="content.responsive.devices.large" xml:space="preserve">
 				<source>Large</source>
@@ -46,7 +46,7 @@
 			<!-- Responsive visibility labels -->
 			<trans-unit id="content.responsive.visibility.default" xml:space="preserve">
 				<source>Default</source>
-				<target>Default</target>
+				<target>Defaut</target>
 			</trans-unit>
 			<trans-unit id="content.responsive.visibility.inline" xml:space="preserve">
 				<source>Inline</source>
@@ -62,33 +62,33 @@
 			</trans-unit>
 			<trans-unit id="content.responsive.visibility.hidden" xml:space="preserve">
 				<source>Hidden</source>
-				<target>Hidden</target>
+				<target>Caché</target>
 			</trans-unit>
 
 			<!-- Variants labels -->
 			<trans-unit id="content.variants.page_header" xml:space="preserve">
 				<source>Page-Header</source>
-				<target>Seitenkopf</target>
+				<target>Titre de page</target>
 			</trans-unit>
 			<trans-unit id="content.variants.wide_screen" xml:space="preserve">
 				<source>Wide-Screen</source>
-				<target>Breitwand</target>
+				<target>Ecran large</target>
 			</trans-unit>
 			<trans-unit id="content.variants.framed" xml:space="preserve">
 				<source>Framed</source>
-				<target>Einrahmung</target>
+				<target>Encadré</target>
 			</trans-unit>
 			<trans-unit id="content.variants.framed_small" xml:space="preserve">
 				<source>Framed (small)</source>
-				<target>Einrahmung (klein)</target>
+				<target>Encadré (petit)</target>
 			</trans-unit>
 			<trans-unit id="content.variants.framed_large" xml:space="preserve">
 				<source>Framed (large)</source>
-				<target>Einrahmung (groß)</target>
+				<target>Encadré (grand)</target>
 			</trans-unit>
 			<trans-unit id="content.variants.alert_success" xml:space="preserve">
 				<source>Success-Message</source>
-				<target>Erfolgsmeldung</target>
+				<target>Succès</target>
 			</trans-unit>
 			<trans-unit id="content.variants.alert_info" xml:space="preserve">
 				<source>Information</source>
@@ -96,133 +96,53 @@
 			</trans-unit>
 			<trans-unit id="content.variants.alert_warning" xml:space="preserve">
 				<source>Warning</source>
-				<target>Warnung</target>
+				<target>Alerte</target>
 			</trans-unit>
 			<trans-unit id="content.variants.alert_danger" xml:space="preserve">
 				<source>Error-Message</source>
-				<target>Fehlermeldung</target>
+				<target>Erreur</target>
 			</trans-unit>
 
 			<!-- Behaviours labels -->
 			<trans-unit id="content.behaviour.container" xml:space="preserve">
 				<source>Container</source>
-				<target>Container</target>
+				<target>Conteneur</target>
 			</trans-unit>
 			<trans-unit id="content.behaviour.container_fluid" xml:space="preserve">
 				<source>Container (fluid)</source>
-				<target>Container (fluid)</target>
+				<target>Conteneur (fluid)</target>
 			</trans-unit>
 			<trans-unit id="content.behaviour.fade_in" xml:space="preserve">
 				<source>Fade in</source>
-				<target>Einblenden</target>
+				<target>Dissout</target>
 			</trans-unit>
 			<trans-unit id="content.behaviour.screenreader_only" xml:space="preserve">
 				<source>Screenreader only</source>
-				<target>Nur Screenreader</target>
+				<target>Lecteurs d'ecran seuls</target>
 			</trans-unit>
 			<trans-unit id="content.behaviour.screenreader_only_focusable" xml:space="preserve">
 				<source>Screenreader only (focusable)</source>
-				<target>Nur Screenreader (fokusierbar)</target>
+				<target>Lecteurs d'ecran seuls (focusable)</target>
 			</trans-unit>
 			<trans-unit id="content.behaviour.print_hidden" xml:space="preserve">
 				<source>Hidden for printing</source>
-				<target>Unsichtbar beim drucken</target>
+				<target>Caché à l'impression</target>
 			</trans-unit>
 			<trans-unit id="content.behaviour.print_visible_block" xml:space="preserve">
 				<source>Visible for printing (block)</source>
-				<target>Sichtbar beim drucken (block)</target>
+				<target>Visible à  à l'impression (block)</target>
 			</trans-unit>
 			<trans-unit id="content.behaviour.print_visible_inline" xml:space="preserve">
 				<source>Visible for printing (inline)</source>
-				<target>Sichtbar beim drucken (inline)</target>
+				<target>Visible à  à l'impression (inline)</target>
 			</trans-unit>
 			<trans-unit id="content.behaviour.print_visible_inline_block" xml:space="preserve">
 				<source>Visible for printing (inline-block)</source>
-				<target>Sichtbar beim drucken (inline-block)</target>
+				<target>Visible à  à l'impression (inline-block)</target>
 			</trans-unit>
 			<trans-unit id="content.behaviour.table_responsive" xml:space="preserve">
 				<source>Responsive table</source>
-				<target>Responsive Tabelle</target>
-			</trans-unit>
-			<trans-unit id="content.behaviour.pricing_table" xml:space="preserve">
-				<source>Pricing table</source>
-				<target>Preisliste</target>
-			</trans-unit>
-
-			<trans-unit id="content.behaviour.navigation_pills" xml:space="preserve">
-				<source>Pills navigation</source>
-				<target>Schaltflächen-Navigation</target>
-			</trans-unit>
-			<trans-unit id="content.behaviour.navigation_tabs" xml:space="preserve">
-				<source>Tabs navigation</source>
-				<target>Reiter-Navigation</target>
-			</trans-unit>
-			<trans-unit id="content.behaviour.accordion_first_open" xml:space="preserve">
-				<source>Open first accordion item</source>
-				<target>Erstes Akkordeon-Element öffnen</target>
-			</trans-unit>
-
-			<trans-unit id="content.variants.panel_color1" xml:space="preserve">
-				<source>Panel Color 1</source>
-				<target>Panel Farbe 1</target>
-			</trans-unit>
-			<trans-unit id="content.variants.panel_color2" xml:space="preserve">
-				<source>Panel Color 2</source>
-				<target>Panel Farbe 2</target>
-			</trans-unit>
-			<trans-unit id="content.variants.panel_color3" xml:space="preserve">
-				<source>Panel Color 3</source>
-				<target>Panel Farbe 3</target>
-			</trans-unit>
-			<trans-unit id="content.variants.panel_color4" xml:space="preserve">
-				<source>Panel Color 4</source>
-				<target>Panel Farbe 4</target>
-			</trans-unit>
-			<trans-unit id="content.variants.panel_color5" xml:space="preserve">
-				<source>Panel Color 5</source>
-				<target>Panel Farbe 5</target>
-			</trans-unit>
-			<trans-unit id="content.variants.panel_color6" xml:space="preserve">
-				<source>Panel Color 6</source>
-				<target>Panel Farbe 6</target>
-			</trans-unit>
-
-			<trans-unit id="content.variants.navigation_pills_color1" xml:space="preserve">
-				<source>Color 1 Pills</source>
-				<target>Farbe 1 Schaltflächen</target>
-			</trans-unit>
-			<trans-unit id="content.variants.navigation_pills_color3" xml:space="preserve">
-				<source>Color 2 Pills</source>
-				<target>Farbe 2 Schaltflächen</target>
-			</trans-unit>
-			<trans-unit id="content.variants.navigation_pills_color3" xml:space="preserve">
-				<source>Color 3 Pills</source>
-				<target>Farbe 3 Schaltflächen</target>
-			</trans-unit>
-			<trans-unit id="content.variants.navigation_pills_color4" xml:space="preserve">
-				<source>Color 4 Pills</source>
-				<target>Farbe 4 Schaltflächen</target>
-			</trans-unit>
-			<trans-unit id="content.variants.navigation_pills_color5" xml:space="preserve">
-				<source>Color 5 Pills</source>
-				<target>Farbe 5 Schaltflächen</target>
-			</trans-unit>
-			<trans-unit id="content.variants.navigation_pills_color6" xml:space="preserve">
-				<source>Color 6 Pills</source>
-				<target>Farbe 6 Schaltflächen</target>
-			</trans-unit>
-
-			<trans-unit id="content.bullets" xml:space="preserve">
-				<source>Panel with List Group</source>
-				<target>Paneel mit Listengruppe</target>
-			</trans-unit>
-			<trans-unit id="content.pricing_table_linktext" xml:space="preserve">
-				<source>Link text</source>
-				<target>Linktext</target>
-			</trans-unit>
-			<trans-unit id="content.pricing_table_listheader" xml:space="preserve">
-				<source>List header</source>
-				<target>Listen-Überschrift</target>
+				<target>Table adaptive</target>
 			</trans-unit>
 
 		</body>
