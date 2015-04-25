@@ -51,7 +51,6 @@ themes {
 			gridelements_pi1 {
 				medium {
 					rowSettings {
-						realHeight = real height
 						equalHeight = equal height
 					}
 					columnSettings {
@@ -63,7 +62,6 @@ themes {
 				}
 				small {
 					rowSettings {
-						realHeight = real height
 						equalHeight = equal height
 					}
 					columnSettings {
@@ -75,7 +73,6 @@ themes {
 				}
 				extrasmall {
 					rowSettings {
-						realHeight = real height
 						equalHeight = equal height
 					}
 					columnSettings {
@@ -88,7 +85,6 @@ themes {
 				large {
 					label = Large devices GRID
 					rowSettings {
-						realHeight = real height
 						equalHeight = equal height
 					}
 					columnSettings {

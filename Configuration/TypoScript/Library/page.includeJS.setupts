@@ -29,16 +29,16 @@ page {
 [globalVar = LIT:1 = {$themes.mode.isProduction}]
 page {
 	includeJSlibs {
-		modernizr = https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
+		modernizr = //cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
 		modernizr {
 			external = 1
 		}
 	}
 	includeJS {
-		bootstrap = http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
+		bootstrap = //netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
 		bootstrap {
 			external = 1
 		}
 	}
 }
-[end]
+[global]
