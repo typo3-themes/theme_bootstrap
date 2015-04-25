@@ -35,14 +35,6 @@ themes {
 			}
 			# ctype: gridelements_pi1
 			gridelements_pi1 {
-				tabs {
-					navigation-pills-color1 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.navigation_pills_color1
-					navigation-pills-color2 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.navigation_pills_color2
-					navigation-pills-color3 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.navigation_pills_color3
-					navigation-pills-color4 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.navigation_pills_color4
-					navigation-pills-color5 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.navigation_pills_color5
-					navigation-pills-color6 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.navigation_pills_color6
-				}
 				container {
 					wide-screen = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.wide_screen
 					alert-success = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_success
@@ -51,12 +43,11 @@ themes {
 					alert-danger = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.alert_danger
 				}
 				singleColumnHeaderFooter {
-					panel-color1 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_color1
-					panel-color2 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_color2
-					panel-color3 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_color3
-					panel-color4 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_color4
-					panel-color5 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_color5
-					panel-color6 = LLL:EXT:theme_bootstrap_highland/Resources/Private/Language/locallang.xlf:content.variants.panel_color6
+					panel-primary = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.panel_primary
+					panel-success = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.panel_success
+					panel-info = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.panel_info
+					panel-warning = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.panel_warning
+					panel-danger = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.panel_danger
 				}
 			}
 		}

@@ -1,0 +1,30 @@
+RTE {
+	default	 {
+		buttons {
+			link.properties.class {
+				allowedClasses := addToList(button-default,button-primary,button-success,button-info,button-warning,button-danger)
+			}
+		}
+	}
+	classes {
+		button-default {
+			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.default
+		}
+		button-primary {
+			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.primary
+		}
+		button-success {
+			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.success
+		}
+		button-info {
+			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.info
+		}
+		button-warning {
+			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.warning
+		}
+		button-danger {
+			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.danger
+		}
+	}
+}
+
