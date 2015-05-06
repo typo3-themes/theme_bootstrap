@@ -50,7 +50,7 @@ themes {
 					panel-danger = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.variants.panel_danger
 				}
 			}
-			themes_gridelements_buttoncontent_pi1 {
+			themes_buttoncontent_pi1 {
 				button-primary = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.primary
 				button-success = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.success
 				button-info = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.info
