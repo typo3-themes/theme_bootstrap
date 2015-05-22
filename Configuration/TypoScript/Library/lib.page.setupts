@@ -6,5 +6,6 @@ lib.page.title.prepend {
 	stdWrap.postUserFunc {
 		iconMapping =< lib.icons.cssMap
 	}
+	required = 1
 	noTrimWrap = |<i class="|" aria-hidden="true"></i> |
 }
