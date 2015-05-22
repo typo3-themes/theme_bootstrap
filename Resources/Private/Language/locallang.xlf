@@ -26,793 +26,793 @@
 
 			<!-- Glyphicon labels -->
 			<trans-unit id="icon.asterisk" xml:space="preserve">
-				<source>asterisk</source>
+				<source>Asterisk</source>
 			</trans-unit>
 			<trans-unit id="icon.plus" xml:space="preserve">
-				<source>plus</source>
+				<source>Plus</source>
 			</trans-unit>
 			<trans-unit id="icon.euro" xml:space="preserve">
-				<source>euro</source>
+				<source>Euro</source>
 			</trans-unit>
 			<trans-unit id="icon.eur" xml:space="preserve">
-				<source>eur</source>
+				<source>EUR</source>
 			</trans-unit>
 			<trans-unit id="icon.minus" xml:space="preserve">
-				<source>minus</source>
+				<source>Minus</source>
 			</trans-unit>
 			<trans-unit id="icon.cloud" xml:space="preserve">
-				<source>cloud</source>
+				<source>Cloud</source>
 			</trans-unit>
 			<trans-unit id="icon.envelope" xml:space="preserve">
-				<source>envelope</source>
+				<source>Envelope</source>
 			</trans-unit>
 			<trans-unit id="icon.pencil" xml:space="preserve">
-				<source>pencil</source>
+				<source>Pencil</source>
 			</trans-unit>
 			<trans-unit id="icon.glass" xml:space="preserve">
-				<source>glass</source>
+				<source>Glass</source>
 			</trans-unit>
 			<trans-unit id="icon.music" xml:space="preserve">
-				<source>music</source>
+				<source>Music</source>
 			</trans-unit>
 			<trans-unit id="icon.search" xml:space="preserve">
-				<source>search</source>
+				<source>Search</source>
 			</trans-unit>
 			<trans-unit id="icon.heart" xml:space="preserve">
-				<source>heart</source>
+				<source>Heart</source>
 			</trans-unit>
 			<trans-unit id="icon.star" xml:space="preserve">
-				<source>star</source>
+				<source>Star</source>
 			</trans-unit>
 			<trans-unit id="icon.star-empty" xml:space="preserve">
-				<source>star-empty</source>
+				<source>Star Empty</source>
 			</trans-unit>
 			<trans-unit id="icon.user" xml:space="preserve">
-				<source>user</source>
+				<source>User</source>
 			</trans-unit>
 			<trans-unit id="icon.film" xml:space="preserve">
-				<source>film</source>
+				<source>Film</source>
 			</trans-unit>
 			<trans-unit id="icon.th-large" xml:space="preserve">
-				<source>th-large</source>
+				<source>TH Large</source>
 			</trans-unit>
 			<trans-unit id="icon.th" xml:space="preserve">
-				<source>th</source>
+				<source>TH</source>
 			</trans-unit>
 			<trans-unit id="icon.th-list" xml:space="preserve">
-				<source>th-list</source>
+				<source>TH List</source>
 			</trans-unit>
 			<trans-unit id="icon.ok" xml:space="preserve">
-				<source>ok</source>
+				<source>OK</source>
 			</trans-unit>
 			<trans-unit id="icon.remove" xml:space="preserve">
-				<source>remove</source>
+				<source>Remove</source>
 			</trans-unit>
 			<trans-unit id="icon.zoom-in" xml:space="preserve">
-				<source>zoom-in</source>
+				<source>Zoom In</source>
 			</trans-unit>
 			<trans-unit id="icon.zoom-out" xml:space="preserve">
-				<source>zoom-out</source>
+				<source>Zoom Out</source>
 			</trans-unit>
 			<trans-unit id="icon.off" xml:space="preserve">
-				<source>off</source>
+				<source>Off</source>
 			</trans-unit>
 			<trans-unit id="icon.signal" xml:space="preserve">
-				<source>signal</source>
+				<source>Signal</source>
 			</trans-unit>
 			<trans-unit id="icon.cog" xml:space="preserve">
-				<source>cog</source>
+				<source>Cog</source>
 			</trans-unit>
 			<trans-unit id="icon.trash" xml:space="preserve">
-				<source>trash</source>
+				<source>Trash</source>
 			</trans-unit>
 			<trans-unit id="icon.home" xml:space="preserve">
-				<source>home</source>
+				<source>Home</source>
 			</trans-unit>
 			<trans-unit id="icon.file" xml:space="preserve">
-				<source>file</source>
+				<source>File</source>
 			</trans-unit>
 			<trans-unit id="icon.time" xml:space="preserve">
-				<source>time</source>
+				<source>Time</source>
 			</trans-unit>
 			<trans-unit id="icon.road" xml:space="preserve">
-				<source>road</source>
+				<source>Road</source>
 			</trans-unit>
 			<trans-unit id="icon.download-alt" xml:space="preserve">
-				<source>download-alt</source>
+				<source>Download Alternative</source>
 			</trans-unit>
 			<trans-unit id="icon.download" xml:space="preserve">
-				<source>download</source>
+				<source>Download</source>
 			</trans-unit>
 			<trans-unit id="icon.upload" xml:space="preserve">
-				<source>upload</source>
+				<source>Upload</source>
 			</trans-unit>
 			<trans-unit id="icon.inbox" xml:space="preserve">
-				<source>inbox</source>
+				<source>Inbox</source>
 			</trans-unit>
 			<trans-unit id="icon.play-circle" xml:space="preserve">
-				<source>play-circle</source>
+				<source>Play Circle</source>
 			</trans-unit>
 			<trans-unit id="icon.repeat" xml:space="preserve">
-				<source>repeat</source>
+				<source>Repeat</source>
 			</trans-unit>
 			<trans-unit id="icon.refresh" xml:space="preserve">
-				<source>refresh</source>
+				<source>Refresh</source>
 			</trans-unit>
 			<trans-unit id="icon.list-alt" xml:space="preserve">
-				<source>list-alt</source>
+				<source>List Alternative</source>
 			</trans-unit>
 			<trans-unit id="icon.lock" xml:space="preserve">
-				<source>lock</source>
+				<source>Lock</source>
 			</trans-unit>
 			<trans-unit id="icon.flag" xml:space="preserve">
-				<source>flag</source>
+				<source>Flag</source>
 			</trans-unit>
 			<trans-unit id="icon.headphones" xml:space="preserve">
-				<source>headphones</source>
+				<source>Headphones</source>
 			</trans-unit>
 			<trans-unit id="icon.volume-off" xml:space="preserve">
-				<source>volume-off</source>
+				<source>Volume Off</source>
 			</trans-unit>
 			<trans-unit id="icon.volume-down" xml:space="preserve">
-				<source>volume-down</source>
+				<source>Volume Down</source>
 			</trans-unit>
 			<trans-unit id="icon.volume-up" xml:space="preserve">
-				<source>volume-up</source>
+				<source>Volume Up</source>
 			</trans-unit>
 			<trans-unit id="icon.qrcode" xml:space="preserve">
-				<source>qrcode</source>
+				<source>Qrcode</source>
 			</trans-unit>
 			<trans-unit id="icon.barcode" xml:space="preserve">
-				<source>barcode</source>
+				<source>Barcode</source>
 			</trans-unit>
 			<trans-unit id="icon.tag" xml:space="preserve">
-				<source>tag</source>
+				<source>Tag</source>
 			</trans-unit>
 			<trans-unit id="icon.tags" xml:space="preserve">
-				<source>tags</source>
+				<source>Tags</source>
 			</trans-unit>
 			<trans-unit id="icon.book" xml:space="preserve">
-				<source>book</source>
+				<source>Book</source>
 			</trans-unit>
 			<trans-unit id="icon.bookmark" xml:space="preserve">
-				<source>bookmark</source>
+				<source>Bookmark</source>
 			</trans-unit>
 			<trans-unit id="icon.print" xml:space="preserve">
-				<source>print</source>
+				<source>Print</source>
 			</trans-unit>
 			<trans-unit id="icon.camera" xml:space="preserve">
-				<source>camera</source>
+				<source>Camera</source>
 			</trans-unit>
 			<trans-unit id="icon.font" xml:space="preserve">
-				<source>font</source>
+				<source>Font</source>
 			</trans-unit>
 			<trans-unit id="icon.bold" xml:space="preserve">
-				<source>bold</source>
+				<source>Bold</source>
 			</trans-unit>
 			<trans-unit id="icon.italic" xml:space="preserve">
-				<source>italic</source>
+				<source>Italic</source>
 			</trans-unit>
 			<trans-unit id="icon.text-height" xml:space="preserve">
-				<source>text-height</source>
+				<source>Text Height</source>
 			</trans-unit>
 			<trans-unit id="icon.text-width" xml:space="preserve">
-				<source>text-width</source>
+				<source>Text Width</source>
 			</trans-unit>
 			<trans-unit id="icon.align-left" xml:space="preserve">
-				<source>align-left</source>
+				<source>Align Left</source>
 			</trans-unit>
 			<trans-unit id="icon.align-center" xml:space="preserve">
-				<source>align-center</source>
+				<source>Align Center</source>
 			</trans-unit>
 			<trans-unit id="icon.align-right" xml:space="preserve">
-				<source>align-right</source>
+				<source>Align Right</source>
 			</trans-unit>
 			<trans-unit id="icon.align-justify" xml:space="preserve">
-				<source>align-justify</source>
+				<source>Align Justify</source>
 			</trans-unit>
 			<trans-unit id="icon.list" xml:space="preserve">
-				<source>list</source>
+				<source>List</source>
 			</trans-unit>
 			<trans-unit id="icon.indent-left" xml:space="preserve">
-				<source>indent-left</source>
+				<source>Indent Left</source>
 			</trans-unit>
 			<trans-unit id="icon.indent-right" xml:space="preserve">
-				<source>indent-right</source>
+				<source>Indent Right</source>
 			</trans-unit>
 			<trans-unit id="icon.facetime-video" xml:space="preserve">
-				<source>facetime-video</source>
+				<source>Facetime Video</source>
 			</trans-unit>
 			<trans-unit id="icon.picture" xml:space="preserve">
-				<source>picture</source>
+				<source>Picture</source>
 			</trans-unit>
 			<trans-unit id="icon.map-marker" xml:space="preserve">
-				<source>map-marker</source>
+				<source>Map Marker</source>
 			</trans-unit>
 			<trans-unit id="icon.adjust" xml:space="preserve">
-				<source>adjust</source>
+				<source>Adjust</source>
 			</trans-unit>
 			<trans-unit id="icon.tint" xml:space="preserve">
-				<source>tint</source>
+				<source>Tint</source>
 			</trans-unit>
 			<trans-unit id="icon.edit" xml:space="preserve">
-				<source>edit</source>
+				<source>Edit</source>
 			</trans-unit>
 			<trans-unit id="icon.share" xml:space="preserve">
-				<source>share</source>
+				<source>Share</source>
 			</trans-unit>
 			<trans-unit id="icon.check" xml:space="preserve">
-				<source>check</source>
+				<source>Check</source>
 			</trans-unit>
 			<trans-unit id="icon.move" xml:space="preserve">
-				<source>move</source>
+				<source>Move</source>
 			</trans-unit>
 			<trans-unit id="icon.step-backward" xml:space="preserve">
-				<source>step-backward</source>
+				<source>Step Backward</source>
 			</trans-unit>
 			<trans-unit id="icon.fast-backward" xml:space="preserve">
-				<source>fast-backward</source>
+				<source>Fast Backward</source>
 			</trans-unit>
 			<trans-unit id="icon.backward" xml:space="preserve">
-				<source>backward</source>
+				<source>Backward</source>
 			</trans-unit>
 			<trans-unit id="icon.play" xml:space="preserve">
-				<source>play</source>
+				<source>Play</source>
 			</trans-unit>
 			<trans-unit id="icon.pause" xml:space="preserve">
-				<source>pause</source>
+				<source>Pause</source>
 			</trans-unit>
 			<trans-unit id="icon.stop" xml:space="preserve">
-				<source>stop</source>
+				<source>Stop</source>
 			</trans-unit>
 			<trans-unit id="icon.forward" xml:space="preserve">
-				<source>forward</source>
+				<source>Forward</source>
 			</trans-unit>
 			<trans-unit id="icon.fast-forward" xml:space="preserve">
-				<source>fast-forward</source>
+				<source>Fast Forward</source>
 			</trans-unit>
 			<trans-unit id="icon.step-forward" xml:space="preserve">
-				<source>step-forward</source>
+				<source>Step Forward</source>
 			</trans-unit>
 			<trans-unit id="icon.eject" xml:space="preserve">
-				<source>eject</source>
+				<source>Eject</source>
 			</trans-unit>
 			<trans-unit id="icon.chevron-left" xml:space="preserve">
-				<source>chevron-left</source>
+				<source>Chevron Left</source>
 			</trans-unit>
 			<trans-unit id="icon.chevron-right" xml:space="preserve">
-				<source>chevron-right</source>
+				<source>Chevron Right</source>
 			</trans-unit>
 			<trans-unit id="icon.plus-sign" xml:space="preserve">
-				<source>plus-sign</source>
+				<source>Plus Sign</source>
 			</trans-unit>
 			<trans-unit id="icon.minus-sign" xml:space="preserve">
-				<source>minus-sign</source>
+				<source>Minus Sign</source>
 			</trans-unit>
 			<trans-unit id="icon.remove-sign" xml:space="preserve">
-				<source>remove-sign</source>
+				<source>Remove Sign</source>
 			</trans-unit>
 			<trans-unit id="icon.ok-sign" xml:space="preserve">
-				<source>ok-sign</source>
+				<source>OK Sign</source>
 			</trans-unit>
 			<trans-unit id="icon.question-sign" xml:space="preserve">
-				<source>question-sign</source>
+				<source>Question Sign</source>
 			</trans-unit>
 			<trans-unit id="icon.info-sign" xml:space="preserve">
-				<source>info-sign</source>
+				<source>Info Sign</source>
 			</trans-unit>
 			<trans-unit id="icon.screenshot" xml:space="preserve">
-				<source>screenshot</source>
+				<source>Screenshot</source>
 			</trans-unit>
 			<trans-unit id="icon.remove-circle" xml:space="preserve">
-				<source>remove-circle</source>
+				<source>Remove Circle</source>
 			</trans-unit>
 			<trans-unit id="icon.ok-circle" xml:space="preserve">
-				<source>ok-circle</source>
+				<source>OK Circle</source>
 			</trans-unit>
 			<trans-unit id="icon.ban-circle" xml:space="preserve">
-				<source>ban-circle</source>
+				<source>Ban Circle</source>
 			</trans-unit>
 			<trans-unit id="icon.arrow-left" xml:space="preserve">
-				<source>arrow-left</source>
+				<source>Arrow Left</source>
 			</trans-unit>
 			<trans-unit id="icon.arrow-right" xml:space="preserve">
-				<source>arrow-right</source>
+				<source>Arrow Right</source>
 			</trans-unit>
 			<trans-unit id="icon.arrow-up" xml:space="preserve">
-				<source>arrow-up</source>
+				<source>Arrow Up</source>
 			</trans-unit>
 			<trans-unit id="icon.arrow-down" xml:space="preserve">
-				<source>arrow-down</source>
+				<source>Arrow Down</source>
 			</trans-unit>
 			<trans-unit id="icon.share-alt" xml:space="preserve">
-				<source>share-alt</source>
+				<source>Share Alt</source>
 			</trans-unit>
 			<trans-unit id="icon.resize-full" xml:space="preserve">
-				<source>resize-full</source>
+				<source>Resize Full</source>
 			</trans-unit>
 			<trans-unit id="icon.resize-small" xml:space="preserve">
-				<source>resize-small</source>
+				<source>Resize Small</source>
 			</trans-unit>
 			<trans-unit id="icon.exclamation-sign" xml:space="preserve">
-				<source>exclamation-sign</source>
+				<source>Exclamation Sign</source>
 			</trans-unit>
 			<trans-unit id="icon.gift" xml:space="preserve">
-				<source>gift</source>
+				<source>Gift</source>
 			</trans-unit>
 			<trans-unit id="icon.leaf" xml:space="preserve">
-				<source>leaf</source>
+				<source>Leaf</source>
 			</trans-unit>
 			<trans-unit id="icon.fire" xml:space="preserve">
-				<source>fire</source>
+				<source>Fire</source>
 			</trans-unit>
 			<trans-unit id="icon.eye-open" xml:space="preserve">
-				<source>eye-open</source>
+				<source>Eye Open</source>
 			</trans-unit>
 			<trans-unit id="icon.eye-close" xml:space="preserve">
-				<source>eye-close</source>
+				<source>Eye Close</source>
 			</trans-unit>
 			<trans-unit id="icon.warning-sign" xml:space="preserve">
-				<source>warning-sign</source>
+				<source>Warning Sign</source>
 			</trans-unit>
 			<trans-unit id="icon.plane" xml:space="preserve">
-				<source>plane</source>
+				<source>Plane</source>
 			</trans-unit>
 			<trans-unit id="icon.calendar" xml:space="preserve">
-				<source>calendar</source>
+				<source>Calendar</source>
 			</trans-unit>
 			<trans-unit id="icon.random" xml:space="preserve">
-				<source>random</source>
+				<source>Random</source>
 			</trans-unit>
 			<trans-unit id="icon.comment" xml:space="preserve">
-				<source>comment</source>
+				<source>Comment</source>
 			</trans-unit>
 			<trans-unit id="icon.magnet" xml:space="preserve">
-				<source>magnet</source>
+				<source>Magnet</source>
 			</trans-unit>
 			<trans-unit id="icon.chevron-up" xml:space="preserve">
-				<source>chevron-up</source>
+				<source>Chevron Up</source>
 			</trans-unit>
 			<trans-unit id="icon.chevron-down" xml:space="preserve">
-				<source>chevron-down</source>
+				<source>Chevron Down</source>
 			</trans-unit>
 			<trans-unit id="icon.retweet" xml:space="preserve">
-				<source>retweet</source>
+				<source>Retweet</source>
 			</trans-unit>
 			<trans-unit id="icon.shopping-cart" xml:space="preserve">
-				<source>shopping-cart</source>
+				<source>Shopping Cart</source>
 			</trans-unit>
 			<trans-unit id="icon.folder-close" xml:space="preserve">
-				<source>folder-close</source>
+				<source>Folder Closed</source>
 			</trans-unit>
 			<trans-unit id="icon.folder-open" xml:space="preserve">
-				<source>folder-open</source>
+				<source>Folder Open</source>
 			</trans-unit>
 			<trans-unit id="icon.resize-vertical" xml:space="preserve">
-				<source>resize-vertical</source>
+				<source>Resize Vertical</source>
 			</trans-unit>
 			<trans-unit id="icon.resize-horizontal" xml:space="preserve">
-				<source>resize-horizontal</source>
+				<source>Resize Horizontal</source>
 			</trans-unit>
 			<trans-unit id="icon.hdd" xml:space="preserve">
-				<source>hdd</source>
+				<source>HDD</source>
 			</trans-unit>
 			<trans-unit id="icon.bullhorn" xml:space="preserve">
-				<source>bullhorn</source>
+				<source>Bullhorn</source>
 			</trans-unit>
 			<trans-unit id="icon.bell" xml:space="preserve">
-				<source>bell</source>
+				<source>Bell</source>
 			</trans-unit>
 			<trans-unit id="icon.certificate" xml:space="preserve">
-				<source>certificate</source>
+				<source>Certificate</source>
 			</trans-unit>
 			<trans-unit id="icon.thumbs-up" xml:space="preserve">
-				<source>thumbs-up</source>
+				<source>Thumbs Up</source>
 			</trans-unit>
 			<trans-unit id="icon.thumbs-down" xml:space="preserve">
-				<source>thumbs-down</source>
+				<source>Thumbs Down</source>
 			</trans-unit>
 			<trans-unit id="icon.hand-right" xml:space="preserve">
-				<source>hand-right</source>
+				<source>Hand Right</source>
 			</trans-unit>
 			<trans-unit id="icon.hand-left" xml:space="preserve">
-				<source>hand-left</source>
+				<source>Hand Left</source>
 			</trans-unit>
 			<trans-unit id="icon.hand-up" xml:space="preserve">
-				<source>hand-up</source>
+				<source>Hand Up</source>
 			</trans-unit>
 			<trans-unit id="icon.hand-down" xml:space="preserve">
-				<source>hand-down</source>
+				<source>Hand Down</source>
 			</trans-unit>
 			<trans-unit id="icon.circle-arrow-right" xml:space="preserve">
-				<source>circle-arrow-right</source>
+				<source>Circle Arrow Right</source>
 			</trans-unit>
 			<trans-unit id="icon.circle-arrow-left" xml:space="preserve">
-				<source>circle-arrow-left</source>
+				<source>Circle Arrow Left</source>
 			</trans-unit>
 			<trans-unit id="icon.circle-arrow-up" xml:space="preserve">
-				<source>circle-arrow-up</source>
+				<source>Circle Arrow Up</source>
 			</trans-unit>
 			<trans-unit id="icon.circle-arrow-down" xml:space="preserve">
-				<source>circle-arrow-down</source>
+				<source>Circle Arrow Down</source>
 			</trans-unit>
 			<trans-unit id="icon.globe" xml:space="preserve">
-				<source>globe</source>
+				<source>Globe</source>
 			</trans-unit>
 			<trans-unit id="icon.wrench" xml:space="preserve">
-				<source>wrench</source>
+				<source>Wrench</source>
 			</trans-unit>
 			<trans-unit id="icon.tasks" xml:space="preserve">
-				<source>tasks</source>
+				<source>Tasks</source>
 			</trans-unit>
 			<trans-unit id="icon.filter" xml:space="preserve">
-				<source>filter</source>
+				<source>Filter</source>
 			</trans-unit>
 			<trans-unit id="icon.briefcase" xml:space="preserve">
-				<source>briefcase</source>
+				<source>Briefcase</source>
 			</trans-unit>
 			<trans-unit id="icon.fullscreen" xml:space="preserve">
-				<source>fullscreen</source>
+				<source>Fullscreen</source>
 			</trans-unit>
 			<trans-unit id="icon.dashboard" xml:space="preserve">
-				<source>dashboard</source>
+				<source>Dashboard</source>
 			</trans-unit>
 			<trans-unit id="icon.paperclip" xml:space="preserve">
-				<source>paperclip</source>
+				<source>Paperclip</source>
 			</trans-unit>
 			<trans-unit id="icon.heart-empty" xml:space="preserve">
-				<source>heart-empty</source>
+				<source>Heart Empty</source>
 			</trans-unit>
 			<trans-unit id="icon.link" xml:space="preserve">
-				<source>link</source>
+				<source>Link</source>
 			</trans-unit>
 			<trans-unit id="icon.phone" xml:space="preserve">
-				<source>phone</source>
+				<source>Phone</source>
 			</trans-unit>
 			<trans-unit id="icon.pushpin" xml:space="preserve">
-				<source>pushpin</source>
+				<source>Pushpin</source>
 			</trans-unit>
 			<trans-unit id="icon.usd" xml:space="preserve">
-				<source>usd</source>
+				<source>USD</source>
 			</trans-unit>
 			<trans-unit id="icon.gbp" xml:space="preserve">
-				<source>gbp</source>
+				<source>GBP</source>
 			</trans-unit>
 			<trans-unit id="icon.sort" xml:space="preserve">
-				<source>sort</source>
+				<source>Sort</source>
 			</trans-unit>
 			<trans-unit id="icon.sort-by-alphabet" xml:space="preserve">
-				<source>sort-by-alphabet</source>
+				<source>Sort By Alphabet</source>
 			</trans-unit>
 			<trans-unit id="icon.sort-by-alphabet-alt" xml:space="preserve">
-				<source>sort-by-alphabet-alt</source>
+				<source>Sort By Alphabet-alt</source>
 			</trans-unit>
 			<trans-unit id="icon.sort-by-order" xml:space="preserve">
-				<source>sort-by-order</source>
+				<source>Sort By Order</source>
 			</trans-unit>
 			<trans-unit id="icon.sort-by-order-alt" xml:space="preserve">
-				<source>sort-by-order-alt</source>
+				<source>Sort By Order Alternative</source>
 			</trans-unit>
 			<trans-unit id="icon.sort-by-attributes" xml:space="preserve">
-				<source>sort-by-attributes</source>
+				<source>Sort By Attributes</source>
 			</trans-unit>
 			<trans-unit id="icon.sort-by-attributes-alt" xml:space="preserve">
-				<source>sort-by-attributes-alt</source>
+				<source>Sort By Attributes Aternative</source>
 			</trans-unit>
 			<trans-unit id="icon.unchecked" xml:space="preserve">
-				<source>unchecked</source>
+				<source>Unchecked</source>
 			</trans-unit>
 			<trans-unit id="icon.expand" xml:space="preserve">
-				<source>expand</source>
+				<source>Expand</source>
 			</trans-unit>
 			<trans-unit id="icon.collapse-down" xml:space="preserve">
-				<source>collapse-down</source>
+				<source>Collapse Down</source>
 			</trans-unit>
 			<trans-unit id="icon.collapse-up" xml:space="preserve">
-				<source>collapse-up</source>
+				<source>Collapse Up</source>
 			</trans-unit>
 			<trans-unit id="icon.log-in" xml:space="preserve">
-				<source>log-in</source>
+				<source>Log In</source>
 			</trans-unit>
 			<trans-unit id="icon.flash" xml:space="preserve">
-				<source>flash</source>
+				<source>Flash</source>
 			</trans-unit>
 			<trans-unit id="icon.log-out" xml:space="preserve">
-				<source>log-out</source>
+				<source>Log Out</source>
 			</trans-unit>
 			<trans-unit id="icon.new-window" xml:space="preserve">
-				<source>new-window</source>
+				<source>New Window</source>
 			</trans-unit>
 			<trans-unit id="icon.record" xml:space="preserve">
-				<source>record</source>
+				<source>Record</source>
 			</trans-unit>
 			<trans-unit id="icon.save" xml:space="preserve">
-				<source>save</source>
+				<source>Save</source>
 			</trans-unit>
 			<trans-unit id="icon.open" xml:space="preserve">
-				<source>open</source>
+				<source>Open</source>
 			</trans-unit>
 			<trans-unit id="icon.saved" xml:space="preserve">
-				<source>saved</source>
+				<source>Saved</source>
 			</trans-unit>
 			<trans-unit id="icon.import" xml:space="preserve">
-				<source>import</source>
+				<source>Import</source>
 			</trans-unit>
 			<trans-unit id="icon.export" xml:space="preserve">
-				<source>export</source>
+				<source>Export</source>
 			</trans-unit>
 			<trans-unit id="icon.send" xml:space="preserve">
-				<source>send</source>
+				<source>Send</source>
 			</trans-unit>
 			<trans-unit id="icon.floppy-disk" xml:space="preserve">
-				<source>floppy-disk</source>
+				<source>Floppy Disk</source>
 			</trans-unit>
 			<trans-unit id="icon.floppy-saved" xml:space="preserve">
-				<source>floppy-saved</source>
+				<source>Floppy Saved</source>
 			</trans-unit>
 			<trans-unit id="icon.floppy-remove" xml:space="preserve">
-				<source>floppy-remove</source>
+				<source>Floppy Remove</source>
 			</trans-unit>
 			<trans-unit id="icon.floppy-save" xml:space="preserve">
-				<source>floppy-save</source>
+				<source>Floppy Save</source>
 			</trans-unit>
 			<trans-unit id="icon.floppy-open" xml:space="preserve">
-				<source>floppy-open</source>
+				<source>Floppy Open</source>
 			</trans-unit>
 			<trans-unit id="icon.credit-card" xml:space="preserve">
-				<source>credit-card</source>
+				<source>Credit Card</source>
 			</trans-unit>
 			<trans-unit id="icon.transfer" xml:space="preserve">
-				<source>transfer</source>
+				<source>Transfer</source>
 			</trans-unit>
 			<trans-unit id="icon.cutlery" xml:space="preserve">
-				<source>cutlery</source>
+				<source>Cutlery</source>
 			</trans-unit>
 			<trans-unit id="icon.header" xml:space="preserve">
-				<source>header</source>
+				<source>Header</source>
 			</trans-unit>
 			<trans-unit id="icon.compressed" xml:space="preserve">
-				<source>compressed</source>
+				<source>Compressed</source>
 			</trans-unit>
 			<trans-unit id="icon.earphone" xml:space="preserve">
-				<source>earphone</source>
+				<source>Earphone</source>
 			</trans-unit>
 			<trans-unit id="icon.phone-alt" xml:space="preserve">
-				<source>phone-alt</source>
+				<source>Phone Alternative</source>
 			</trans-unit>
 			<trans-unit id="icon.tower" xml:space="preserve">
-				<source>tower</source>
+				<source>Tower</source>
 			</trans-unit>
 			<trans-unit id="icon.stats" xml:space="preserve">
-				<source>stats</source>
+				<source>Stats</source>
 			</trans-unit>
 			<trans-unit id="icon.sd-video" xml:space="preserve">
-				<source>sd-video</source>
+				<source>SD Video</source>
 			</trans-unit>
 			<trans-unit id="icon.hd-video" xml:space="preserve">
-				<source>hd-video</source>
+				<source>HD Video</source>
 			</trans-unit>
 			<trans-unit id="icon.subtitles" xml:space="preserve">
-				<source>subtitles</source>
+				<source>Subtitles</source>
 			</trans-unit>
 			<trans-unit id="icon.sound-stereo" xml:space="preserve">
-				<source>sound-stereo</source>
+				<source>Sound Stereo</source>
 			</trans-unit>
 			<trans-unit id="icon.sound-dolby" xml:space="preserve">
-				<source>sound-dolby</source>
+				<source>Sound Dolby</source>
 			</trans-unit>
 			<trans-unit id="icon.sound-5-1" xml:space="preserve">
-				<source>sound-5-1</source>
+				<source>Sound 5.1</source>
 			</trans-unit>
 			<trans-unit id="icon.sound-6-1" xml:space="preserve">
-				<source>sound-6-1</source>
+				<source>Sound 6.1</source>
 			</trans-unit>
 			<trans-unit id="icon.sound-7-1" xml:space="preserve">
-				<source>sound-7-1</source>
+				<source>Sound 7.1</source>
 			</trans-unit>
 			<trans-unit id="icon.copyright-mark" xml:space="preserve">
-				<source>copyright-mark</source>
+				<source>Copyright Mark</source>
 			</trans-unit>
 			<trans-unit id="icon.registration-mark" xml:space="preserve">
-				<source>registration-mark</source>
+				<source>Registration Mark</source>
 			</trans-unit>
 			<trans-unit id="icon.cloud-download" xml:space="preserve">
-				<source>cloud-download</source>
+				<source>Cloud Download</source>
 			</trans-unit>
 			<trans-unit id="icon.cloud-upload" xml:space="preserve">
-				<source>cloud-upload</source>
+				<source>Cloud Upload</source>
 			</trans-unit>
 			<trans-unit id="icon.tree-conifer" xml:space="preserve">
-				<source>tree-conifer</source>
+				<source>Tree Conifer</source>
 			</trans-unit>
 			<trans-unit id="icon.tree-deciduous" xml:space="preserve">
-				<source>tree-deciduous</source>
+				<source>Tree Deciduous</source>
 			</trans-unit>
 			<trans-unit id="icon.cd" xml:space="preserve">
-				<source>cd</source>
+				<source>CD</source>
 			</trans-unit>
 			<trans-unit id="icon.save-file" xml:space="preserve">
-				<source>save-file</source>
+				<source>Save File</source>
 			</trans-unit>
 			<trans-unit id="icon.open-file" xml:space="preserve">
-				<source>open-file</source>
+				<source>Open File</source>
 			</trans-unit>
 			<trans-unit id="icon.level-up" xml:space="preserve">
-				<source>level-up</source>
+				<source>Level Up</source>
 			</trans-unit>
 			<trans-unit id="icon.copy" xml:space="preserve">
-				<source>copy</source>
+				<source>Copy</source>
 			</trans-unit>
 			<trans-unit id="icon.paste" xml:space="preserve">
-				<source>paste</source>
+				<source>Paste</source>
 			</trans-unit>
 			<trans-unit id="icon.alert" xml:space="preserve">
-				<source>alert</source>
+				<source>Alert</source>
 			</trans-unit>
 			<trans-unit id="icon.equalizer" xml:space="preserve">
-				<source>equalizer</source>
+				<source>Equalizer</source>
 			</trans-unit>
 			<trans-unit id="icon.king" xml:space="preserve">
-				<source>king</source>
+				<source>King</source>
 			</trans-unit>
 			<trans-unit id="icon.queen" xml:space="preserve">
-				<source>queen</source>
+				<source>Queen</source>
 			</trans-unit>
 			<trans-unit id="icon.pawn" xml:space="preserve">
-				<source>pawn</source>
+				<source>Pawn</source>
 			</trans-unit>
 			<trans-unit id="icon.bishop" xml:space="preserve">
-				<source>bishop</source>
+				<source>Bishop</source>
 			</trans-unit>
 			<trans-unit id="icon.knight" xml:space="preserve">
-				<source>knight</source>
+				<source>Knight</source>
 			</trans-unit>
 			<trans-unit id="icon.baby-formula" xml:space="preserve">
-				<source>baby-formula</source>
+				<source>Baby Formula</source>
 			</trans-unit>
 			<trans-unit id="icon.tent" xml:space="preserve">
-				<source>tent</source>
+				<source>Tent</source>
 			</trans-unit>
 			<trans-unit id="icon.blackboard" xml:space="preserve">
-				<source>blackboard</source>
+				<source>Blackboard</source>
 			</trans-unit>
 			<trans-unit id="icon.bed" xml:space="preserve">
-				<source>bed</source>
+				<source>Bed</source>
 			</trans-unit>
 			<trans-unit id="icon.apple" xml:space="preserve">
-				<source>apple</source>
+				<source>Apple</source>
 			</trans-unit>
 			<trans-unit id="icon.erase" xml:space="preserve">
-				<source>erase</source>
+				<source>Erase</source>
 			</trans-unit>
 			<trans-unit id="icon.hourglass" xml:space="preserve">
-				<source>hourglass</source>
+				<source>Hourglass</source>
 			</trans-unit>
 			<trans-unit id="icon.lamp" xml:space="preserve">
-				<source>lamp</source>
+				<source>Lamp</source>
 			</trans-unit>
 			<trans-unit id="icon.duplicate" xml:space="preserve">
-				<source>duplicate</source>
+				<source>Duplicate</source>
 			</trans-unit>
 			<trans-unit id="icon.piggy-bank" xml:space="preserve">
-				<source>piggy-bank</source>
+				<source>Piggy Bank</source>
 			</trans-unit>
 			<trans-unit id="icon.scissors" xml:space="preserve">
-				<source>scissors</source>
+				<source>Scissors</source>
 			</trans-unit>
 			<trans-unit id="icon.bitcoin" xml:space="preserve">
-				<source>bitcoin</source>
+				<source>Bitcoin</source>
 			</trans-unit>
 			<trans-unit id="icon.btc" xml:space="preserve">
-				<source>btc</source>
+				<source>BTC</source>
 			</trans-unit>
 			<trans-unit id="icon.xbt" xml:space="preserve">
-				<source>xbt</source>
+				<source>XBT</source>
 			</trans-unit>
 			<trans-unit id="icon.yen" xml:space="preserve">
-				<source>yen</source>
+				<source>Yen</source>
 			</trans-unit>
 			<trans-unit id="icon.jpy" xml:space="preserve">
-				<source>jpy</source>
+				<source>JPY</source>
 			</trans-unit>
 			<trans-unit id="icon.ruble" xml:space="preserve">
-				<source>ruble</source>
+				<source>Ruble</source>
 			</trans-unit>
 			<trans-unit id="icon.rub" xml:space="preserve">
-				<source>rub</source>
+				<source>RUB</source>
 			</trans-unit>
 			<trans-unit id="icon.scale" xml:space="preserve">
-				<source>scale</source>
+				<source>Scale</source>
 			</trans-unit>
 			<trans-unit id="icon.ice-lolly" xml:space="preserve">
-				<source>ice-lolly</source>
+				<source>Ice Lolly</source>
 			</trans-unit>
 			<trans-unit id="icon.ice-lolly-tasted" xml:space="preserve">
-				<source>ice-lolly-tasted</source>
+				<source>Ice Lolly Tasted</source>
 			</trans-unit>
 			<trans-unit id="icon.education" xml:space="preserve">
-				<source>education</source>
+				<source>Education</source>
 			</trans-unit>
 			<trans-unit id="icon.option-horizontal" xml:space="preserve">
-				<source>option-horizontal</source>
+				<source>Option Horizontal</source>
 			</trans-unit>
 			<trans-unit id="icon.option-vertical" xml:space="preserve">
-				<source>option-vertical</source>
+				<source>Option Vertical</source>
 			</trans-unit>
 			<trans-unit id="icon.menu-hamburger" xml:space="preserve">
-				<source>menu-hamburger</source>
+				<source>Menu Hamburger</source>
 			</trans-unit>
 			<trans-unit id="icon.modal-window" xml:space="preserve">
-				<source>modal-window</source>
+				<source>Modal Window</source>
 			</trans-unit>
 			<trans-unit id="icon.oil" xml:space="preserve">
-				<source>oil</source>
+				<source>Oil</source>
 			</trans-unit>
 			<trans-unit id="icon.grain" xml:space="preserve">
-				<source>grain</source>
+				<source>Grain</source>
 			</trans-unit>
 			<trans-unit id="icon.sunglasses" xml:space="preserve">
-				<source>sunglasses</source>
+				<source>Sunglasses</source>
 			</trans-unit>
 			<trans-unit id="icon.text-size" xml:space="preserve">
-				<source>text-size</source>
+				<source>Text Size</source>
 			</trans-unit>
 			<trans-unit id="icon.text-color" xml:space="preserve">
-				<source>text-color</source>
+				<source>Text Color</source>
 			</trans-unit>
 			<trans-unit id="icon.text-background" xml:space="preserve">
-				<source>text-background</source>
+				<source>Text Background</source>
 			</trans-unit>
 			<trans-unit id="icon.object-align-top" xml:space="preserve">
-				<source>object-align-top</source>
+				<source>Object Align Top</source>
 			</trans-unit>
 			<trans-unit id="icon.object-align-bottom" xml:space="preserve">
-				<source>object-align-bottom</source>
+				<source>Object Align Bottom</source>
 			</trans-unit>
 			<trans-unit id="icon.object-align-horizontal" xml:space="preserve">
-				<source>object-align-horizontal</source>
+				<source>Object Align Horizontal</source>
 			</trans-unit>
 			<trans-unit id="icon.object-align-left" xml:space="preserve">
-				<source>object-align-left</source>
+				<source>Object Align Left</source>
 			</trans-unit>
 			<trans-unit id="icon.object-align-vertical" xml:space="preserve">
-				<source>object-align-vertical</source>
+				<source>Object Align Vertical</source>
 			</trans-unit>
 			<trans-unit id="icon.object-align-right" xml:space="preserve">
-				<source>object-align-right</source>
+				<source>Object Align Right</source>
 			</trans-unit>
 			<trans-unit id="icon.triangle-right" xml:space="preserve">
-				<source>triangle-right</source>
+				<source>Triangle Right</source>
 			</trans-unit>
 			<trans-unit id="icon.triangle-left" xml:space="preserve">
-				<source>triangle-left</source>
+				<source>Triangle Left</source>
 			</trans-unit>
 			<trans-unit id="icon.triangle-bottom" xml:space="preserve">
-				<source>triangle-bottom</source>
+				<source>Triangle Bottom</source>
 			</trans-unit>
 			<trans-unit id="icon.triangle-top" xml:space="preserve">
-				<source>triangle-top</source>
+				<source>Triangle Top</source>
 			</trans-unit>
 			<trans-unit id="icon.console" xml:space="preserve">
-				<source>console</source>
+				<source>Console</source>
 			</trans-unit>
 			<trans-unit id="icon.superscript" xml:space="preserve">
-				<source>superscript</source>
+				<source>Superscript</source>
 			</trans-unit>
 			<trans-unit id="icon.subscript" xml:space="preserve">
-				<source>subscript</source>
+				<source>Subscript</source>
 			</trans-unit>
 			<trans-unit id="icon.menu-left" xml:space="preserve">
-				<source>menu-left</source>
+				<source>Menu Left</source>
 			</trans-unit>
 			<trans-unit id="icon.menu-right" xml:space="preserve">
-				<source>menu-right</source>
+				<source>Menu Right</source>
 			</trans-unit>
 			<trans-unit id="icon.menu-down" xml:space="preserve">
-				<source>menu-down</source>
+				<source>Menu Down</source>
 			</trans-unit>
 			<trans-unit id="icon.menu-up" xml:space="preserve">
-				<source>menu-up</source>
+				<source>Menu Up</source>
 			</trans-unit>
 
 
