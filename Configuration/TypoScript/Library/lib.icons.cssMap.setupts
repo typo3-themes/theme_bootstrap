@@ -1,5 +1,11 @@
 lib.icons.cssMap {
 
+	# This is the list of available icons in this theme
+	# It is a mix of glyphicons and font awesome icons
+	# with font awesome having precedence over glyphicons
+	# in case their classes are matching
+	# the <i> tag will be generated for available classes only
+
 	adjust = fa fa-adjust
 	adn = fa fa-adn
 	alert = glyphicon glyphicon-alert
