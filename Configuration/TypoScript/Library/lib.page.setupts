@@ -1,0 +1,10 @@
+lib.page.title.prepend = TEXT
+lib.page.title.prepend {
+	if.isTrue.data = page:tx_themes_icon
+	data = page:tx_themes_icon
+	stdWrap.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+	stdWrap.postUserFunc {
+		iconMapping =< lib.icons.cssMap
+	}
+	noTrimWrap = |<i class="|" aria-hidden="true"></i> |
+}
