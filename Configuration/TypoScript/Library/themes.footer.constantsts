@@ -3,8 +3,8 @@
 #############################################
 
 # #customcategory=footer=Theme: Footer settings
-# customsubcategory=copyright=Copyright settings
-# customsubcategory=logo_main=Logo main
+# customsubcategory=footer_copyright=Copyright settings
+# customsubcategory=footer_logo_main=Main Logo of the footer
 
 
 # General
@@ -21,10 +21,10 @@ themes.configuration.footer.email = info@typo3-themes.org
 # Copyright
 #############################################
 
-# cat=footer,advanced/copyright/; type=string; label= Copyright label in left of year
+# cat=footer,advanced/footer_copyright/; type=string; label= Copyright label in left of year
 themes.configuration.footer.copyright.leftLabel =
 
-# cat=footer,advanced/copyright/; type=string; label= Copyright label in right of year
+# cat=footer,advanced/footer_copyright/; type=string; label= Copyright label in right of year
 themes.configuration.footer.copyright.rightLabel = &nbsp;&copy; TYPO3-Themes Team
 
 
@@ -32,20 +32,20 @@ themes.configuration.footer.copyright.rightLabel = &nbsp;&copy; TYPO3-Themes Tea
 # Logo main
 #############################################
 
-# cat=footer,advanced/logo_main/; type=string; label= Footer logo: Path and filename (fileadmin/.../logo.png)
+# cat=footer,advanced/footer_logo_main/; type=string; label= Footer logo: Path and filename (fileadmin/.../logo.png)
 themes.configuration.footer.logo.main.file = EXT:theme_bootstrap/Resources/Public/Images/logo.png
 
-# cat=footer,expert/logo_main/; type=int+; label= Footer logo: Width
+# cat=footer,expert/footer_logo_main/; type=int+; label= Footer logo: Width
 themes.configuration.footer.logo.main.width = 110
 
-# cat=footer,expert/logo_main/; type=int+; label= Footer logo: Height
+# cat=footer,expert/footer_logo_main/; type=int+; label= Footer logo: Height
 themes.configuration.footer.logo.main.height = 89
 
-# cat=footer,advanced/logo_main/; type=int+; label= Footer logo: Link UID footer logo
+# cat=footer,advanced/footer_logo_main/; type=int+; label= Footer logo: Link UID footer logo
 themes.configuration.footer.logo.main.linkUid = {$themes.configuration.pages.startsite}
 
-# cat=footer,advanced/logo_main/; type=options[_blank,_self]; label= Footer logo: Link target footer logo
+# cat=footer,advanced/footer_logo_main/; type=options[_blank,_self]; label= Footer logo: Link target footer logo
 themes.configuration.footer.logo.main.linkTarget = _self
 
-# cat=footer,advanced/logo_main/; type=string; label= Footer logo: Title footer logo
+# cat=footer,advanced/footer_logo_main/; type=string; label= Footer logo: Title footer logo
 themes.configuration.footer.logo.main.title = {$themes.configuration.siteName}
