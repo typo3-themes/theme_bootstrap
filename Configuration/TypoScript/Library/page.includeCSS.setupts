@@ -1,7 +1,7 @@
 page {
 	includeCSS {
 		theme = EXT:theme_bootstrap/Resources/Private/Dyncss/import.less
-		fontawesome = EXT:theme_bootstrap/Resources/Public/Contrib/font-awesome-4.3.0/css/font-awesome.css
+		fontawesome = EXT:theme_bootstrap/Resources/Public/Contrib/font-awesome-4.3.0/css/font-awesome.min.css
 		fontawesome {
 			excludeFromConcatenation = 1
 			disableCompression = 1
@@ -12,7 +12,7 @@ page {
 [globalVar = LIT:1 = {$themes.mode.isProduction}]
 page {
 	includeCSS {
-		fontawesome = //maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css
+		fontawesome = //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css
 		fontawesome {
 			external = 1
 		}

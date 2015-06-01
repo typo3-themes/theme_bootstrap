@@ -2,13 +2,6 @@
 
 page {
 	includeJSlibs {
-		bootstrap = EXT:theme_bootstrap/Resources/Public/Contrib/BsCompressed/bootstrap.min.js
-		bootstrap {
-			external = 0
-			forceOnTop = 1
-			disableCompression = 1
-			excludeFromConcatenation = 1
-		}
 		modernizr = EXT:theme_bootstrap/Resources/Public/Contrib/BsCompressed/modernizr.min.js
 		modernizr {
 			external = 0
@@ -17,6 +10,13 @@ page {
 		}
 	}
 	includeJS {
+		bootstrap = EXT:theme_bootstrap/Resources/Public/Contrib/BsCompressed/bootstrap.min.js
+		bootstrap {
+			external = 0
+			forceOnTop = 1
+			disableCompression = 1
+			excludeFromConcatenation = 1
+		}
 		theme = EXT:theme_bootstrap/Resources/Public/JavaScript/default.js
 		theme {
 			external = 0
@@ -29,16 +29,18 @@ page {
 
 # Settings for the production system
 [globalVar = LIT:1 = {$themes.mode.isProduction}]
-page {
-	includeJSlibs {
-		bootstrap = //netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
-		bootstrap {
-			external = 1
+	page {
+		includeJSlibs {
+			modernizr = //cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
+			modernizr {
+				external = 1
+			}
 		}
-		modernizr = //cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
-		modernizr {
-			external = 1
+		includeJS {
+			bootstrap = //netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
+			bootstrap {
+				external = 1
+			}
 		}
 	}
-}
 [global]
