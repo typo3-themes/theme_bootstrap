@@ -56,6 +56,10 @@ themes {
 				button-info = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.info
 				button-warning = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.warning
 				button-danger = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.danger
+				button-large = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.large
+				button-small = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.small
+				button-extra-small = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.extra-small
+				button-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.block
 			}
 		}
 	}

@@ -28,5 +28,9 @@ lib.content.cssMap.variants {
 		button-info = btn btn-info
 		button-warning = btn btn-warning
 		button-danger = btn btn-danger
+		button-large = btn btn-lg
+		button-small = btn btn-sm
+		button-extra-small = btn btn-xs
+		button-block = btn btn-block
 	}
 }

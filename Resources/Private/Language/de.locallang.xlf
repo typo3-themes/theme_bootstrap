@@ -207,6 +207,22 @@
 				<source>Danger Button</source>
 				<target>Fehler-Schaltfläche</target>
 			</trans-unit>
+			<trans-unit id="content.buttons.large" xml:space="preserve">
+				<source>Large Button</source>
+				<target>Große Schaltfläche</target>
+			</trans-unit>
+			<trans-unit id="content.buttons.small" xml:space="preserve">
+				<source>Small Button</source>
+				<target>Kleine Schaltfläche</target>
+			</trans-unit>
+			<trans-unit id="content.buttons.extra-small" xml:space="preserve">
+				<source>Extra Small Button</source>
+				<target>Extra kleine Schaltfläche</target>
+			</trans-unit>
+			<trans-unit id="content.buttons.block" xml:space="preserve">
+				<source>Block Button</source>
+				<target>Block-Schaltfläche</target>
+			</trans-unit>
 
 			<trans-unit id="content.bullets" xml:space="preserve">
 				<source>Panel with List Group</source>

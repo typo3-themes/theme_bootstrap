@@ -2,7 +2,7 @@ RTE {
 	default	 {
 		buttons {
 			link.properties.class {
-				allowedClasses := addToList(button-default,button-primary,button-success,button-info,button-warning,button-danger)
+				allowedClasses := addToList(button-default,button-primary,button-success,button-info,button-warning,button-danger,button-large,button-small,button-extra-small,button-block)
 			}
 		}
 	}
@@ -24,6 +24,18 @@ RTE {
 		}
 		button-danger {
 			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.danger
+		}
+		button-large {
+			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.large
+		}
+		button-small {
+			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.small
+		}
+		button-extra-small {
+			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.extra-small
+		}
+		button-block name {
+			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.block
 		}
 	}
 }
