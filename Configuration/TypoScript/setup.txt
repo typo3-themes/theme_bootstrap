@@ -3,6 +3,14 @@
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap/Configuration/Elements/TypoScript/" extensions="setupts">
 
 # Extensions
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/News/TypoScript/setup.txt">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/Rtehtmlarea/TypoScript/setup.txt">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/IndexedSearch/TypoScript/setup.txt">
+[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('news')]
+	<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/News/TypoScript/setup.txt">
+[global]
+[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('rtehtmlarea')]
+	<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/Rtehtmlarea/TypoScript/setup.txt">
+[global]
+[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('news')]
+	<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/IndexedSearch/TypoScript/setup.txt">
+[global]
+
+

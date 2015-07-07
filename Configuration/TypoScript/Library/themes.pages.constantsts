@@ -1,8 +1,12 @@
 
+# Set the page identifier
+themes.page = default
+
 # #customcategory=pages=Theme: Page settings
 
 # cat=pages,advanced//; type=int+; label= Startsite page uid
 themes.configuration.pages.startsite = 1
+[globalVar = TSFE:id = ]
 
 # cat=pages,advanced//; type=int+; label= Page for the terms and conditions
 themes.configuration.pages.legal = 0
