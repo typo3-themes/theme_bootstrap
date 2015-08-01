@@ -34,7 +34,7 @@ RTE {
 		button-extra-small {
 			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.extra-small
 		}
-		button-block name {
+		button-block {
 			name = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.buttons.block
 		}
 	}
