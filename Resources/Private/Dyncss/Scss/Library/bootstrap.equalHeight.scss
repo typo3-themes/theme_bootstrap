@@ -1,0 +1,6 @@
+.equal-height, .equal-height > div[class*='col-'] {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	flex:1 0 auto;
+}
