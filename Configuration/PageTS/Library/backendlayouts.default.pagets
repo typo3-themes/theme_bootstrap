@@ -2,17 +2,17 @@
 #
 # Just delete the backendlayouts which arn't required
 #
-#backendlayouts.Content >
-#backendlayouts.ContentEmpty >
-#backendlayouts.ContentMenu >
-#backendlayouts.ContentMenuSidebar >
-#backendlayouts.ContentSidebar >
-#backendlayouts.ContentSidebarMenu >
-#backendlayouts.ContentSpecial >
-#backendlayouts.ContentStartsite >
-#backendlayouts.MenuContent >
-#backendlayouts.MenuContentSidebar >
-#backendlayouts.MenuSidebarContent >
-#backendlayouts.SidebarContent >
-#backendlayouts.SidebarContentMenu >
-#backendlayouts.SidebarMenuContent >
+#mod.web_layout.BackendLayouts.Content >
+#mod.web_layout.BackendLayouts.ContentEmpty >
+#mod.web_layout.BackendLayouts.ContentMenu >
+#mod.web_layout.BackendLayouts.ContentMenuSidebar >
+#mod.web_layout.BackendLayouts.ContentSidebar >
+#mod.web_layout.BackendLayouts.ContentSidebarMenu >
+#mod.web_layout.BackendLayouts.ContentSpecial >
+#mod.web_layout.BackendLayouts.ContentStartsite >
+#mod.web_layout.BackendLayouts.MenuContent >
+#mod.web_layout.BackendLayouts.MenuContentSidebar >
+#mod.web_layout.BackendLayouts.MenuSidebarContent >
+#mod.web_layout.BackendLayouts.SidebarContent >
+#mod.web_layout.BackendLayouts.SidebarContentMenu >
+#mod.web_layout.BackendLayouts.SidebarMenuContent >
