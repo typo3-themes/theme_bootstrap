@@ -38,7 +38,6 @@ $EM_CONF[$_EXTKEY] = array(
 			'typo3'  => '6.2.0-6.2.99',
 			't3jquery' => '2.7.1-2.7.99',
 			'themes_gridelements' => '0.5.2-1.1.0',
-			'dyncss' => '0.7.0-0.7.99',
 			'dyncss_less' => '0.7.0-0.7.99',
 		),
 		'conflicts' => array(
