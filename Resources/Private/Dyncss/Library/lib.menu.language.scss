@@ -1,0 +1,41 @@
+.menu-language-wrapper {
+  float: left;
+  span {
+    display: none;
+    float: right;
+    margin-right: 8px;
+    margin-top: 16px;
+  }
+}
+
+#menuLanguage {
+  li {
+    a {
+      span {
+        display: none;
+      }
+      img {
+        // @todo überall mixin für opacity verwenden
+        opacity: 0.7;
+      }
+    }
+    a:hover {
+      text-decoration: none;
+      img {
+        opacity: 1.0;
+      }
+    }
+  }
+  li.active a img {
+    opacity: 1.0;
+  }
+  li.noTranslation {
+    a {
+      cursor: default;
+      img {
+
+        opacity: 0.2;
+      }
+    }
+  }
+}

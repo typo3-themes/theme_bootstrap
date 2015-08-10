@@ -1,6 +1,7 @@
 page {
 	includeCSS {
 		theme = EXT:theme_bootstrap/Resources/Private/Dyncss/import.less
+		#theme = EXT:theme_bootstrap/Resources/Private/Dyncss/import.scss
 		fontawesome = EXT:theme_bootstrap/Resources/Public/Contrib/font-awesome-4.3.0/css/font-awesome.min.css
 		fontawesome {
 			excludeFromConcatenation = 1

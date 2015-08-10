@@ -1,0 +1,51 @@
+// Be sure that all Bootstrap variables are defined!
+@import "../../Public/Contrib/bootstrap-sass/assets/stylesheets/bootstrap/variables.scss";
+
+// Define all overwritable Variables, so that EXT:dyncss
+// is able to overwrite them.
+// In case of overwriting the definition value doesnt matter
+$brand-primary: #ff8700;
+$brand-secondary: #FFFFFF;
+$navbar-default-bg: $gray-dark;
+$navbar-default-link-color: $gray-lighter;
+$navbar-default-link-hover-color: $brand-primary;
+$navbar-default-link-active-color: $brand-primary;
+$border-radius-base: 0;
+
+// Base URL for images
+$baseurlImage: '/typo3conf/ext/theme_bootstrap/Resources/Public/Images/';
+
+// Base font size for body tag
+$baseFontSize: 11;
+
+// Scss-Imports
+@import "Library/bootstrap.scss";
+@import "Library/bootstrap.equalHeight.scss";
+@import "Library/layout.scss";
+@import "Library/area.feature.scss";
+@import "Library/area.footer.scss";
+@import "Library/lib.button.scss";
+@import "Library/lib.logo.scss";
+@import "Library/lib.menu.sub.scss";
+@import "Library/lib.menu.main.scss";
+@import "Library/lib.menu.special.scss";
+@import "Library/lib.menu.language.scss";
+@import "Library/lib.menu.breadcrumb.scss";
+@import "Library/partial.socialmedia.scss";
+
+// Styles for Elements
+// @import "Library/Elements/Carousel/carouselLarge.scss";
+// @import "Library/Elements/Carousel/carouselSmall.scss";
+// @import "Library/Elements/Accordion/accordion.scss";
+// @import "Library/Elements/Sitemap/sitemap.scss";
+
+// Styles for Variants
+// @import "Library/Variants/framed.scss";
+// @import "Library/Variants/GridElements/Container/container-startsite.scss";
+// @import "Library/Variants/Header/page-header.scss";
+// @import "Library/Variants/Sitemap/sitemap.scss";
+
+// Styles for Extensions
+@import "../Extensions/News/Dyncss/import.scss";
+@import "../Extensions/Rtehtmlarea/Dyncss/frontend.scss";
+

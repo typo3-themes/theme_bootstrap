@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'Theme to use Twitter Bootstrap',
 	'category' => 'templates',
 	'shy' => 0,
-	'version' => '1.4.3',
+	'version' => '1.4.4',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -36,11 +36,12 @@ $EM_CONF[$_EXTKEY] = array(
 		'depends' => array(
 			'php'    => '5.2.0-0.0.0',
 			'typo3'  => '6.2.0-6.2.99',
-			'themes' => '2.4.4-2.4.99',
+			'themes' => '2.4.4-2.5.99',
 			't3jquery' => '2.7.1-2.7.99',
 			'themes_gridelements' => '0.5.2-1.1.0',
 			'dyncss' => '0.7.0-0.7.99',
 			'dyncss_less' => '0.7.0-0.7.99',
+			'dyncss_scss' => '0.7.1-0.7.99',
 		),
 		'conflicts' => array(
 		),
