@@ -1,6 +1,6 @@
 # Name and description of the theme (required)
 title            : Minimalistic theme for reference purposes
-version          : 1.0.2
+version          : 1.0.3
 description      : |
   This is the description of the theme.
   With the starting pipe it can contain multiple lines.
@@ -68,6 +68,13 @@ authors:
     company        : Cybercraft
     companyLogo    :
     companyWebsite : www.cybercraft.de
+
+  -
+    name           : Sebastian Richter
+    email          : info@baschte.de
+    company        : Raphael GmbH
+    companyLogo    :
+    companyWebsite : www.raphael-gmbh.de
 
 # Possible license if applicable (optional)
 # Pick on from http://creativecommons.org/choose/
