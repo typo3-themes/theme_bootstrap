@@ -20,3 +20,13 @@ page {
 	}
 }
 [global]
+
+
+# Settings for Bootstrap Paypal Accessibility Plugin
+[globalVar = LIT:0 < {$themes.configuration.bootstrap.javascript.plugin.accessibility}]
+	page {
+		includeCSS {
+			accessibility = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap-accessibility-plugin/bootstrap-accessibility.css
+		}
+	}
+[global]
