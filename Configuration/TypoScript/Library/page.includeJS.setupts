@@ -44,3 +44,18 @@ page {
 		}
 	}
 [global]
+
+
+# Settings for Bootstrap Paypal Accessibility Plugin
+[globalVar = LIT:0 < {$themes.configuration.bootstrap.javascript.plugin.accessibility}]
+page {
+	includeJS {
+		accessibility = EXT:theme_bootstrap/Resources/Public/Contrib/bootstrap-accessibility-plugin/bootstrap-accessibility.min.js
+		accessibility{
+			external = 0
+			disableCompression = 1
+			excludeFromConcatenation = 1
+		}
+	}
+}
+[global]
