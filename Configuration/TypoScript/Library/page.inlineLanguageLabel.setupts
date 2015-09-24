@@ -11,3 +11,7 @@ page.inlineLanguageLabel {
 	printLink_label = Print
 }
 
+[compatVersion = 7.0.0]
+	# otherwise we have Fatal error: Call to a member function sL() on a non-object in /var/www/typo3_src/typo3/sysext/core/Classes/Page/PageRenderer.php on line 1811
+	page.inlineLanguageLabel >
+[GLOBAL]
