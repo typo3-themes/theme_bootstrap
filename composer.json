@@ -1,0 +1,20 @@
+{
+	"name": "typo3-themes/theme-bootstrap",
+	"type": "typo3-cms-extension",
+	"description": "TYPO3 THEMES Base-theme using Twitter bootstrap",
+	"version": "1.4.6",
+	"homepage": "http://typo3-themes.org",
+	"license": ["GPL-2.0+"],
+	"keywords": ["TYPO3 CMS", "TYPO3 THEMES", "THEMES", "BOOSTRAP", "FLUID", "CUSTOMIZE"],
+	"support": {
+		"issues": "https://github.com/typo3-themes/theme_bootstrap/issues"
+	},
+	"replace": {
+		"theme_boostrap": "self.version",
+		"typo3-ter/themes_bootstrap": "self.version"
+	},
+	"require": {
+		"typo3-themes/themes": "dev-master",
+		"typo3-themes/themes-gridelements": "dev-master"
+	}
+}
