@@ -10,7 +10,7 @@
 		"issues": "https://github.com/typo3-themes/theme_bootstrap/issues"
 	},
 	"replace": {
-		"theme_boostrap": "self.version",
+		"theme_bootstrap": "self.version",
 		"typo3-ter/themes_bootstrap": "self.version"
 	},
 	"require": {
