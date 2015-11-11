@@ -8,6 +8,12 @@ page {
 			disableCompression = 1
 			excludeFromConcatenation = 1
 		}
+		jquery = EXT:theme_bootstrap/Resources/Public/Contrib/jquery/jquery-2.1.4.min.js
+		jquery {
+			external = 0
+			disableCompression = 1
+			excludeFromConcatenation = 1
+		}
 	}
 	includeJS {
 		bootstrap = EXT:theme_bootstrap/Resources/Public/Contrib/BsCompressed/bootstrap.min.js
@@ -25,6 +31,15 @@ page {
 		}
 	}
 }
+
+# support t3jquery
+[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('t3jquery')]
+	page.10 = USER
+	page.10 {
+		userFunc = tx_t3jquery->addJS
+	}
+	page.includeJSLibs.jquery >
+[END]
 
 
 # Settings for the production system

@@ -1,4 +1,0 @@
-page.10 = USER
-page.10 {
-	userFunc = tx_t3jquery->addJS
-}
