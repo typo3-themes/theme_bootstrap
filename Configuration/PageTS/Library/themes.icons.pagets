@@ -704,3 +704,4 @@ TCEFORM.tt_content.tx_themes_icon.addItems {
 }
 
 TCEFORM.pages.tx_themes_icon.addItems < TCEFORM.tt_content.tx_themes_icon.addItems
+TCEFORM.tx_themes_buttoncontent.icon.addItems < TCEFORM.tt_content.tx_themes_icon.addItems
