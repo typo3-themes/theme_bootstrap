@@ -2,7 +2,7 @@
 	"name": "typo3-themes/theme-bootstrap",
 	"type": "typo3-cms-extension",
 	"description": "TYPO3 THEMES Base-theme using Twitter bootstrap",
-	"version": "1.4.6",
+	"version": "7.0.0",
 	"homepage": "http://typo3-themes.org",
 	"license": ["GPL-2.0+"],
 	"keywords": ["TYPO3 CMS", "TYPO3 THEMES", "THEMES", "BOOSTRAP", "FLUID", "CUSTOMIZE"],
