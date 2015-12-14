@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'Theme to use Twitter Bootstrap',
 	'category' => 'templates',
 	'shy' => 0,
-	'version' => '1.4.6',
+	'version' => '1.4.7',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -34,7 +34,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'CGLcompliance_note' => '',
 	'constraints' => array(
 		'depends' => array(
-			'typo3'  => '6.2.0-7.6.99',
+			'typo3'  => '6.2.0-6.2.99',
 			'themes_gridelements' => '0.6.1-0.6.99',
 			'dyncss_less' => '0.7.0-0.7.99',
 		),
