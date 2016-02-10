@@ -1,1 +1,11 @@
-deny from all
+# http://blog.plee.me/2013/07/access-control-via-hybrid-htaccess-for-both-apache-httpd-2-2-and-2-4/
+# Apache 2.4
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+
+# Apache 2.2
+<IfModule !mod_authz_core.c>
+    Order Allow,Deny
+    Deny from all
+</IfModule>
