@@ -1,23 +1,25 @@
 // Be sure that all Bootstrap variables are defined!
+// Define here all Bootstrap - variables that are NOT in the Themes-constants-editor but should be different
+// from the Bootstrap-defaults.
+// Assignments via TypoScript in the /Configuration/TypoScript/Library/plugin.dyncss.bootstrap3.setupts have highest priority!
+// in LESS the FIRST assignment to a constant sets the value.
+
+// @brand-primary: #ff8700;
+// @brand-secondary: #FFFFFF;
+// @navbar-default-bg: @gray-dark;
+// @navbar-default-link-color: @gray-lighter;
+// @navbar-default-link-hover-color: @brand-primary;
+// @navbar-default-link-active-color: @brand-primary;
+// @border-radius-base: 0;
+
+// // Base URL for images
+// @baseurlImage: '/typo3conf/ext/theme_bootstrap/Resources/Public/Images/';
+
+// // Base font size for body tag
+// @baseFontSize: 11;
+
+// next, import the Bootstrap - default - variables. This way variables not assigned till now get the bootstrap defaults.
 @import "../../Public/Contrib/Bootstrap/less/variables.less";
-
-// Define all overwritable Variables, so that EXT:dyncss
-// is able to overwrite them.
-// In case of overwriting the definition value doesnt matter
-@brand-primary: #ff8700;
-@brand-secondary: #FFFFFF;
-@navbar-default-bg: @gray-dark;
-@navbar-default-link-color: @gray-lighter;
-@navbar-default-link-hover-color: @brand-primary;
-@navbar-default-link-active-color: @brand-primary;
-@border-radius-base: 0;
-
-// Base URL for images
-@baseurlImage: '/typo3conf/ext/theme_bootstrap/Resources/Public/Images/';
-
-// Base font size for body tag
-@baseFontSize: 11;
-
 
 // Less-Imports
 @import "Library/bootstrap.less";
