@@ -1,7 +1,7 @@
 plugin.tx_themes {
 	_LOCAL_LANG {
 		default {
-			languageMenu_label = Website-Sprache
+			languageMenu_label = Website language
 			breadcrumb_label = You are here
 			imprint_label = Imprint
 			quickSearch_label = Search
