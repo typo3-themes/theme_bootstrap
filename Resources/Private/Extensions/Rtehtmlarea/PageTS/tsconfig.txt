@@ -122,4 +122,4 @@ RTE.default {
 # Diese Zeile übernimmt die geänderte RTE-Konfiguration für den Editor, wenn dieser im Frontend verwendet wird.
 RTE.default.FE < RTE.default
 
-#Info: Eine Abkürzung (acronym) muss erste in der Listenansicht im Beckend eingebunden werden, bevor der Button im RTE sichtbar wird.
+#Info: Eine Abkürzung (acronym) muss erst in der Listenansicht im Backend eingebunden werden, bevor der Button im RTE sichtbar wird.
