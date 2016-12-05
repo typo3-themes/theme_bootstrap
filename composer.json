@@ -11,7 +11,7 @@
 	},
 	"replace": {
 		"theme_bootstrap": "self.version",
-		"typo3-ter/themes_bootstrap": "self.version"
+		"typo3-ter/theme_bootstrap": "self.version"
 	},
 	"require": {
 		"typo3-ter/dyncss_less": "^0.7",
