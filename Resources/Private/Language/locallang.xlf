@@ -16,6 +16,10 @@
 			<trans-unit id="imprint_label" xml:space="preserve">
 				<source>Imprint</source>
 			</trans-unit>
+			<trans-unit id="skiptomaincontent" xml:space="preserve">
+            	<source>Skip to main content</source>
+            </trans-unit>
+
 			<!--
 				Hier können nun beliebig viele
 				weitere Sprachwerte äquivalent

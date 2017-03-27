@@ -31,5 +31,6 @@ page {
 			
 		}
 	}
-	
+	1 = TEXT
+	1.dataWrap = <a class="sr-only sr-only-focusable" href="#content"><span>{LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:skiptomaincontent}</span></a>
 }

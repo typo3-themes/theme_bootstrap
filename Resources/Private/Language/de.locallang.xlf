@@ -19,6 +19,11 @@
 				<source>Imprint</source>
 				<target>Impressum</target>
 			</trans-unit>
+			<trans-unit id="skiptomaincontent" xml:space="preserve">
+                <source>Skip to main content</source>
+                <target>Zum Hauptinhalt springen</target>
+            </trans-unit>
+
 			<!--
 				Hier können nun beliebig viele
 				weitere Übersetzungen zu
