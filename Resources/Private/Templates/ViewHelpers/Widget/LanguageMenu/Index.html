@@ -4,7 +4,7 @@
 			<f:then>
 				<li class="{entry.class} active">
 					<a href="#">
-						<f:image src="{flagIconPath}{entry.flag}.{flagIconFileExtension}"
+						<f:image class="flagIcon" src="{flagIconPath}{entry.flag}.{flagIconFileExtension}"
 							title="{entry.label}"
 							alt="{entry.label}"/>
 						<span>{entry.label}</span>
@@ -22,7 +22,7 @@
 								additionalParams="{L: entry.L}"
 								title="{entry.label}"
 								argumentsToBeExcludedFromQueryString="{0: 'id'}">
-								<f:image src="{flagIconPath}{entry.flag}.{flagIconFileExtension}"
+								<f:image class="flagIcon" src="{flagIconPath}{entry.flag}.{flagIconFileExtension}"
 									title="{entry.label}"
 									alt="{entry.label}"/>
 								<span>{entry.label}</span>
@@ -33,7 +33,7 @@
 						<!-- Not translated! -->
 						<li class="{entry.class} noTranslation">
 							<a href="#">
-								<f:image src="{flagIconPath}{entry.flag}.{flagIconFileExtension}"
+								<f:image class="flagIcon" src="{flagIconPath}{entry.flag}.{flagIconFileExtension}"
 										 title="{entry.label}"
 										 alt="{entry.label}"/>
 								<span>{entry.label}</span>
