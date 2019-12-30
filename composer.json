@@ -14,6 +14,6 @@
 		"typo3-ter/themes_bootstrap": "self.version"
 	},
 	"require": {
-		"typo3-themes/themes-gridelements": "dev-master"
+		"typo3-themes/themes-gridelements": "^7.0"
 	}
 }
