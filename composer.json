@@ -15,6 +15,6 @@
 	},
 	"require": {
 		"typo3-ter/dyncss_less": "^0.7",
-		"typo3-themes/themes-gridelements": "dev-master"
+		"typo3-themes/themes-gridelements": "~8.7"
 	}
 }
