@@ -10,11 +10,17 @@
 		"issues": "https://github.com/typo3-themes/theme_bootstrap/issues"
 	},
 	"replace": {
-		"theme_bootstrap": "self.version",
 		"typo3-ter/theme_bootstrap": "self.version"
 	},
 	"require": {
 		"typo3-ter/dyncss_less": "^0.7",
 		"typo3-themes/themes-gridelements": "dev-master"
-	}
+	},
+	  "extra": {
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web",
+      "extension-key": "theme_bootstrap"
+    }
+  }
 }
