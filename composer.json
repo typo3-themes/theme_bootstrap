@@ -1,22 +1,21 @@
 {
-	"name": "typo3-themes/theme-bootstrap",
-	"type": "typo3-cms-extension",
-	"description": "TYPO3 THEMES Base-theme using Twitter bootstrap",
-	"version": "8.7.0",
-	"homepage": "http://typo3-themes.org",
-	"license": ["GPL-2.0+"],
-	"keywords": ["TYPO3 CMS", "TYPO3 THEMES", "THEMES", "BOOTSTRAP", "FLUID", "CUSTOMIZE"],
-	"support": {
-		"issues": "https://github.com/typo3-themes/theme_bootstrap/issues"
-	},
-	"replace": {
-		"typo3-ter/theme_bootstrap": "self.version"
-	},
-	"require": {
-		"typo3-ter/dyncss_less": "^0.7",
-		"typo3-themes/themes-gridelements": "dev-master"
-	},
-	  "extra": {
+"name": "typo3-themes/theme-bootstrap",
+"type": "typo3-cms-extension",
+"description": "TYPO3 THEMES Base-theme using Twitter bootstrap",
+"homepage": "http://typo3-themes.org",
+"license": ["GPL-2.0+"],
+"keywords": ["TYPO3 CMS", "TYPO3 THEMES", "THEMES", "BOOTSTRAP", "FLUID", "CUSTOMIZE"],
+"support": {
+	"issues": "https://github.com/typo3-themes/theme_bootstrap/issues"
+},
+"replace": {
+	"typo3-ter/theme_bootstrap": "self.version"
+},
+"require": {
+	"typo3-ter/dyncss_less": "^0.7",
+	"typo3-themes/themes-gridelements": "dev-master"
+},
+  "extra": {
     "typo3/cms": {
       "cms-package-dir": "{$vendor-dir}/typo3/cms",
       "web-dir": ".Build/Web",
