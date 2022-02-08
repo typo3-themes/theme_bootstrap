@@ -21,16 +21,16 @@ lib.menu.main {
 		IFSUB {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="dropdown state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="dropdown state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="dropdown state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
-			before >
-			after = <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="float:left;display:inline"><b class="caret"></b></a>		
+			before = <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+			after = <b class="caret"></b></a>
 			doNotLinkIt = {$themes.configuration.menu.main.doNotLinkFirstLevelPagesWithSubPages}
 		}
 		ACTIFSUB < .ACT
 		ACTIFSUB {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="dropdown state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="dropdown state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="dropdown state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
-			before >
-			after = <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="float:left;display:inline"><b class="caret"></b></a>		
+			before = <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+			after = <b class="caret"></b></a>
 			doNotLinkIt = {$themes.configuration.menu.main.doNotLinkFirstLevelPagesWithSubPages}
 		}
 	}
