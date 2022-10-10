@@ -4,9 +4,6 @@
 			<f:then>
 				<li class="{entry.class} active">
 					<a href="#">
-						<f:image src="{flagIconPath}{entry.flag}.{flagIconFileExtension}"
-							title="{entry.label}"
-							alt="{entry.label}"/>
 						<span>{entry.label}</span>
 					</a>
 				</li>
@@ -22,9 +19,6 @@
 								additionalParams="{L: entry.L}"
 								title="{entry.label}"
 								argumentsToBeExcludedFromQueryString="{0: 'id'}">
-								<f:image src="{flagIconPath}{entry.flag}.{flagIconFileExtension}"
-									title="{entry.label}"
-									alt="{entry.label}"/>
 								<span>{entry.label}</span>
 							</f:link.page>
 						</li>
@@ -33,15 +27,12 @@
 						<!-- Not translated! -->
 						<li class="{entry.class} noTranslation">
 							<a href="#">
-								<f:image src="{flagIconPath}{entry.flag}.{flagIconFileExtension}"
-										 title="{entry.label}"
-										 alt="{entry.label}"/>
 								<span>{entry.label}</span>
 							</a>
 						</li>
 					</f:else>
 				</f:if>
-		
+
 			</f:else>
 		</f:if>
 	</f:for>
