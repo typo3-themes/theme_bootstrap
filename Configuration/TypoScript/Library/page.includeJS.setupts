@@ -41,26 +41,6 @@ page {
 	page.includeJSLibs.jquery >
 [END]
 
-
-# Settings for the production system
-[globalVar = LIT:1 = {$themes.mode.isProduction}]
-	page {
-		includeJSLibs {
-			modernizr = //cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js
-			modernizr {
-				external = 1
-			}
-		}
-		includeJS {
-			bootstrap = //netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
-			bootstrap {
-				external = 1
-			}
-		}
-	}
-[global]
-
-
 # Settings for Bootstrap Paypal Accessibility Plugin
 [globalVar = LIT:0 < {$themes.configuration.bootstrap.javascript.plugin.accessibility}]
 page {
