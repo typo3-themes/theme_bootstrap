@@ -3,3 +3,17 @@ plugin.tx_felogin_pi1 {
 	#storagePid - where are the user records? use single value or a comma separated list
 	storagePid = {$themes.configuration.container.frontendUser}
 }
+
+plugin.tx_felogin_login {
+	view {
+		templateRootPaths {
+			10 = EXT:theme_bootstrap/Resources/Private/Extensions/Felogin/Templates/
+		}
+		partialRootPaths {
+			10 = EXT:theme_bootstrap/Resources/Private/Extensions/Felogin/Partials/
+		}
+		layoutRootPaths {
+			10 = EXT:theme_bootstrap/Resources/Private/Extensions/Felogin/Layouts/
+		}
+	}
+}
