@@ -6,212 +6,128 @@
 <f:layout name="Default" />
 
 <f:section name="Main">
-
-	<div class="tx-felogin panel panel-default card">
+	<div class="tx-felogin panel panel-default card mb-3">
 		<div class="panel-body card-body">
 
-			<f:if condition="{message}">
+			<f:flashMessages/>
+
+			<f:if condition="{cookieWarning}">
+				<f:render partial="CookieWarning" />
+			</f:if>
+
+			<f:if condition="{messageKey}">
 				<div class="alert alert-info" role="alert">
-					{message -> f:format.html()}
+					<h3 class="h3 panel-title card-title">
+						<f:render partial="RenderLabelOrMessage" arguments="{key: '{messageKey}_header'}"/>
+					</h3>
+					<p class="mb-0">
+						<f:render partial="RenderLabelOrMessage" arguments="{key: '{messageKey}_message'}"/>
+					</p>
 				</div>
 			</f:if>
 
-			<f:if condition="{isLoggedIn}">
+			<f:if condition="{onSubmit}">
 				<f:then>
-					<div class="felogin-logout">
-						<div class="alert alert-success" role="alert">
-							<strong>Angemeldet als:</strong> {user.username}
-						</div>
-
-						<f:form
-							targetPid="{logoutPid}"
-							action="logout"
-							method="post"
-							class="form felogin-form felogin-form-logout"
-						>
-							<div class="form-group">
-								<f:form.submit
-									name="submit"
-									value="Abmelden"
-									class="btn btn-default btn-secondary"
-								/>
-							</div>
-						</f:form>
-					</div>
+					<f:form target="_top" fieldNamePrefix="" action="login" onsubmit="{onSubmit}" additionalAttributes="{spellcheck: 'false'}" class="form felogin-form felogin-form-login">
+						<f:render section="content" arguments="{_all}"/>
+					</f:form>
 				</f:then>
-
 				<f:else>
-
-					<f:if condition="{forgotPassword}">
-						<f:then>
-
-							<f:if condition="{hashValid}">
-								<f:then>
-									<div class="felogin-password-recovery">
-										<h3 class="h3">Neues Passwort vergeben</h3>
-
-										<f:form
-											action="changePassword"
-											method="post"
-											class="form felogin-form felogin-form-recovery"
-										>
-											<f:form.hidden name="hash" value="{hash}" />
-
-											<div class="form-group mb-3">
-												<label for="felogin-password-1">Neues Passwort</label>
-												<f:form.password
-													name="password1"
-													id="felogin-password-1"
-													class="form-control"
-													additionalAttributes="{autocomplete: 'new-password'}"
-												/>
-											</div>
-
-											<div class="form-group mb-3">
-												<label for="felogin-password-2">Passwort wiederholen</label>
-												<f:form.password
-													name="password2"
-													id="felogin-password-2"
-													class="form-control"
-													additionalAttributes="{autocomplete: 'new-password'}"
-												/>
-											</div>
-
-											<div class="form-group mb-3">
-												<f:form.submit
-													name="submit"
-													value="Passwort speichern"
-													class="btn btn-primary"
-												/>
-											</div>
-										</f:form>
-									</div>
-								</f:then>
-
-								<f:else>
-									<div class="felogin-forgot-password">
-										<h3 class="h3">Passwort vergessen</h3>
-
-										<f:form
-											action="passwordRecovery"
-											method="post"
-											class="form felogin-form felogin-form-forgot"
-										>
-											<div class="form-group mb-3">
-												<label for="felogin-forgot-email">Benutzername oder E-Mail</label>
-												<f:form.textfield
-													name="user"
-													id="felogin-forgot-email"
-													class="form-control"
-													additionalAttributes="{autocomplete: 'username'}"
-												/>
-												<p class="help-block form-text text-muted">
-													Gib deinen Benutzernamen oder deine E-Mail-Adresse ein.
-												</p>
-											</div>
-
-											<div class="form-group mb-3">
-												<f:form.submit
-													name="submit"
-													value="Link zum Zurücksetzen senden"
-													class="btn btn-primary"
-												/>
-												<f:link.action
-													action="showLogin"
-													class="btn btn-default btn-secondary"
-												>
-													Zurück zum Login
-												</f:link.action>
-											</div>
-										</f:form>
-									</div>
-								</f:else>
-							</f:if>
-
-						</f:then>
-
-						<f:else>
-
-							<div class="felogin-login">
-								<h3 class="h3">Login</h3>
-
-								<f:if condition="{loginError}">
-									<div class="alert alert-danger" role="alert">
-										Anmeldung fehlgeschlagen. Bitte überprüfe Benutzername und Passwort.
-									</div>
-								</f:if>
-
-								<f:form
-									action="login"
-									method="post"
-									class="form felogin-form felogin-form-login"
-								>
-									<div class="form-group mb-3">
-										<label for="felogin-user">Benutzername</label>
-										<f:form.textfield
-											name="user"
-											id="felogin-user"
-											value="{user}"
-											class="form-control"
-											additionalAttributes="{autocomplete: 'username'}"
-										/>
-									</div>
-
-									<div class="form-group mb-3">
-										<label for="felogin-pass">Passwort</label>
-										<f:form.password
-											name="pass"
-											id="felogin-pass"
-											value=""
-											class="form-control"
-											additionalAttributes="{autocomplete: 'current-password'}"
-										/>
-									</div>
-
-									<f:if condition="{permaloginEnabled}">
-										<div class="form-group mb-3">
-											<div class="checkbox form-check">
-												<label class="form-check-label">
-													<f:form.checkbox
-														name="permalogin"
-														value="1"
-														class="form-check-input"
-													/>
-													Angemeldet bleiben
-												</label>
-											</div>
-										</div>
-									</f:if>
-
-									<div class="form-group mb-3">
-										<f:form.submit
-											name="submit"
-											value="Anmelden"
-											class="btn btn-primary"
-										/>
-									</div>
-
-									<f:if condition="{showForgotPasswordLink}">
-										<div class="form-group mb-0">
-											<p class="help-block form-text text-muted">
-												<f:link.action action="showForgotPassword">
-													Passwort vergessen?
-												</f:link.action>
-											</p>
-										</div>
-									</f:if>
-								</f:form>
-							</div>
-
-						</f:else>
-					</f:if>
-
+					<f:form target="_top" fieldNamePrefix="" action="login" additionalAttributes="{spellcheck: 'false'}" class="form felogin-form felogin-form-login">
+						<f:render section="content" arguments="{_all}"/>
+					</f:form>
 				</f:else>
+			</f:if>
+
+			<f:if condition="{settings.showForgotPassword}">
+				<div class="form-group mb-0 mt-3">
+					<p class="help-block form-text text-muted mb-0">
+						<f:link.action action="recovery" controller="PasswordRecovery">
+							<f:render partial="RenderLabelOrMessage" arguments="{key: 'forgot_header'}"/>
+						</f:link.action>
+					</p>
+				</div>
 			</f:if>
 
 		</div>
 	</div>
-
 </f:section>
 
+<f:section name="content">
+	<fieldset>
+		<legend class="h3">
+			<f:translate key="login"/>
+		</legend>
+
+		<div class="form-group mb-3">
+			<label for="felogin-user">
+				<f:translate key="username"/>
+			</label>
+			<f:form.textfield
+				name="user"
+				id="felogin-user"
+				required="true"
+				class="form-control"
+				additionalAttributes="{autocomplete: 'username'}"
+			/>
+		</div>
+
+		<div class="form-group mb-3">
+			<label for="felogin-pass">
+				<f:translate key="password"/>
+			</label>
+			<f:form.password
+				name="pass"
+				id="felogin-pass"
+				class="form-control"
+				additionalAttributes="{required: 'required', autocomplete: 'current-password'}"
+			/>
+		</div>
+
+		<f:if condition="{permaloginStatus} > -1">
+			<div class="form-group mb-3">
+				<div class="checkbox form-check">
+					<label class="form-check-label">
+						<f:if condition="{permaloginStatus} == 1">
+							<f:then>
+								<f:form.hidden name="permalogin" value="0" additionalAttributes="{disabled: 'disabled'}"/>
+								<f:form.checkbox name="permalogin" id="permalogin" value="1" checked="checked" class="form-check-input" />
+							</f:then>
+							<f:else>
+								<f:form.hidden name="permalogin" value="0"/>
+								<f:form.checkbox name="permalogin" id="permalogin" value="1" class="form-check-input" />
+							</f:else>
+						</f:if>
+						<f:translate id="permalogin"/>
+					</label>
+				</div>
+			</div>
+		</f:if>
+
+		<div class="form-group mb-3">
+			<f:form.submit
+				value="{f:translate(key: 'login')}"
+				name="submit"
+				class="btn btn-primary btn-default"
+			/>
+		</div>
+
+		<div class="felogin-hidden" style="display:none;">
+			<f:form.hidden name="logintype" value="login"/>
+			<f:form.hidden name="pid" value="{storagePid}"/>
+			<f:if condition="{redirectURL}!=''">
+				<f:form.hidden name="redirect_url" value="{redirectURL}" />
+			</f:if>
+			<f:if condition="{referer}!=''">
+				<f:form.hidden name="referer" value="{referer}" />
+			</f:if>
+			<f:if condition="{redirectReferrer}!=''">
+				<f:form.hidden name="redirectReferrer" value="off" />
+			</f:if>
+			<f:if condition="{noRedirect}!=''">
+				<f:form.hidden name="noredirect" value="1" />
+			</f:if>
+		</div>
+	</fieldset>
+</f:section>
 </html>

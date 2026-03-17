@@ -1,0 +1,53 @@
+<html
+	xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+	data-namespace-typo3-fluid="true"
+>
+
+<f:layout name="Default" />
+
+<f:section name="Main">
+	<div class="tx-felogin panel panel-default card mb-3">
+		<div class="panel-body card-body">
+
+			<f:if condition="{cookieWarning}">
+				<f:render partial="CookieWarning"/>
+			</f:if>
+
+			<div class="alert alert-info" role="alert">
+				<h3 class="h3 panel-title card-title">
+					<f:render partial="RenderLabelOrMessage" arguments="{key: 'status_header'}"/>
+				</h3>
+				<p class="mb-0">
+					<f:render partial="RenderLabelOrMessage" arguments="{key: 'status_message'}"/>
+				</p>
+			</div>
+
+			<f:form action="login" actionUri="{actionUri}" target="_top" fieldNamePrefix="" class="form felogin-form felogin-form-logout">
+				<fieldset>
+					<legend class="h3">
+						<f:translate key="logout"/>
+					</legend>
+					<div class="form-group mb-3">
+						<label>
+							<f:translate key="username"/>
+						</label>
+						<p class="form-control-static">{user.username}</p>
+					</div>
+					<div class="form-group mb-3">
+						<f:form.submit
+							value="{f:translate(key: 'logout')}"
+							name="submit"
+							class="btn btn-primary btn-default"
+						/>
+					</div>
+
+					<div class="felogin-hidden" style="display:none;">
+						<f:form.hidden name="logintype" value="logout"/>
+						<f:form.hidden name="pid" value="{storagePid}"/>
+					</div>
+				</fieldset>
+			</f:form>
+		</div>
+	</div>
+</f:section>
+</html>
