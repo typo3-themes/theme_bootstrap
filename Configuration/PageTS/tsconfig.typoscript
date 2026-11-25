@@ -1,0 +1,4 @@
+@import 'EXT:themes_gridelements/Configuration/PageTS/*.typoscript'
+@import 'EXT:theme_bootstrap/Configuration/PageTS/Library/*.tsconfig'
+
+@import 'EXT:theme_bootstrap/Resources/Private/Extensions/Rtehtmlarea/PageTS/tsconfig.typoscript'

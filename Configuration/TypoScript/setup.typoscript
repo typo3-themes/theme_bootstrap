@@ -1,0 +1,17 @@
+@import 'EXT:themes_gridelements/Configuration/TypoScript/setup.typoscript'
+@import 'EXT:theme_bootstrap/Configuration/TypoScript/Library/*.setup.typoscript'
+@import 'EXT:theme_bootstrap/Configuration/Elements/TypoScript/*.setup.typoscript'
+
+# Extensions
+[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('news')]
+	@import 'EXT:theme_bootstrap/Resources/Private/Extensions/News/TypoScript/setup.typoscript'
+[global]
+[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('rtehtmlarea')]
+	@import 'EXT:theme_bootstrap/Resources/Private/Extensions/Rtehtmlarea/TypoScript/setup.typoscript'
+[global]
+[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('indexed_search')]
+	@import 'EXT:theme_bootstrap/Resources/Private/Extensions/IndexedSearch/TypoScript/setup.typoscript'
+[global]
+
+@import 'EXT:theme_bootstrap/Resources/Private/Extensions/Felogin/TypoScript/setup.typoscript'
+
